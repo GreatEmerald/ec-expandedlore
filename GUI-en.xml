@@ -1,0 +1,2014 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root VersionXML="1.6">
+  <cairns> cairns</cairns>
+  <crit>crit </crit>
+  <NA>N/A</NA>
+  <usesStunon> uses Stun on </usesStunon>
+  <!-- If this is a custom language then select tutorials, cinematics, map legend and codex language that will be used among: English, Spanish, Russian, Italian and Deutsch-->
+  <CustomCinematicsTutorialLanguage>English</CustomCinematicsTutorialLanguage>
+  <!--Patients title for the healing GUI in the healing event in Santo Domingo-->
+  <PatientsHealingGUI>Patients</PatientsHealingGUI>
+  <!--Treat label in GUI treatment screen for Santo Domingo Healer event-->
+  <TreatButton>Treat</TreatButton>
+  <!--Special case for Russian language i.e Years: 26-->
+  <YearsInfoGUI />
+  <!--Culture Info for dates in the game-->
+  <LanguageCulture>en-US</LanguageCulture>
+  <!--Credits-->
+  <Producer>Producer</Producer>
+  <LeadDesignerWriter>Lead Designer, Writer</LeadDesignerWriter>
+  <LeadProgrammer>Lead Programmer</LeadProgrammer>
+  <GraphicDesignerLevelDesigner>Graphic Designer, Level Designer</GraphicDesignerLevelDesigner>
+  <CombatProgrammer>Combat Programmer</CombatProgrammer>
+  <CGArtist>CG Artist</CGArtist>
+  <Animator>Animator</Animator>
+  <Illustrator>Illustrator</Illustrator>
+  <Composer>Composer</Composer>
+  <SoundDesigner>Sound Designer</SoundDesigner>
+  <AdditionalSoundDesign>Additional Sound Design</AdditionalSoundDesign>
+  <QualityAssuranceAdditionalLevelDesign>Quality Assurance, Additional Level Design</QualityAssuranceAdditionalLevelDesign>
+  <AdditionalProgramming>Additional Programming</AdditionalProgramming>
+  <QualityAssurance>Quality Assurance</QualityAssurance>
+  <AdditionalQualityAssurance>Additional Quality Assurance</AdditionalQualityAssurance>
+  <PrototypeAnimation>Prototype Animation</PrototypeAnimation>
+  <PrototypeCGArt>Prototype CG Art</PrototypeCGArt>
+  <CinematicVoiceOver>Cinematic Voice-Over</CinematicVoiceOver>
+  <SpecialThanks>Special Thanks</SpecialThanks>
+  <PlayTesters>Play Testers</PlayTesters>
+  <LaunchTrailer>Launch Trailer</LaunchTrailer>
+  <Localisation>Localisation</Localisation>
+  <Marketing>Marketing</Marketing>
+  <OurGenerousKickstarterBackers>Our Generous Kickstarter Backers</OurGenerousKickstarterBackers>
+  <Illuminated>Illuminated</Illuminated>
+  <CalculatingPath>Calculating Path...</CalculatingPath>
+  <Youwillhavetimetoprepare>You will have time to prepare</Youwillhavetimetoprepare>
+  <YouwillNOThavetimetoprepare>You will NOT have time to prepare</YouwillNOThavetimetoprepare>
+  <Day>Day </Day>
+  <Default>Default</Default>
+  <Other>Other</Other>
+  <NoGoals>No Goals</NoGoals>
+  <unitsOfMeat> Meat</unitsOfMeat>
+  <hasbeendemotedtoSergeantbecausetheLieutenantslotisfilledreassigncampingskillpoints> has been demoted to Sergeant because the Lieutenant slot is filled, re-assign camping skill points</hasbeendemotedtoSergeantbecausetheLieutenantslotisfilledreassigncampingskillpoints>
+  <hasbeendemotedtoVeteranbecauseallofficerslotsarefilledreassigncampingskillpoints> has been demoted to Veteran because all officer slots are filled, re-assign camping skill points</hasbeendemotedtoVeteranbecauseallofficerslotsarefilledreassigncampingskillpoints>
+  <hasbeendemotedtoVeteranbecausebothSergeantslotsarefilledreassigncampingskillpoints> has been demoted to Veteran because both Sergeant slots are filled, re-assign camping skill points</hasbeendemotedtoVeteranbecausebothSergeantslotsarefilledreassigncampingskillpoints>
+  <!--New victory conditions-->
+  <Eliminateallenemiesin6turns>Eliminate all enemies in 6 turns</Eliminateallenemiesin6turns>
+  <Eliminateallenemiesin8turns>Eliminate all enemies in 8 turns</Eliminateallenemiesin8turns>
+  <Eliminateallenemiesin12turns>Eliminate all enemies in 12 turns</Eliminateallenemiesin12turns>
+  <Eliminateallenemiesin15turns>Eliminate all enemies in 15 turns</Eliminateallenemiesin15turns>
+  <GeteveryonetoEscapeZoneintime>Get everyone to Escape Zone in time</GeteveryonetoEscapeZoneintime>
+  <GeteveryonetoVictoryZoneintime>Get everyone to Victory Zone in time</GeteveryonetoVictoryZoneintime>
+  <enemiesand> enemies and </enemiesand>
+  <turnsremaining> turns remaining</turnsremaining>
+  <!--Map icons-->
+  <RitualSite>Ritual Site</RitualSite>
+  <MaguanaMines>Maguana Mines</MaguanaMines>
+  <MountainPass>Mountain Pass</MountainPass>
+  <RuinedTemple>Ruined Temple</RuinedTemple>
+  <SanTiagodelosCaballeros>San Tiago de los Caballeros</SanTiagodelosCaballeros>
+  <SantoDomingo>Santo Domingo</SantoDomingo>
+  <JungleVillage>Jungle Village</JungleVillage>
+  <HigueyVillage>Higuey Village</HigueyVillage>
+  <FishingVillage>Fishing Village</FishingVillage>
+  <PointofInterest>Point of Interest</PointofInterest>
+  <Thevenerable>The venerable </Thevenerable>
+  <Flotsam>Flotsam</Flotsam>
+  <!--Map icons Yucatan-->
+  <MysteriousCave>Mysterious Cave</MysteriousCave>
+  <Cave>Cave</Cave>
+  <VolcanicTunnel>Volcanic Tunnel</VolcanicTunnel>
+  <Tenochtitlan>Tenochtitlan</Tenochtitlan>
+  <Cuautitlán>Cuautitlán</Cuautitlán>
+  <Xalapa>Xalapa</Xalapa>
+  <Papantla>Papantla</Papantla>
+  <SunkenRuins>Sunken Ruins</SunkenRuins>
+  <TempleofDeath>Temple of Death</TempleofDeath>
+  <ToltecRuins>Toltec Ruins</ToltecRuins>
+  <TlaxcalanTomb>Tlaxcalan Tomb</TlaxcalanTomb>
+  <GutierrezsTreasure>Gutiérrez's Treasure</GutierrezsTreasure>
+  <AncientTemple>Ancient Temple</AncientTemple>
+  <ElDorado>El Dorado</ElDorado>
+  <Fortress>Fortress</Fortress>
+  <Port>Port</Port>
+  <AmazonTerritory>Amazon Territory</AmazonTerritory>
+  <SwampVillage>Swamp Village</SwampVillage>
+  <Masaya>Masaya</Masaya>
+  <PearlFishers>Pearl Fishers</PearlFishers>
+  <TotonacVillage>Totonac Village</TotonacVillage>
+  <!--Map event names icons Hispaniola-->
+  <FishingVillage>Fishing Village</FishingVillage>
+  <OrocobixsHut>Orocobix's Hut</OrocobixsHut>
+  <MaguanaMines>Maguana Mines</MaguanaMines>
+  <Settlement>Settlement</Settlement>
+  <RuinedTemple>Ruined Temple</RuinedTemple>
+  <SamanaPeninsula>Samana Península</SamanaPeninsula>
+  <House>House</House>
+  <CaptainsResidence>Captain's Residence</CaptainsResidence>
+  <Market>Market</Market>
+  <CatedralSantaMaria>Catedral Santa María</CatedralSantaMaria>
+  <LaMariaTeresa>La María Teresa</LaMariaTeresa>
+  <FortalezaOzama>Fortaleza Ozama</FortalezaOzama>
+  <AlcazarDeColon>Alcázar De Colón</AlcazarDeColon>
+  <SantoDomingoMarket>Santo Domingo Market</SantoDomingoMarket>
+  <TestEvent>Test Event</TestEvent>
+  <WealthyMerchant>Wealthy Merchant</WealthyMerchant>
+  <ConcernedWoman>Concerned Woman</ConcernedWoman>
+  <YoungBoy>Young Boy</YoungBoy>
+  <Mercenary>Mercenary</Mercenary>
+  <Canoes>Canoes</Canoes>
+  <Treasure>Treasure</Treasure>
+  <HigueyVillage>Higuey Village</HigueyVillage>
+  <Village>Village</Village>
+  <Corpses>Corpses</Corpses>
+  <Soldier>Soldier</Soldier>
+  <Soldiers>Soldiers</Soldiers>
+  <SantoDomingoDocks>Santo Domingo Docks</SantoDomingoDocks>
+  <Quartermaster>Quartermaster</Quartermaster>
+  <!--Map event names icons Yucatan-->
+  <AztecFarms>Aztec Farms</AztecFarms>
+  <Causeway>Causeway</Causeway>
+  <Corpse>Corpse</Corpse>
+  <Market>Market</Market>
+  <Chapel>Chapel</Chapel>
+  <Fortress>Fortress</Fortress>
+  <FortressRuin>Fortress Ruin</FortressRuin>
+  <Stables>Stables</Stables>
+  <Tavern>Tavern</Tavern>
+  <TradingPost>Trading Post</TradingPost>
+  <Workshop>Workshop</Workshop>
+  <NativeArmy>Native Army</NativeArmy>
+  <RemainsofanAmbush>Remains of an Ambush</RemainsofanAmbush>
+  <Arch>Arch</Arch>
+  <European>European</European>
+  <ChieftainsHome>Chieftain's Home</ChieftainsHome>
+  <Tribals>Tribals</Tribals>
+  <SwampVillage>Swamp Village</SwampVillage>
+  <Guards>Guards</Guards>
+  <MilitaryQuarter>Military Quarter</MilitaryQuarter>
+  <WoundedNative>Wounded Native</WoundedNative>
+  <Camp>Camp</Camp>
+  <AncientTemple>Ancient Temple</AncientTemple>
+  <Chasm>Chasm</Chasm>
+  <HiddenFood>Hidden Food</HiddenFood>
+  <DramaticPeak>Dramatic Peak</DramaticPeak>
+  <Plaza>Plaza</Plaza>
+  <Palace>Palace</Palace>
+  <Temple>Temple</Temple>
+  <ExoticFlower>Exotic Flower</ExoticFlower>
+  <AncientRuins>Ancient Ruins</AncientRuins>
+  <Grave>Grave</Grave>
+  <SpanishCamp>Spanish Camp?</SpanishCamp>
+  <WoodenCross>Wooden Cross</WoodenCross>
+  <AbandonedSettlement>Abandoned Settlement</AbandonedSettlement>
+  <Volcano>Volcano</Volcano>
+  <MayanVillage>Mayan Village</MayanVillage>
+  <Market>Market</Market>
+  <Tunnel>Tunnel</Tunnel>
+  <Spring>Spring</Spring>
+  <PearlFishers>Pearl Fishers</PearlFishers>
+  <ShelteredHut>Sheltered Hut</ShelteredHut>
+  <SmallHut>Small Hut</SmallHut>
+  <Ship>Ship</Ship>
+  <SunkenRuins>Sunken Ruins</SunkenRuins>
+  <House>House</House>
+  <Texcoco>Texcoco</Texcoco>
+  <Tomb>Tomb</Tomb>
+  <ToltecRuins>Toltec Ruins</ToltecRuins>
+  <Shrine>Shrine</Shrine>
+  <TotonacVillage>Totonac Village</TotonacVillage>
+  <NotStarted>Not Started</NotStarted>
+  <DaysRemain> Days Remain</DaysRemain>
+  <Level>Level </Level>
+  <Unreachable>Unreachable</Unreachable>
+  <Youhaveunlocked>You have unlocked </Youhaveunlocked>
+  <level> level </level>
+  <ThecannonisnotinworkingorderRepairitthenexttimeyoumakecamp>The cannon is not in working order. Repair it the next time you make camp.</ThecannonisnotinworkingorderRepairitthenexttimeyoumakecamp>
+  <Swamp>Swamp</Swamp>
+  <says> says: </says>
+  <Says>Says:</Says>
+  <LabelPlayerTurn>XX's Turn</LabelPlayerTurn>
+  <MaxTime>Max Time</MaxTime>
+  <Infinite>Infinite</Infinite>
+  <Totalfoodconsumed>Total food consumed:</Totalfoodconsumed>
+  <Totalmedicineused>Total medicine used:</Totalmedicineused>
+  <!-- more multiplayer tags-->
+  <secondsremaining> seconds remaining</secondsremaining>
+  <HideFull>Hide Full</HideFull>
+  <HideLocked>Hide Locked</HideLocked>
+  <MaxUnits>Max Units</MaxUnits>
+  <MaxRanks>Max Ranks</MaxRanks>
+  <Unittypes>Unit types</Unittypes>
+  <XP>XP</XP>
+  <Equipment> Equipment</Equipment>
+  <Unsavedprogresswillbelost>Unsaved progress will be lost!</Unsavedprogresswillbelost>
+  <Español>Español</Español>
+  <English>English</English>
+  <Merchant>Merchant</Merchant>
+  <Caravan>Caravan</Caravan>
+  <wasCrippledbecauseofAimLowhalvingthemovementnextturn> was Crippled because of Aim Low halving the movement next turn</wasCrippledbecauseofAimLowhalvingthemovementnextturn>
+  <Wins> Wins</Wins>
+  <ConnectionFailed>Connection Failed.</ConnectionFailed>
+  <InvalidPassword>Invalid Password</InvalidPassword>
+  <ThegameisFull>The game is Full</ThegameisFull>
+  <IP>IP</IP>
+  <Custom>Custom</Custom>
+  <NetTraps>Net Traps</NetTraps>
+  <taskNoneLabel>None</taskNoneLabel>
+  <hasearnedthepassiveability> has earned the passive ability </hasearnedthepassiveability>
+  <Medium>Medium</Medium>
+  <Easy>Easy</Easy>
+  <Hard>Hard</Hard>
+  <VeryHard>Very Hard</VeryHard>
+  <EndEvent>End Event</EndEvent>
+  <Lanterns>Lanterns</Lanterns>
+  <GoldenSpear>Golden Spear</GoldenSpear>
+  <burned>burned</burned>
+  <!--Contextual tasks descriptions: Explore_nearby_caverns, Go_fishing, Harvest_medical_herbs, Raid_burial_grounds, Raid_native_settlement,-->
+  <descrExplorenearbycaverns>A cave entrance has been spotted nearby. Send an expedition member to search for metal ore. A higher Patrolling skill and your own Scouting will increase the potential boon of exploring caves. Beware that caves can be dangerous, and there’s a risk that the follower may sustain a light injury.</descrExplorenearbycaverns>
+  <descrGofishing>The nearby waters are rich with fish. Send an expedition member to the coast, and they may bring back some extra meat for tomorrow. If successful, the amount of Meat gained will depend on the expedition member’s Hunting skill and your own Hunting.</descrGofishing>
+  <descrHarvestmedicalherbs>The undergrowth is covered in herbs with medicinal applications. Send an expedition member to harvest them. The spoils of the foray depend on the follower’s Herbalism skill and your knowledge of Healing.</descrHarvestmedicalherbs>
+  <descrRaidburialgrounds>Natives have been known to bury their dead nearby. Send an expedition member to search the graves for valuable trinkets. A higher Patrolling skill and your own Scouting will increase the potential loot from grave robbing. This is dirty work, however, and it may hurt the morale of the expedition member assigned.</descrRaidburialgrounds>
+  <descrRepairCannon>Your cannon has been damaged in combat and cannot be used again until repaired. Assign an expedition member to restore the cannon to working order.</descrRepairCannon>
+  <descrRepairbrokenequipment>You’ve broken enough equipment in battle that you could scavenge it for usable parts. Assign an expedition member to put together a few new pieces of equipment from the broken items.</descrRepairbrokenequipment>
+  <descrArrangememorialservicefor>The death of an expedition member always hurts morale, no matter the circumstances. Dedicate one of your expedition members’ time to arranging a small memorial service, and some of the morale your surviving expedition members have lost will be restored.</descrArrangememorialservicefor>
+  <descrConsolidateyourmapsofthe>Your expedition has finished charting a region of this strange new land. Assign an expedition member to consolidate the maps of this region and make the most use of your knowledge. This will double the experience you got from finding the related cairns.</descrConsolidateyourmapsofthe>
+  <!--Tutorial-->
+  <TheGoldenSpeardeals>The Golden Spear deals </TheGoldenSpeardeals>
+  <CLOSE>CLOSE</CLOSE>
+  <CONTINUE>CONTINUE</CONTINUE>
+  <!--Loading Screen-->
+  <GoalFailed>Goal Failed</GoalFailed>
+  <GoalCompleted>Goal Completed</GoalCompleted>
+  <GoalUpdated>Goal Updated</GoalUpdated>
+  <GoalStarted>Goal Started</GoalStarted>
+  <hintIllumined>If a unit is standing near torches or other fire during night or interior battles, it will be easier to hit.</hintIllumined>
+  <hintHardTime>If you are having a hard time consider lowering the difficulty</hintHardTime>
+  <hintRotate>You can rotate the camera with Q and E (by default) or by dragging with the right mouse button.</hintRotate>
+  <hintFlank>Flank enemies to deal more damage.</hintFlank>
+  <hintTacticalMove>Don’t forget that you can use Tactical Move to escape an enemy without provoking Attack of Opportunity.</hintTacticalMove>
+  <hintPanCam>In combat, you can pan the camera with WASD (by default) or the cursor keys.</hintPanCam>
+  <hintLOS>The colour of your line of sight indicator for ranged attacks shows how clear your shot is – green is a clear shot, yellow indicates partial cover, and red means you have no shot.</hintLOS>
+  <hintEndurance>You can see every unit’s endurance bar if you hold down the Highlight hotkey (Alt by default).</hintEndurance>
+  <hintUnusedMeat>Unused Meat spoils overnight. You can convert Meat to Rations each night by using the Preserve task during Camp Management.</hintUnusedMeat>
+  <hintScout>The Scout is a high damage melee unit with great movement range, good for flanking and hit-and-run tactics.</hintScout>
+  <hintSoldiers>Soldiers have high defence and good melee attacks and are great for protecting your more fragile units.</hintSoldiers>
+  <hintHunters>Hunters are your best ranged units but very weak in melee combat.</hintHunters>
+  <hintDoctor>Doctors are your basic healers, capable of restoring a measure of Endurance to other units during combat, or (on higher levels) curing negative effects and even reviving incapacitated allies.</hintDoctor>
+  <hintScholar>The Scholar is a support unit who excels at making other units better and whose ranged attacks automatically lower an enemy’s Defence for all allies for the rest of the turn (regardless of whether or not it hits).</hintScholar>
+  <hintPath>When you’ve set a path for your expedition to travel along, pressing Space starts or stops your movement along that path.</hintPath>
+  <hintPreparation>When available, use the Preparation phase to select a good starting formation and to place traps and barricades.</hintPreparation>
+  <hintWeapon>Don’t forget to switch to a melee weapon when an enemy is next to your unit – making a ranged attack when a unit is in melee range provokes an Attack of Opportunity.</hintWeapon>
+  <hintSwitching>Switching between a unit’s ranged and melee weapons (R by default) is a free action that you can do whenever you wish.</hintSwitching>
+  <hintCampManagement>Auto-assigning tasks on the Camp Management screen is a convenience that does not necessarily give you the optimal outcome. Remember to double-check your tasks after using it!</hintCampManagement>
+  <hintContextual>Contextual events such as fishing are a great way to gain extra resources when you make camp.</hintContextual>
+  <hintExploringTime>Remember to spend some time exploring the world for optional quests and events that can give you more resources and experience points.</hintExploringTime>
+  <hintHighmorale>High morale not only prevents your units from leaving you in a mutiny, it also improves their critical hit chance in combat.</hintHighmorale>
+  <hintMovingOnTheMap>You can set a path over a long distance by clicking on any icon on the world map. Then just press Space (by default) to get moving.</hintMovingOnTheMap>
+  <hintAguirre>You’re playing on Insane difficulty. If you were expecting loading screen hints, sorry: You’re on your own.</hintAguirre>
+  <hasbeenaddedtoyourmap> has been added to your map</hasbeenaddedtoyourmap>
+  <Screenshotsavedto>Screenshot saved to:</Screenshotsavedto>
+  <SearchandRescue>Search and Rescue</SearchandRescue>
+  <Trackdownandrecoveryourshipwreckedexpeditionmembers>Track down and recover your shipwrecked expedition members</Trackdownandrecoveryourshipwreckedexpeditionmembers>
+  <Disable>Disable</Disable>
+  <Discovered>Discovered </Discovered>
+  <outof> out of </outof>
+  <Thepricesofferedby>The prices offered by </Thepricesofferedby>
+  <merchantshaveimproved> merchants have improved</merchantshaveimproved>
+  <merchantshaveworsened> merchants have worsened</merchantshaveworsened>
+  <Macuahuitl>Macuahuitl</Macuahuitl>
+  <PlayeronesTurn>Player 1's Turn</PlayeronesTurn>
+  <PlayertwosTurn>Player 2's Turn</PlayertwosTurn>
+  <useshisshieldtopartiallyblocktheincomingattack> uses his shield to partially block the incoming attack!</useshisshieldtopartiallyblocktheincomingattack>
+  <useshershieldtopartiallyblocktheincomingattack> uses her shield to partially block the incoming attack!</useshershieldtopartiallyblocktheincomingattack>
+  <Blocked>Blocked!</Blocked>
+  <!--Campaign Selection-->
+  <Campaign>Campaign</Campaign>
+  <Settings>Settings</Settings>
+  <IronMan>Iron Man</IronMan>
+  <ironmanDescr>Iron Man mode disables manual saving during the game. You will have to make do with a single autosave slot, which will force you to live with the consequences of your actions (and your failures). Enable at your own risk!</ironmanDescr>
+  <!--Dificulty description-->
+  <AllMixed>All (Mixed)</AllMixed>
+  <SpanishOnly>Spanish Only</SpanishOnly>
+  <NativeOnly>Native Only</NativeOnly>
+  <Allnonspecial>All (non special)</Allnonspecial>
+  <descripEnemyIntelligence0>Enemies often incur Attacks of Opportunity and prioritise their targets poorly.</descripEnemyIntelligence0>
+  <descripEnemyIntelligence1>Enemies sometimes provoke Attacks of Opportunity and make suboptimal use of special abilities.</descripEnemyIntelligence1>
+  <descripEnemyIntelligence2>Enemies are fairly proficient but still sometimes incur Attacks of Opportunity.</descripEnemyIntelligence2>
+  <descripEnemyIntelligence3>Enemies are shrewd, rarely making mistakes and using their special abilities well.</descripEnemyIntelligence3>
+  <descripEnemyIntelligence4>Enemies are relentless, using their special abilities effectively and never provoking Attacks of Opportunity.</descripEnemyIntelligence4>
+  <descripInjuryProbabilities0>Heavy injuries are unlikely and will never exceed severe.</descripInjuryProbabilities0>
+  <descripInjuryProbabilities1>Injuries will be worse but will never exceed Critical.</descripInjuryProbabilities1>
+  <descripInjuryProbabilities2>Heavy injuries are more likely and can become Fatal!</descripInjuryProbabilities2>
+  <More>More</More>
+  <Normal>Normal</Normal>
+  <Less>Less</Less>
+  <FollowerDamage>Follower Damage</FollowerDamage>
+  <EnemyDamage>Enemy Damage</EnemyDamage>
+  <EnemyCriticalChance>Enemy Critical Chance</EnemyCriticalChance>
+  <WorldResources>World Resources</WorldResources>
+  <EnemyIntelligence>Enemy Intelligence</EnemyIntelligence>
+  <InjuryProbabilities>Injury Probabilities</InjuryProbabilities>
+  <SuddenDeath>Sudden Death</SuddenDeath>
+  <Advanced>Advanced</Advanced>
+  <Preset>Preset</Preset>
+  <descrDifficultyAguirre>Lope de Aguirre (aka. El Loco) was a Spanish conqueror who rebelled against the Spanish crown and attempted to make himself the prince of Peru. Eventually he was captured and shot to death. If you select this setting, don’t come crying to us for help, you brought it on yourself!</descrDifficultyAguirre>
+  <descrDifficultyCortes>Hernán Cortés was the Spanish conqueror of Mexico, who allied himself with the Totonac and Tlaxcala and overthrew the Aztec Empire, destroying Tenochtitlan. If you pick this setting, you will face some major challenges, but you are likely to prevail in the end.</descrDifficultyCortes>
+  <descrDifficultyCristoforoColombo>Cristoforo Colombo was the Italian explorer who discovered the Americas. Though he suffered some setbacks, his expeditions were quite successful. If you pick this setting, you are most likely to be successful as well.</descrDifficultyCristoforoColombo>
+  <descrDifficultyPizarro>Francisco Pizarro González was the Spanish conqueror who exploited the aftermath of a civil war to conquer the Incan Empire. Then he was betrayed and killed by his own people. If you select this setting, you will have a hard time, but it will only make your victory all the sweeter!</descrDifficultyPizarro>
+  <Difficulty>Difficulty</Difficulty>
+  <Blowgun>Blowgun</Blowgun>
+  <isescapingstophim> is escaping, stop him!</isescapingstophim>
+  <isescapingstopher> is escaping, stop her!</isescapingstopher>
+  <ishealthy>is healthy</ishealthy>
+  <Forfeit>Forfeit</Forfeit>
+  <hassustainedaninjury> has sustained an injury</hassustainedaninjury>
+  <QuittoDesktop>Quit to Desktop?</QuittoDesktop>
+  <usesRestoreon> uses Restore on </usesRestoreon>
+  <Items>Items</Items>
+  <!--Multiplayer-->
+  <Theotherplayerhasdisconnected>The other player has disconnected</Theotherplayerhasdisconnected>
+  <Nogameshosted>No games hosted</Nogameshosted>
+  <Yes>Yes</Yes>
+  <No>No</No>
+  <DisconnectClientConfirm>Disconnect Client Confirm</DisconnectClientConfirm>
+  <Doyouwanttodisconnect>Do you want to disconnect?</Doyouwanttodisconnect>
+  <PlayeroneWins>Player 1 Wins!</PlayeroneWins>
+  <PlayertwoWins>Player 2 Wins!</PlayertwoWins>
+  <HotseatSettings>Hotseat Settings</HotseatSettings>
+  <useRestoreon> uses Restore on </useRestoreon>
+  <Ready>Ready </Ready>
+  <EquipmentLeft>Equipment: </EquipmentLeft>
+  <XPLeft>XP: </XPLeft>
+  <Class>Class</Class>
+  <Followers>Followers</Followers>
+  <RankMult>Rank</RankMult>
+  <rankManAtArmsFullMult>*Man-At-Arms (100 XP)*
++5% Attack, +5 Defence. Unlocks medium equipment tier.</rankManAtArmsFullMult>
+  <rankVeteranFullMult>*Veteran (400 XP)*
++10% Attack, +10 Defence. Unlocks highest equipment tier.</rankVeteranFullMult>
+  <rankSergeantFullMult>*Sergeant (1000 XP)*
++15% Attack, +15 Defence, +3 to your Leadership.</rankSergeantFullMult>
+  <rankLieutenantFullMult>*Lieutenant (2000 XP)*
++20% Attack, +20 Defence, +4 to your Leadership.</rankLieutenantFullMult>
+  <Selection>Selection</Selection>
+  <evaluationGUIEquipmentLost>Equipment broken</evaluationGUIEquipmentLost>
+  <Start>Start</Start>
+  <Continue>Continue</Continue>
+  <BeginGame>Begin Game</BeginGame>
+  <HostSettings>Host Settings</HostSettings>
+  <Password>Password</Password>
+  <PlayersName>Player's Name</PlayersName>
+  <Disconnect>Disconnect</Disconnect>
+  <HostGame>Host Game</HostGame>
+  <ServerName>Server Name</ServerName>
+  <Multiplayer>Multiplayer</Multiplayer>
+  <Hotseat>Hotseat</Hotseat>
+  <Network>Network</Network>
+  <Host>Host</Host>
+  <Refresh>Refresh</Refresh>
+  <Join>Join</Join>
+  <DirectConnect>Direct Connect</DirectConnect>
+  <Connect>Connect</Connect>
+  <Send>Send</Send>
+  <Lobby>Lobby</Lobby>
+  <Chat>Chat</Chat>
+  <equipment> equipment</equipment>
+  <DayofOurLord>Day of Our Lord</DayofOurLord>
+  <Day>Day </Day>
+  <Eliminateallenemies>Eliminate all enemies</Eliminateallenemies>
+  <oneenemyremaining>1 enemy remaining</oneenemyremaining>
+  <enemyremaining> enemy remaining</enemyremaining>
+  <enemieshavereachedescapezones> enemies have reached escape zones!</enemieshavereachedescapezones>
+  <oneenemyhasreachedanescapezone>1 enemy has reached an escape zone!</oneenemyhasreachedanescapezone>
+  <enemiesremaining> enemies remaining</enemiesremaining>
+  <Preventanyenemiesfromescaping>Prevent any enemies from escaping</Preventanyenemiesfromescaping>
+  <GeteverybodytoanEscapeZone>Get everybody to an Escape Zone</GeteverybodytoanEscapeZone>
+  <Stayalivefor5turns>Stay alive for 5 turns</Stayalivefor5turns>
+  <Stayalivefor10turns>Stay alive for 10 turns</Stayalivefor10turns>
+  <PlotCharacters>Plot Characters</PlotCharacters>
+  <Thenettraphits>The net trap hits </Thenettraphits>
+  <Holdoutfor>Hold out for </Holdoutfor>
+  <moreturns> more turns</moreturns>
+  <!--Trading-->
+  <VeryLowDemand>Very Low Demand</VeryLowDemand>
+  <LowDemand>Low Demand</LowDemand>
+  <NormalDemand>Normal Demand</NormalDemand>
+  <HighDemand>High Demand</HighDemand>
+  <VeryHighDemand>Very High Demand</VeryHighDemand>
+  <Thisresourceisin>This resource is in </Thisresourceisin>
+  <Thismerchanthas>This merchant has </Thismerchanthas>
+  <VeryBadPrice>Very Bad Deal</VeryBadPrice>
+  <BadPrice>Bad Deal</BadPrice>
+  <GoodPrice>Good Deal</GoodPrice>
+  <VeryGoodPrice>Very Good Deal</VeryGoodPrice>
+  <NormalPrice>Normal Deal</NormalPrice>
+  <Pricing>Pricing</Pricing>
+  <Preposterous>Preposterous Prices</Preposterous>
+  <VeryLowSupply>Very Low Supply</VeryLowSupply>
+  <LowSupply>Low Supply</LowSupply>
+  <NormalSupply>Normal Supply</NormalSupply>
+  <HighSupply>High Supply</HighSupply>
+  <VeryHighSupply>Very High Supply</VeryHighSupply>
+  <Generous>Generous Prices</Generous>
+  <Reasonable>Reasonable Prices</Reasonable>
+  <Fair>Fair Prices</Fair>
+  <Expensive>Expensive Prices</Expensive>
+  <FinishingCombat>Finishing Combat</FinishingCombat>
+  <EnteringCombat>Entering Combat</EnteringCombat>
+  <polearm>pole-arm</polearm>
+  <Polearm>Pole-arm</Polearm>
+  <!--Deposit-->
+  <Storage>Storage</Storage>
+  <Inventory>Inventory</Inventory>
+  <SelectFollower>Select Follower</SelectFollower>
+  <hasjoinedyourexpedition> has joined your expedition</hasjoinedyourexpedition>
+  <!--Traits plural-->
+  <Aggressiveplural>Aggressive</Aggressiveplural>
+  <Peacefulplural>Peaceful</Peacefulplural>
+  <Racistplural>Racist</Racistplural>
+  <Openmindedplural>Openminded</Openmindedplural>
+  <Greedyplural>Greedy</Greedyplural>
+  <Altruisticplural>Altruistic</Altruisticplural>
+  <Courageousplural>Courageous</Courageousplural>
+  <Cautiousplural>Cautious</Cautiousplural>
+  <Proudplural>Proud</Proudplural>
+  <Piousplural>Pious</Piousplural>
+  <Narcissisticplural>Narcissistic</Narcissisticplural>
+  <Adventurousplural>Adventurous</Adventurousplural>
+  <Lovesickplural>Lovesick</Lovesickplural>
+  <Rivalrousplural>Rivalrous</Rivalrousplural>
+  <Traumatisedplural>Traumatised</Traumatisedplural>
+  <Treacherousplural>Treacherous</Treacherousplural>
+  <Marriedplural>Married</Marriedplural>
+  <!--Traits feminine-->
+  <AggressiveFem>Aggressive</AggressiveFem>
+  <PeacefulFem>Peaceful</PeacefulFem>
+  <RacistFem>Racist</RacistFem>
+  <OpenmindedFem>Openminded</OpenmindedFem>
+  <GreedyFem>Greedy</GreedyFem>
+  <AltruisticFem>Altruistic</AltruisticFem>
+  <CourageousFem>Courageous</CourageousFem>
+  <CautiousFem>Cautious</CautiousFem>
+  <ProudFem>Proud</ProudFem>
+  <PiousFem>Pious</PiousFem>
+  <NarcissisticFem>Narcissistic</NarcissisticFem>
+  <AdventurousFem>Adventurous</AdventurousFem>
+  <LovesickFem>Lovesick</LovesickFem>
+  <RivalrousFem>Rivalrous</RivalrousFem>
+  <TraumatisedFem>Traumatised</TraumatisedFem>
+  <TreacherousFem>Treacherous</TreacherousFem>
+  <MarriedFem>Married</MarriedFem>
+  <!--Gender plural-->
+  <Femaleplural>Female</Femaleplural>
+  <Maleplural>Male</Maleplural>
+  <!--Followers Rank Plural-->
+  <Recruitplural>Recruit</Recruitplural>
+  <ManAtArmsplural>Man-At-Arms</ManAtArmsplural>
+  <Veteranplural>Veteran</Veteranplural>
+  <Sergeantplural>Sergeant</Sergeantplural>
+  <Lieutenantplural>Lieutenant</Lieutenantplural>
+  <!--Follower type feminine-->
+  <Doctorfem>Doctor</Doctorfem>
+  <Hunterfem>Hunter</Hunterfem>
+  <Scholarfem>Scholar</Scholarfem>
+  <Scoutfem>Scout</Scoutfem>
+  <Soldierfem>Soldier</Soldierfem>
+  <Amazonfem>Amazon</Amazonfem>
+  <Shamanfem>Shaman</Shamanfem>
+  <Trapperfem>Trapper</Trapperfem>
+  <Warriorfem>Warrior</Warriorfem>
+  <Civilianfem>Civilian</Civilianfem>
+  <Championfem>Champion</Championfem>
+  <!--Follower type plural-->
+  <Doctorplural>Doctor</Doctorplural>
+  <Hunterplural>Hunter</Hunterplural>
+  <Scholarplural>Scholar</Scholarplural>
+  <Scoutplural>Scout</Scoutplural>
+  <Soldierplural>Soldier</Soldierplural>
+  <Amazonplural>Amazon</Amazonplural>
+  <Shamanplural>Shaman</Shamanplural>
+  <Trapperplural>Trapper</Trapperplural>
+  <Warriorplural>Warrior</Warriorplural>
+  <Civilianplural>Civilian</Civilianplural>
+  <Championplural>Champion</Championplural>
+  <!--Ethnicity plural-->
+  <Aztecplural>Aztec</Aztecplural>
+  <Spanishplural>Spanish</Spanishplural>
+  <Tribalplural>Tribal</Tribalplural>
+  <!--Player Combat action messages-->
+  <TacticalMove>Tactical Move</TacticalMove>
+  <CriticalHit>Critical Hit!</CriticalHit>
+  <Miss>Miss!</Miss>
+  <TurnLost>Turn Lost!</TurnLost>
+  <Stunned>Stunned</Stunned>
+  <Revived>Revived</Revived>
+  <Restored>Restored</Restored>
+  <Distracted>Distracted</Distracted>
+  <Taunted>Taunted</Taunted>
+  <WeaknessExposed>Weakness Exposed</WeaknessExposed>
+  <Cursed>Cursed</Cursed>
+  <Coordinated>Coordinated</Coordinated>
+  <Cured>Cured</Cured>
+  <Terrified>Terrified</Terrified>
+  <!--End Combat action messages-->
+  <NoPassiveAbilities>No Passive Abilities</NoPassiveAbilities>
+  <NoStatusEffects>No Status Effects</NoStatusEffects>
+  <experiencepointsadded> experience point added</experiencepointsadded>
+  <morale> morale</morale>
+  <Codeciesunlocked>Codices unlocked </Codeciesunlocked>
+  <hasgainedmoralefromgettingextrafood> has gained morale from getting extra food</hasgainedmoralefromgettingextrafood>
+  <hasgonehungryandhaslostmorale> has gone hungry and has lost morale</hasgonehungryandhaslostmorale>
+  <hasgonehungryandhaslostmoraleFem> has gone hungry and has lost morale</hasgonehungryandhaslostmoraleFem>
+  <followershavegonehungryandhavelostmorale> followers have gone hungry and have lost morale</followershavegonehungryandhavelostmorale>
+  <flanksand> flanks and </flanksand>
+  <uses>uses </uses>
+  <losesoneRangedEquipment> loses 1 Ranged Equipment.</losesoneRangedEquipment>
+  <losesoneMeleeEquipment> loses 1 Melee Equipment.</losesoneMeleeEquipment>
+  <losesoneDefenceEquipment> loses 1 Defence Equipment.</losesoneDefenceEquipment>
+  <experience> experience </experience>
+  <Youhavegainedtheabilitytocrafta>You have gained the ability to craft a </Youhavegainedtheabilitytocrafta>
+  <Barricades>Barricades</Barricades>
+  <Barricade>Barricade</Barricade>
+  <Torches>Torches</Torches>
+  <SpikeTraps>Spike Traps</SpikeTraps>
+  <CaltropTraps>Caltrop Traps</CaltropTraps>
+  <Youhavereceived>You have received </Youhavereceived>
+  <Lost>Lost </Lost>
+  <Rationsand> Rations and </Rationsand>
+  <Yourexpeditionconsumesnofood>Your expedition consumes no food</Yourexpeditionconsumesnofood>
+  <Yourexpeditionconsumes>Your expedition consumes </Yourexpeditionconsumes>
+  <!--GamePlayBMode: These strings refer to the overall abilities that characters can carry out-->
+  <MeleeAttack>Melee Attack</MeleeAttack>
+  <RangedAttack>Ranged Attack</RangedAttack>
+  <Move>Move</Move>
+  <Guard>Guard</Guard>
+  <Stun>Stun</Stun>
+  <AimedShot>Aimed Shot</AimedShot>
+  <QuickShot>Quick Shot</QuickShot>
+  <Revive>Revive</Revive>
+  <Restore>Restore</Restore>
+  <Logistics>Logistics</Logistics>
+  <Distraction>Distraction</Distraction>
+  <Sneak>Sneak</Sneak>
+  <Feint>Feint</Feint>
+  <Taunt>Taunt</Taunt>
+  <Terrify>Terrify</Terrify>
+  <PoisonSting>Poison Sting</PoisonSting>
+  <ExposeWeakness>Expose Weakness</ExposeWeakness>
+  <Swipe>Swipe</Swipe>
+  <CannonBlast>Cannon Blast</CannonBlast>
+  <Defend>Defend</Defend>
+  <SpotTraps>Spot Traps</SpotTraps>
+  <Interrupt>Interrupt</Interrupt>
+  <Rotate>Rotate</Rotate>
+  <SoloRotate>Solo Rotate</SoloRotate>
+  <PreBuffUpdate>Pre Buff Update</PreBuffUpdate>
+  <BuffUpdate>Buff Update</BuffUpdate>
+  <DebuffUpdate>Debuff Update</DebuffUpdate>
+  <PoisonUpdate>Poison Update</PoisonUpdate>
+  <Burning>Burning</Burning>
+  <BurningUpdate>Burning Update</BurningUpdate>
+  <CooldownUpdate>Cooldown Update</CooldownUpdate>
+  <SneakActivate>Sneak Activate</SneakActivate>
+  <TerrifyInitialMove>Terrify Initial Move</TerrifyInitialMove>
+  <TerrifyMove>Terrify Move</TerrifyMove>
+  <Poison>Poison</Poison>
+  <Guarded>Guarded</Guarded>
+  <ChargeMove>Charge Move</ChargeMove>
+  <AcrobaticMove>Acrobatic Move</AcrobaticMove>
+  <RebukeMove>Rebuke Move</RebukeMove>
+  <ThrowingKnife>Throwing Knife</ThrowingKnife>
+  <Hailstorm>Hailstorm</Hailstorm>
+  <RallyInitiate>Rally Initiate</RallyInitiate>
+  <RallyMoveUpkeep>Rally Move Upkeep</RallyMoveUpkeep>
+  <RallyFinalUpkeep>Rally Final Upkeep</RallyFinalUpkeep>
+  <FireImpact>Fire Impact</FireImpact>
+  <FireImpactStart>Fire Impact Start</FireImpactStart>
+  <Crippled>Crippled</Crippled>
+  <WalkYourShotsONE>Walk Your Shots (1)</WalkYourShotsONE>
+  <WalkYourShotsTWO>Walk Your Shots (2)</WalkYourShotsTWO>
+  <WalkYourShotsTHREE>Walk Your Shots (3)</WalkYourShotsTHREE>
+  <WalkYourShotsFOUR>Walk Your Shots (4)</WalkYourShotsFOUR>
+  <WalkYourShotsFIVE>Walk Your Shots (5)</WalkYourShotsFIVE>
+  <SpikeTrap>Spike Trap</SpikeTrap>
+  <NetTrap>Net Trap</NetTrap>
+  <CaltropTrap>Caltrop Trap</CaltropTrap>
+  <ShowTrap>Show Trap</ShowTrap>
+  <Torch>Torch</Torch>
+  <Cannonball>Cannonball</Cannonball>
+  <Cannonballs>Cannonballs</Cannonballs>
+  <FountainofYouthWater>Fountain of Youth Water</FountainofYouthWater>
+  <CrystalofMictlan>Crystal of Mictlan</CrystalofMictlan>
+  <Lantern>Lantern</Lantern>
+  <Amulet>Amulet</Amulet>
+  <GutierrezBanner>Gutiérrez's Banner</GutierrezBanner>
+  <AbortEvent>Abort Event</AbortEvent>
+  <EmptyEvent>Empty Event</EmptyEvent>
+  <Idle>Idle</Idle>
+  <SwapWeapon>Swap Weapon</SwapWeapon>
+  <VictoryCheer>Victory Cheer</VictoryCheer>
+  <!--Tooltips-->
+  <mainHUDCamping>Make Camp [HOTKEY]</mainHUDCamping>
+  <mainHUDCampingDisabled>You cannot make camp in towns</mainHUDCampingDisabled>
+  <mainHUDOpenMap>Open Map [HOTKEY]</mainHUDOpenMap>
+  <mainHUDMainMenu>Game Menu (Escape)</mainHUDMainMenu>
+  <mainHUDInfo>Objectives and Character [HOTKEY]</mainHUDInfo>
+  <mainHUDInventory>Inventory [HOTKEY]</mainHUDInventory>
+  <mainHUDFollowers>Party [HOTKEY]</mainHUDFollowers>
+  <mainHUDMoves>Moves Left</mainHUDMoves>
+  <mainHUDDays>Days Passed</mainHUDDays>
+  <mainHUDRations>Rations</mainHUDRations>
+  <battleHUDEndTurn>END TURN [HOTKEY]</battleHUDEndTurn>
+  <battleHUDEndPreparation>BEGIN BATTLE [HOTKEY]</battleHUDEndPreparation>
+  <battleHUDRetreat>RETREAT</battleHUDRetreat>
+  <battleHUDChangeWeapon>Change Weapon [HOTKEY]</battleHUDChangeWeapon>
+  <battleHUDCharacterInfo>Character Info [HOTKEY]</battleHUDCharacterInfo>
+  <traits>Personality traits determine which decisions and events will cause each follower to gain or lose Morale.</traits>
+  <traitAggressive>*Aggressive*
+May gain morale when you engage an enemy in combat, but may lose morale if you pass up an opportunity to fight.</traitAggressive>
+  <traitPeaceful>*Peaceful*
+May gain morale when you manage to avoid combat, but may lose morale if you deliberately seek out battle.</traitPeaceful>
+  <traitRacist>*Racist*
+May lose morale if you recruit followers of another ethnicity, but may gain morale if you display racism.</traitRacist>
+  <traitOpenminded>*Open-Minded*
+May gain morale if you recruit followers of another ethnicity, but may lose morale if you display racism.</traitOpenminded>
+  <traitGreedy>*Greedy*
+May gain morale if you gain new resources, but may in turn lose morale if you give up or lose resources.</traitGreedy>
+  <traitAltruistic>*Altruistic*
+May gain morale if you give up your resources for a good cause, but may lose morale if you behave greedily.</traitAltruistic>
+  <traitCourageous>*Courageous*
+May gain morale if you stand your ground against a superior force, but may lose morale if you retreat from a dangerous situation.</traitCourageous>
+  <traitCautious>*Cautious*
+May gain morale if you avoid dangerous situations, but may lose morale if you take unnecessary risks.</traitCautious>
+  <traitNarcissistic>*Narcissistic*
+May gain morale if chosen for a task or promoted to a higher rank, but may lose morale if passed over for promotion.</traitNarcissistic>
+  <traitProud>*Proud*
+Gains morale every time you win a battle, but loses morale if you are defeated or fail to accomplish your goals.</traitProud>
+  <traitPious>*Pious*
+May gain morale if you act in accordance with their faith, but may lose morale if you transgress against their religious creed.</traitPious>
+  <traitAdventurous>*Adventurous*
+May gain morale every time you make a significant discovery, but may lose morale if you shy away from adventure.</traitAdventurous>
+  <traitLovesick>*Lovesick*
+Is in love with another follower. Will gain morale if you promote their lover but lose morale if their lover dies.</traitLovesick>
+  <traitRivalrous>*Rivalrous*
+Has developed a rivalry with another follower. Will lose morale if you promote their ribval but gain it if their rival dies.</traitRivalrous>
+  <traitTraumatised>*Traumatised*
+Has had their spirit broken due to a traumatic experience.</traitTraumatised>
+  <traitTreacherous>*Treacherous*
+Has demonstrated an disconcerting lack of loyalty to your leadership.</traitTreacherous>
+  <traitMarried>*Married*
+Will gain morale if you demonstrate fidelity but lose morale if you flirt with others.</traitMarried>
+  <weaponProficiency>Weapon proficiencies determine which weapons the follower can be assigned in the Equipment tab.</weaponProficiency>
+  <resourceValuables>*Valuables*
+A currency for trading or bribes.</resourceValuables>
+  <resourceEquipment>*Equipment*
+Upgrades the weapons and armour of your troops.</resourceEquipment>
+  <resourceMedicine>*Medicine*
+Used to treat injured expedition members.</resourceMedicine>
+  <resourceRations>*Rations*
+Feeds your expedition members when you make camp.</resourceRations>
+  <materialWood>*Wood*
+Crafting material for common items.</materialWood>
+  <materialMetal>*Metal*
+Crafting material for advanced items.</materialMetal>
+  <materialRope>*Rope*
+Crafting material for larger items.</materialRope>
+  <materialOil>*Oil*
+Crafting material for flammable items.</materialOil>
+  <inventoryValuables>A currency for trading or bribes. When you return to Spain, your success is measured not only by what you've discovered, but also how many valuables you bring back with you.</inventoryValuables>
+  <inventoryEquipment>Your equipment determines how well armed and armoured your people are in combat. You assign equipment to your people in the Followers menu. Only unassigned equipment shows up here.</inventoryEquipment>
+  <inventoryMedicine>When your expedition members are injured or fall sick, they will require medical treatment to get back on their feet. Herbs can be turned into medicine with the Herbalism task.</inventoryMedicine>
+  <inventoryRations>Each member of your expedition consumes 1 ration every time you make camp. Meat can be turned into rations with the Preserve task.</inventoryRations>
+  <inventoryWood>Wood is a crafting material needed to construct most items.</inventoryWood>
+  <inventoryMetal>Metal from ore or salvaged equipment can be used to make advanced items.</inventoryMetal>
+  <inventoryRope>Rope is useful for building traps or larger items.</inventoryRope>
+  <inventoryOil>Oil is needed to build flammable items.</inventoryOil>
+  <inventoryMeat>Meat from hunting can be turned into Rations by assigning your people to the Preserve task. Any meat that isn't preserved as soon as you make camp will spoil.</inventoryMeat>
+  <inventoryHerbs>Herbs that you've collected on your travels can be turned into Medicine by assigning people to the Herbalism task. Unlike meat, herbs don't spoil.</inventoryHerbs>
+  <skillTactics>*Tactics*
+Used to change the starting situation in a battle to your advantage. Determines the amount of items you can bring into combat and how far from your troops you can place them.</skillTactics>
+  <skillDiplomacy>*Diplomacy*
+Affects your chances of success in negotiations and cultural exchanges.</skillDiplomacy>
+  <skillHealing>*Healing*
+Reduces the medicine cost of treating injured expedition members.</skillHealing>
+  <skillSurvival>*Survival*
+Improves the results of hunting, reducing daily use of rations.</skillSurvival>
+  <skillScouting>*Scouting*
+Increases your daily movement and occasionally grants better information about battles.</skillScouting>
+  <skillLeadership>*Leadership*
+Bolsters the starting morale of your people and raises their maximum morale, reducing the risk of mutiny.</skillLeadership>
+  <statTactics>*Tactics*
+Your Tactics skill plus 2 points for every healthy Soldier in your expedition. Used to intimidate enemies or change the starting situation in a battle to your advantage.</statTactics>
+  <statDiplomacy>*Diplomacy*
+Your Diplomacy skill plus 2 points for every healthy Scholar in your expedition. Affects your chances of success in negotiations and cultural exchanges.</statDiplomacy>
+  <statSurvival>*Survival*
+Your Survival skill plus 2 points for every healthy Hunter in your expedition. Improves the results of hunting, giving you more rations.</statSurvival>
+  <statHealing>*Healing*
+Your Healing skill plus 2 points for every healthy Doctor in your expedition. Improves the results of harvesting herbs, giving you more medicine.</statHealing>
+  <statScouting>*Scouting*
+Your Scouting skill plus 2 points for every healthy Scout in your expedition. The higher your Scouting, the farther you can move every day.</statScouting>
+  <statLeadership>*Leadership*
+Your Leadership skill plus 3 points for each healthy Sergeant and 4 for a Lieutenant. Bolsters the morale of your people and raises their maximum morale, reducing the risk of mutiny.</statLeadership>
+  <rankRecruit>Recruit</rankRecruit>
+  <rankRecruitFull>*Recruit*
+Your basic inexperienced troops. No bonuses.</rankRecruitFull>
+  <rankManAtArms>Man-At-Arms</rankManAtArms>
+  <rankManAtArmsFull>*Man-At-Arms (100 XP)*
++5% Attack, +5 points to Defence. Unlocks medium equipment tier.</rankManAtArmsFull>
+  <rankManAtArmsPromote>*Man-At-Arms*
++5% Attack, +5 points to Defence. Unlocks medium equipment tier.
+Cost to promote: 100 experience</rankManAtArmsPromote>
+  <rankVeteran>Veteran</rankVeteran>
+  <rankVeteranFull>*Veteran (300 XP)*
++10% Attack, +10 points to Defence, +1 to your Leadership. Unlocks highest equipment tier.</rankVeteranFull>
+  <rankVeteranPromote>*Veteran*
++10% Attack, +10 points to Defence, +1 to your Leadership. Unlocks highest equipment tier.
+Cost to promote: 300 experience</rankVeteranPromote>
+  <rankSergeant>Sergeant</rankSergeant>
+  <rankSergeantFull>*Sergeant (600 XP)*
++15% Attack, +15 points to Defence, +3 to your Leadership. Maximum 3 officers allowed.</rankSergeantFull>
+  <rankSergeantPromote>*Sergeant*
++15% Attack, +15 points to Defence, +3 to your Leadership. Maximum 3 officers allowed.
+Cost to promote: 600 experience</rankSergeantPromote>
+  <rankLieutenant>Lieutenant</rankLieutenant>
+  <rankLieutenantFull>*Lieutenant (1000 XP)*
++20% Attack, +20 points to Defence, +5 to your Leadership. Maximum 1 Lieutenant allowed.</rankLieutenantFull>
+  <rankLieutenantPromote>*Lieutenant*
++20% Attack, +20 points to Defence, +5 to your Leadership. Maximum 1 Lieutenant allowed.
+Cost to promote: 1000 experience</rankLieutenantPromote>
+  <errorPromotionSergeantLimit>You already have three officers in your expedition.</errorPromotionSergeantLimit>
+  <errorPromotionLieutenantLimit>You already have a Lieutenant in your expedition.</errorPromotionLieutenantLimit>
+  <characterEndurance>Every attack reduces a character's Endurance. If the Endurance reaches 0, the character will become incapacitated.</characterEndurance>
+  <characterDefence>Defence (including Equipment assigned to the character's Armour score) and the result is subtracted as a percentage from all damage sustained.</characterDefence>
+  <characterAttackMelee>The damage dealt by a melee attack is the character's Attack plus the weapon's damage including Equipment assigned to their Melee score. The Critical Hit chance is half the character's morale and the damage multiplier is determined by the weapon type.</characterAttackMelee>
+  <characterAttackRanged>The character's ranged Accuracy determines the chance to hit at point blank range. If the attack is successful, the weapon's damage is applied including Equipment assigned to their Ranged score. The Critical Hit chance is half the character's morale and the damage multiplier is determined by the weapon type.</characterAttackRanged>
+  <characterMovement>How many spaces a character can move each turn during a battle. Characters may move twice if they don't attack.</characterMovement>
+  <equipmentMelee>*Melee Weapon*
+Improves Melee Damage</equipmentMelee>
+  <equipmentRanged>*Ranged Weapon*
+Improves Ranged Damage</equipmentRanged>
+  <equipmentArmour>*Armour*
+Improves Defence</equipmentArmour>
+  <campSkillGuarding>Determines the character's effectiveness when assigned to Guard the camp.</campSkillGuarding>
+  <campSkillPatrolling>Determines the character's chance to discover something when sent on Patrol.</campSkillPatrolling>
+  <campSkillHunting>Raises the amount of Meat you get when assigning the character to Hunt, and determines the amount of Meat the character can Preserve.</campSkillHunting>
+  <campSkillAlchemy>Determines the amount of Herbs the character can turn into Medicine each night.</campSkillAlchemy>
+  <campSkillHerbalism>Determines the amount of Herbs the character can turn into Medicine each night.</campSkillHerbalism>
+  <campSkillTinkering>Decreases the materials needed to construct items and the time needed to complete upgrades.</campSkillTinkering>
+  <characterTypeSoldier>Soldier</characterTypeSoldier>
+  <characterTypeSoldierFull>*Soldier*
++2 to Tactics. Slow but tough melee fighters. Poor aim in ranged combat.</characterTypeSoldierFull>
+  <characterTypeHunter>Hunter</characterTypeHunter>
+  <characterTypeHunterFull>*Hunter*
++2 to Survival. Accurate and lethal shooters, but vulnerable and weak in melee.</characterTypeHunterFull>
+  <characterTypeScout>Scout</characterTypeScout>
+  <characterTypeScoutFull>*Scout*
++2 to Scouting. Fast and lethal melee fighters, but cannot use ranged weapons.</characterTypeScoutFull>
+  <characterTypeDoctor>Doctor</characterTypeDoctor>
+  <characterTypeDoctorFull>*Doctor*
++2 to Healing. Poor fighters but useful support units that can restore Endurance or revive incapacitated troops.</characterTypeDoctorFull>
+  <characterTypeScholar>Scholar</characterTypeScholar>
+  <characterTypeScholarFull>*Scholar*
++2 to Diplomacy. Useful support units that can add a lot of flexibility to your force.</characterTypeScholarFull>
+  <characterTypeChampion>Champion</characterTypeChampion>
+  <characterTypeChampionFull>*Champion*
++2 to Tactics. Slow but tough and strong melee fighters. Poor aim in ranged combat.</characterTypeChampionFull>
+  <characterTypeTrapper>Trapper</characterTypeTrapper>
+  <characterTypeTrapperFull>*Trapper*
++2 to Survival. Accurate and lethal shooters, but vulnerable and weak in melee.</characterTypeTrapperFull>
+  <characterTypeWarrior>Warrior</characterTypeWarrior>
+  <characterTypeWarriorFull>*Warrior*
++2 to Scouting. Fast and lethal melee fighters. Poor aim in ranged combat.</characterTypeWarriorFull>
+  <characterTypeShaman>Shaman</characterTypeShaman>
+  <characterTypeShamanFull>*Shaman*
++2 to Healing. Poor fighters but useful support units that can restore Endurance or inflict negative effects on enemies.</characterTypeShamanFull>
+  <characterTypeCivilian>Civilian</characterTypeCivilian>
+  <characterTypeCivilianFull>*Civilian*
++2 to Diplomacy. Higher-than-average starting skills, but very weak combat unit.</characterTypeCivilianFull>
+  <characterTypeAmazon>Amazon</characterTypeAmazon>
+  <characterTypeAmazonFull>*Amazon*
+No stat bonus. Powerful guerilla fighters who are highly mobile but vulnerable to attack.</characterTypeAmazonFull>
+  <weaponSword>*Sword and shield*
+Medium damage, normal critical hit multiplier. 25% chance to block 25% damage.</weaponSword>
+  <weaponMacuahuitl>*Macuahuitl and shield*
+Medium damage, normal critical hit multiplier. 25% chance to block 25% damage.</weaponMacuahuitl>
+  <weaponHalberd>*Pole-arm*
+High damage, low critical hit multiplier.</weaponHalberd>
+  <weaponSpear>*Spear*
+Medium damage, high critical hit multiplier.</weaponSpear>
+  <weaponDagger>*Dagger
+Low damage, high critical hit multiplier.</weaponDagger>
+  <weaponKnife>*Knife*
+Low damage, high critical hit multiplier.</weaponKnife>
+  <weaponRifle>*Arquebus*
+High damage, normal critical hit multiplier. Short range.</weaponRifle>
+  <weaponBlowpipe>*Blowgun*
+Low damage, very high critical hit multiplier. Short range.</weaponBlowpipe>
+  <weaponShortbow>*Shortbow*
+Medium damage, normal critical hit multiplier. Long range.</weaponShortbow>
+  <weaponHuntingBow>*Hunting bow*
+Medium damage, normal critical hit multiplier. Long range.</weaponHuntingBow>
+  <weaponNone>*No Weapon*
+The unit cannot use ranged weapons.</weaponNone>
+  <choiceGeneric>Choice</choiceGeneric>
+  <choiceCombat>Combat</choiceCombat>
+  <choiceTactics>Tactics</choiceTactics>
+  <choiceSoldier>Tactics</choiceSoldier>
+  <choiceSurvival>Survival</choiceSurvival>
+  <choiceHunter>Survival</choiceHunter>
+  <choiceDiplomacy>Diplomacy</choiceDiplomacy>
+  <choiceScholar>Diplomacy</choiceScholar>
+  <choiceLeadership>Leadership</choiceLeadership>
+  <choiceHealing>Healing</choiceHealing>
+  <choiceDoctor>Healing</choiceDoctor>
+  <choiceScouting>Scouting</choiceScouting>
+  <choiceScout>Scouting</choiceScout>
+  <choiceFollowerchoice>Choose Follower</choiceFollowerchoice>
+  <choiceTrading>Trade</choiceTrading>
+  <choiceEquipment>Equipment</choiceEquipment>
+  <choiceValuables>Valuables</choiceValuables>
+  <choiceRations>Rations</choiceRations>
+  <choiceMedicine>Medicine</choiceMedicine>
+  <choiceOffergift>Offer Gift</choiceOffergift>
+  <choiceQuit>End Event</choiceQuit>
+  <choiceAmazon>Amazon</choiceAmazon>
+  <choiceShaman>Healing</choiceShaman>
+  <choiceTrapper>Survival</choiceTrapper>
+  <choiceWarrior>Scouting</choiceWarrior>
+  <choiceChampion>Tactics</choiceChampion>
+  <taskGuarding> has been assigned to guard the camp from intruders</taskGuarding>
+  <taskGuardingFull>*Guarding*
+A higher Guarding score lowers the risk of bad things happening when you make camp.</taskGuardingFull>
+  <taskPatrolling> has been assigned to patrol for points of interest</taskPatrolling>
+  <taskPatrollingFull>*Patrolling*
+A higher Patrolling score raises the chance of finding something interesting when you make camp.</taskPatrollingFull>
+  <taskHunting> has been assigned to hunt for new Meat</taskHunting>
+  <taskHuntingFull>*Hunting*
+A higher Hunting score increases the amount of Meat you can acquire when you make camp.</taskHuntingFull>
+  <taskPreserving> has been assigned to preserve Meat into Rations</taskPreserving>
+  <taskPreservingFull>*Preserving*
+Preserving indicates how much Meat you will be able to turn into Rations.</taskPreservingFull>
+  <taskAlchemy> has been assigned to process Herbs into Medicine</taskAlchemy>
+  <taskAlchemyFull>*Herbalism*
+Herbalism determines how many Herbs you will be able to turn into Medicine.</taskAlchemyFull>
+  <taskHerbalism> has been assigned to process Herbs into Medicine</taskHerbalism>
+  <taskHerbalismFull>*Herbalism*
+Herbalism determines how many Herbs you will be able to turn into Medicine.</taskHerbalismFull>
+  <taskConstructing> has been assigned to construct a new item</taskConstructing>
+  <taskInventing> has been assigned to work on </taskInventing>
+  <taskTreatment> is being treated by </taskTreatment>
+  <taskTreating> has been assigned to treat </taskTreating>
+  <taskContextual> has been assigned to a contextual task</taskContextual>
+  <taskNone> has not been assigned to any task</taskNone>
+  <skillLabels>Guarding, Patrolling, Hunting, Herbalism, Tinkering</skillLabels>
+  <insufficientSkill>[NAME] is not skilled in [TASK].</insufficientSkill>
+  <insufficientTinkering>[NAME] is not skilled enough to work on this invention.</insufficientTinkering>
+  <insufficientMeat>You have no Meat to preserve into Rations.</insufficientMeat>
+  <insufficientHerbs>You have no Herbs to create Medicine from.</insufficientHerbs>
+  <inventionTentBronze>More comfortable tents for a one-time morale boost among your troops.
+It takes 8 days and requires a Tinkering skill of 2 to reach this level.
+*+1 morale*</inventionTentBronze>
+  <inventionTentSilver>More comfortable tents for a one-time morale boost among your troops.
+It takes 28 days and requires a Tinkering skill of 6 to reach this level.
+  *+2 morale*</inventionTentSilver>
+  <inventionTentGold>More comfortable tents for a one-time morale boost among your troops.
+It takes 48 days and requires a Tinkering skill of 10 to reach this level.
+*+3 morale*</inventionTentGold>
+  <inventionAxeBronze>Better axes that will grant you more wood during exploration.
+It takes 8 days and requires a Tinkering skill of 2 to reach this level.
+*+15% wood*</inventionAxeBronze>
+  <inventionAxeSilver>Better axes that will grant you more wood during exploration.
+It takes 28 days and requires a Tinkering skill of 6 to reach this level.
+*+20% wood*</inventionAxeSilver>
+  <inventionAxeGold>Better axes that will grant you more wood during exploration.
+It takes 48 days and requires a Tinkering skill of 10 to reach this level.
+*+25% wood*</inventionAxeGold>
+  <inventionPickaxeBronze>Better pick axes that give you more metal during exploration.
+It takes 8 days and requires a Tinkering skill of 2 to reach this level.
+*+15% metal*</inventionPickaxeBronze>
+  <inventionPickaxeSilver>Better pick axes that give you more metal during exploration.
+It takes 28 days and requires a Tinkering skill of 6 to reach this level.
+*+20% metal*</inventionPickaxeSilver>
+  <inventionPickaxeGold>Better pick axes that give you more metal during exploration.
+It takes 48 days and requires a Tinkering skill of 10 to reach this level.
+*+25% metal*</inventionPickaxeGold>
+  <inventionCartBronze>Faster carts that allow you to move farther every day.
+It takes 8 days and requires a Tinkering skill of 2 to reach this level.
+*+1 movement*</inventionCartBronze>
+  <inventionCartSilver>Faster carts that allow you to move farther every day.
+It takes 28 days and requires a Tinkering skill of 6 to reach this level.
+*+3 movement*</inventionCartSilver>
+  <inventionCartGold>Faster carts that allow you to move farther every day.
+It takes 48 days and requires a Tinkering skill of 10 to reach this level.
+*+6 movement*</inventionCartGold>
+  <foodAssignedNone>No food assigned - follower will lose morale!</foodAssignedNone>
+  <foodAssignedRation1>1 Ration assigned</foodAssignedRation1>
+  <foodAssignedRation2>2 Rations assigned</foodAssignedRation2>
+  <foodAssignedMeat1>1 Meat assigned</foodAssignedMeat1>
+  <foodAssignedMeat2>2 Meat assigned</foodAssignedMeat2>
+  <abilityFlawlessDefence>*Flawless Defence [HOTKEY] Attack action, cooldown 1 turn*
+Adds the Soldier's melee attack to their Defence.</abilityFlawlessDefence>
+  <abilityStun>*Stun [HOTKEY] Attack action, cooldown 2 turns*
+Use on an enemy. The target will become stunned and lose its next turn.</abilityStun>
+  <abilityGuard>*Guard [HOTKEY] Attack action, cooldown 2 turns*
+All units adjacent to the Soldier get their Defence raised to match the Soldier's.</abilityGuard>
+  <abilityCharge>*Charge [HOTKEY] Attack action, cooldown 2 turns*
+Deals 5 extra points of damage for every space moved just prior to the attack.</abilityCharge>
+  <abilitySwipe>*Swipe [HOTKEY] Attack action, cooldown 2 turns*
+Attacks 3 adjacent spaces simultaneously.</abilitySwipe>
+  <abilityQuickShot>*Quick Shot [HOTKEY] Attack action, cooldown 1 turn*
+You may make two ranged attacks with 30 points less of base accuracy.</abilityQuickShot>
+  <abilityAimedShot>*Aimed Shot [HOTKEY] Full turn action, cooldown 1 turn*
+Makes an attack with only half the normal distance penalties to accuracy.</abilityAimedShot>
+  <abilityRebuke>*Rebuke [HOTKEY] Attack action, cooldown 1 turn*
+A weak melee attack that moves the target unit one space away from the Hunter.</abilityRebuke>
+  <abilityPoisonSting>*Poison Sting [HOTKEY] Attack action, cooldown 1 turn*
+Makes a ranged attack that applies a small damage-over-time effect on hit.</abilityPoisonSting>
+  <abilityHailstorm>*Hailstorm [HOTKEY] Attack action, cooldown 3 turns*
+Rains projectiles down on 5 random adjacent spaces in and around the target space. Can damage allied units.</abilityHailstorm>
+  <abilityRestore>*Restore [HOTKEY] Attack action, cooldown 1 turn*
+Restores some of the targeted ally's lost Endurance. Amount restored depends on the Doctor's rank.</abilityRestore>
+  <abilityCure>*Cure [HOTKEY] Attack action, cooldown 1 turn*
+Removes all damage-over-time effects and negative effects from an ally unit and heals 15-25 points of Endurance.</abilityCure>
+  <abilityRevive>*Revive [HOTKEY] Attack action, cooldown 3 turns*
+Brings an incapacitated ally back to their feet, with Endurance depending on the Doctor's rank.</abilityRevive>
+  <abilityCurse>*Curse [HOTKEY] Attack action, cooldown 1 turn*
+Puts a penalty on the target's Ranged Accuracy and Defence for three turns.</abilityCurse>
+  <abilityTerrify>*Terrify [HOTKEY] Attack action, cooldown 2 turns*
+Forces the target unit to flee from the Shaman at its full speed.</abilityTerrify>
+  <abilityLogistics>*Logistics [HOTKEY] Attack action, cooldown 2 turns*
+Gives an ally 2 more moves if the Scholar is a Recruit, 4 if Veteran, and 6 if Sergeant.</abilityLogistics>
+  <abilityCoordinateAttack>*Coordinate Attack [HOTKEY] Attack action, cooldown 2 turns*
+The next attack on every enemy in this turn will deal 10% more damage.</abilityCoordinateAttack>
+  <abilityDistraction>*Distraction [HOTKEY] Attack action, cooldown 1 turn*
+Reduces the Melee and Ranged Damage of all enemies by 20% for one turn.</abilityDistraction>
+  <abilitySneak>*Sneak [HOTKEY] Move action*
+Move at half speed without triggering traps, Interrupts, or Attacks of Opportunity.</abilitySneak>
+  <abilityFeint>*Feint [HOTKEY] Attack action, cooldown 1 turn*
+Move directly through a hex occupied by an enemy unit, then make an attack on them.</abilityFeint>
+  <abilityThrowingKnife>*Throwing Knife [HOTKEY] Attack action, cooldown 3 turns*
+Throws a knife at a target 3 hexes away from the Scout.</abilityThrowingKnife>
+  <abilityTaunt>*Taunt [HOTKEY] Attack action, cooldown 2 turns*
+Compels the target to move three spaces towards the Warrior.</abilityTaunt>
+  <abilityAnticipateOpening>*Anticipate Opening [HOTKEY] Attack action, cooldown 1 turns*
+Guarantees that any attack by the Warrior in the next turn will be critical.</abilityAnticipateOpening>
+  <abilityAcrobaticStrike>*Acrobatic Strike [HOTKEY] Attack action, cooldown 2 turns*
+Makes an attack and moves one space away without incurring Attack of Opportunity.</abilityAcrobaticStrike>
+  <abilityDeftStrike>*Deft Strike [HOTKEY] Attack action, cooldown 3 turns*
+Makes an attack that bypasses the target's Defence (but not Armour).</abilityDeftStrike>
+  <abilitySmokeBomb>*Smoke Bomb [HOTKEY] Attack action, cooldown 3 turns*
+Throws a bomb that adds partial cover in a one-space radius around the target.</abilitySmokeBomb>
+  <abilityRally>*Rally [HOTKEY] Attack action, cooldown 3 turns*
+All other units move 3 spaces towards the Lieutenant.</abilityRally>
+  <itemGoldenSpear>*Golden Spear [HOTKEY] Free action*
+Throw the Golden Spear at a certain hex. It will land at the start of your next turn and deal 150 damage (minus Defence) to whatever unit occupies the space at that point.</itemGoldenSpear>
+  <itemBarricade>*[Stack] Barricade[s] [HOTKEY] Free action*
+Place an obstacle in 1 space on the battlefield.</itemBarricade>
+  <itemSpikeTrap>*[Stack] Spike Trap[s] [HOTKEY] Free action*
+The first unit that moves into the space takes damage.</itemSpikeTrap>
+  <itemNetTrap>*[Stack] Net Trap[s] [HOTKEY] Free action*
+The first unit that moves into the space immediately ends its turn.</itemNetTrap>
+  <itemCaltropTrap>*[Stack] Caltrop Trap[s] [HOTKEY] Free action*
+Reduce the moves of the first unit that moves into the space.</itemCaltropTrap>
+  <itemTorch>*[Stack] Torch[es] [HOTKEY] Free action*
+Throw a torch to light up an area to negate ranged penalties in night battles.</itemTorch>
+  <itemLantern>*[Stack] Lantern[s] [HOTKEY] Free action*
+Throw a lantern full of oil to set an enemy on fire.</itemLantern>
+  <itemCannonball>*[Stack] Cannonball[s] [HOTKEY] Free action*
+*Preparation Phase:* Place the cannon.
+*During Combat:* Fire an explosive cannonball from the cannon that damages 5 random adjacent spaces in and around the target space.</itemCannonball>
+  <itemCannon>*[Stack] Cannonball[s] [HOTKEY] Free action*
+*Preparation Phase:* Place the cannon.
+*During Combat:* Fire an explosive cannonball from the cannon that damages 5 random adjacent spaces in and around the target space.</itemCannon>
+  <itemFountainOfYouthWater>*[Stack] Flask[s] of Healing Water [HOTKEY] Free action*
+Use the sacred water of the Fountain of Youth to fully restore a friendly unit's endurance.</itemFountainOfYouthWater>
+  <itemCrystalOfMictlan>*Crystal of Mictlan [HOTKEY] Free action*
+Converts an enemy of Sergeant or lower rank to fight for your side for 3 turns.</itemCrystalOfMictlan>
+  <itemHeirloomMedallion>*Heirloom Medallion [HOTKEY] Free action*
+A shiny amulet. It may or may not do anything.</itemHeirloomMedallion>
+  <itemGutierrezBanner>*Gutiérrez's Banner [HOTKEY] Free action*
+Places a Banner that doubles the morale of units within 1 space of the banner.</itemGutierrezBanner>
+  <abilityTacticalMove>*Tactical Move [HOTKEY] Attack action*
+Allows you to move past, or away from, enemies without provoking attacks of opportunity.</abilityTacticalMove>
+  <abilityInterrupt>*Interrupt [HOTKEY] Attack action*
+Instead of attacking this turn, you delay the unit's action until the enemy's turn - if any enemy unit moves within 6 spaces, your unit will shoot.</abilityInterrupt>
+  <abilitySpotTraps>*Spot Traps [HOTKEY] Move action*
+Halves moves. Reveals any trap that the character comes within melee range of. The character stops when a trap is spotted.</abilitySpotTraps>
+  <ColomboEasy>Colombo (Easy)</ColomboEasy>
+  <CortesNormal>Cortés (Normal)</CortesNormal>
+  <PizarroDifficult>Pizarro (Difficult)</PizarroDifficult>
+  <AguirreInsane>Aguirre (Insane)</AguirreInsane>
+  <GammaValue>Brightness</GammaValue>
+  <!--Video Options tooltips-->
+  <Vsync>Vsync</Vsync>
+  <Bloom>Bloom</Bloom>
+  <optionsBloom>A post-processing effect that simulates over-exposure due to bright sunlight. Gives the game a warmer and more vibrant look, but adds a subtle blur to everything as well.</optionsBloom>
+  <optionsGamma>The gamma slider adjusts the brightness of the game.</optionsGamma>
+  <optionsVsync>Vsync synchronizes your frames per second with your monitor refresh rate, which can reduce tearing in some instances.</optionsVsync>
+  <optionsVideoOther>Various post processing effects that are one-off, such as the blur on the title screen. Disabling this is recommended if you're having trouble with transparent things going missing.</optionsVideoOther>
+  <optionsVideoToggleShadows>Uncheck this box to disable shadows. This will improve performance, but the game will look terrible, so please consider it a last resort.</optionsVideoToggleShadows>
+  <optionsGameplayLanguageText>Select the language for the text in events, goals, character bios, etc.</optionsGameplayLanguageText>
+  <optionsGameplayLanguageGUI>Select the language for the interface buttons, labels, tooltips, player messages, etc.</optionsGameplayLanguageGUI>
+  <optionsGameplayTutorial>Disable tutorials completely (they will not show up in the right side of the screen).</optionsGameplayTutorial>
+  <optionsGameplayShowTutorialInstantly>Disable tutorial pop-ups so they don't appear automatically.</optionsGameplayShowTutorialInstantly>
+  <optionsGameplayCombatSpeed>Speed up the combat if you're a particularly impatient player.</optionsGameplayCombatSpeed>
+  <optionsGameplayCameraFollowsEnemy>The camera will automatically lock onto the active enemy unit when it's not your turn.</optionsGameplayCameraFollowsEnemy>
+  <optionsGameplayMousePanning>You can pan the camera during combat by simply moving your cursor to the edge of the screen.</optionsGameplayMousePanning>
+  <optionsGameplayCombatMessagePopups>Damage, status effects, and so on will appear above the heads of units during combat.</optionsGameplayCombatMessagePopups>
+  <optionsGameplayPlayerMessageSpeed>How many seconds should player messages stay on the screen?</optionsGameplayPlayerMessageSpeed>
+  <optionsVideoTerrainResolution>Lowering the resolution of the terrain increases performance a lot but makes the game world look less detailed.</optionsVideoTerrainResolution>
+  <optionsVideoTerrainQuality>Reduces the level-of-detail distance of the terrain, making it appear more jagged from afar.</optionsVideoTerrainQuality>
+  <optionsVideoFancyHighlighting>Shader-based outline highlights on interactive objects look pretty but add an extra render pass that reduces performance.</optionsVideoFancyHighlighting>
+  <optionsDifficultyWorldResources>The amount of resources you get from pick-ups during your travels.</optionsDifficultyWorldResources>
+  <optionsDifficultyFollowerDamage>Difficulty multiplier on the damage dealt by the attacks of your units.</optionsDifficultyFollowerDamage>
+  <optionsDifficultyEnemyDamage>Difficulty multiplier on the damage dealt against your units by enemy attacks.</optionsDifficultyEnemyDamage>
+  <optionsDifficultyEnemyCritical>The critical hit probability of enemy units.</optionsDifficultyEnemyCritical>
+  <optionsDifficultyEnemyIntelligence>Determines how many mistakes your opponents make and how often they will use special abilities and focus fire.</optionsDifficultyEnemyIntelligence>
+  <optionsDifficultyInjuryProbabilities>The probabilities of your troops sustaining serious injuries when incapacitated in battle.</optionsDifficultyInjuryProbabilities>
+  <optionsDifficultySuddenDeath>When Sudden Death is enabled, your units may die outright if incapacitated for enough turns. Enable at your own risk!</optionsDifficultySuddenDeath>
+  <optionsVideoFullscreen>Switch between full-screen and windowed mode.</optionsVideoFullscreen>
+  <optionsVideoResolution>Select the resolution in which to display the game.</optionsVideoResolution>
+  <optionsVideoQuality>Select a preset for the graphical quality - overrides the Advanced settings below!</optionsVideoQuality>
+  <optionsVideoTextures>The resolution of the textures in the game world.</optionsVideoTextures>
+  <optionsVideoAntialiasing>A post-processing effect that smoothes the edges of the game objects.</optionsVideoAntialiasing>
+  <optionsVideoShadows>The resolution of the shadows.</optionsVideoShadows>
+  <optionsVideoWater>The overall quality of the water (reflection, edge blend, etc.)</optionsVideoWater>
+  <optionsVideoColorCorrection>A post-processing effect that adjusts the colours of the game.</optionsVideoColorCorrection>
+  <optionsVideoContrastEnhance>A post-processing effect that increases the contrast of the game.</optionsVideoContrastEnhance>
+  <optionsVideoSSAO>Screen-Spaced Ambient Occlusion is a post-processing effect that gives the game's visual style much more depth.</optionsVideoSSAO>
+  <optionsVideoGlobalFog>A post-processing effect that adds moody fog to the game based on the position of the camera.</optionsVideoGlobalFog>
+  <optionsSoundMusic>Change the volume of the music.</optionsSoundMusic>
+  <optionsSoundEffects>Change the volume of the combat sounds, interface sounds, etc.</optionsSoundEffects>
+  <optionsSoundAmbient>Change the volume of the ambient soundscapes.</optionsSoundAmbient>
+  <textboxNameGiven>Type your character's first name here.</textboxNameGiven>
+  <textboxNameFamily>Type your character's last name here.</textboxNameFamily>
+  <guiExpeditionSelectionList>Select an expedition member above and click 'Hire' to add them to the list. Select a hired expedition member and click 'Dismiss' to remove them from your expedition again. You must select 10 expedition members to proceed.</guiExpeditionSelectionList>
+  <guiExpeditionAutoHire>Click this to automatically select 10 people for your expedition. You can also hire individual members by clicking on their portraits above.</guiExpeditionAutoHire>
+  <experience>Your Available Experience points are used to promote your troops. Total Experience is a record of how much experience you've earned throughout the game.</experience>
+  <experienceAvailable>Experience points are used to promote your troops.</experienceAvailable>
+  <unassignedEquipment>You can assign this equipment to your expedition members with the plus and minus buttons above.</unassignedEquipment>
+  <moraleAverage>The overall morale of your expedition. Individual morale is capped by your Leadership score. If this says "Mutinous", you should be worried.</moraleAverage>
+  <activeGoalButton>Set an active goal marker on the mapscreen.</activeGoalButton>
+  <inventoryEquipped>*Equipped Items*
+Move items to these slots to bring them with you into your next battle.</inventoryEquipped>
+  <inventoryMain>*Stored Items*
+Items in these slots can not be used in battle.</inventoryMain>
+  <greyedNextCharacterCreation>You must fill in your first and last name and assign all skill points before moving on.</greyedNextCharacterCreation>
+  <greyedNextFollowerSelection>You must hire 10 expedition members before moving on.</greyedNextFollowerSelection>
+  <treatmentCondition>The severity and type of the injury determines the daily treatment cost and how likely it is to get worse if left untreated.</treatmentCondition>
+  <treatmentDeterioration>The risk of this injury getting worse each day if left untreated. The more severe the injury, the greater the deterioration risk.</treatmentDeterioration>
+  <treatmentCost>How much medicine it will cost to treat this expedition member. Each time an injury is treated, the cost will decrease.</treatmentCost>
+  <treatmentAssignedPatient>Doctor assigned to this patient.</treatmentAssignedPatient>
+  <treatmentAssignedDoctor>Patient assigned to this doctor.</treatmentAssignedDoctor>
+  <!--Buttons-->
+  <NewGame>New Game</NewGame>
+  <ResumeGame>Resume Game</ResumeGame>
+  <LoadGame>Load Game</LoadGame>
+  <SaveGame>Save Game</SaveGame>
+  <Codex>Codex</Codex>
+  <Options>Options</Options>
+  <NewGame>New Game</NewGame>
+  <Credits>Credits</Credits>
+  <QuitGame>Quit Game</QuitGame>
+  <Cancel>Cancel</Cancel>
+  <Next>Next</Next>
+  <Accept>Accept</Accept>
+  <Random>Random</Random>
+  <MalemoralePlural>Male</MalemoralePlural>
+  <FemalemoralePlural>Female</FemalemoralePlural>
+  <MalemoraleSingular>Male</MalemoraleSingular>
+  <FemalemoraleSingular>Female</FemalemoraleSingular>
+  <Male>Male</Male>
+  <Female>Female</Female>
+  <AutoHire>Auto Hire</AutoHire>
+  <Hire>Hire</Hire>
+  <DismissAll>Dismiss All</DismissAll>
+  <Dismiss>Dismiss</Dismiss>
+  <Back>Back</Back>
+  <Load>Load</Load>
+  <Save>Save</Save>
+  <Delete>Delete</Delete>
+  <Quit>Quit</Quit>
+  <Controls>Controls</Controls>
+  <Gameplay>Gameplay</Gameplay>
+  <Video>Video</Video>
+  <Sound>Sound</Sound>
+  <MainMenu>Main Menu</MainMenu>
+  <ResetAll>Reset All</ResetAll>
+  <Close>Close</Close>
+  <AutoAssign>Auto Assign</AutoAssign>
+  <ClearAll>Clear All</ClearAll>
+  <AssigntoAll>Assign to All</AssigntoAll>
+  <Assign>Assign</Assign>
+  <Unassign>Unassign</Unassign>
+  <Unaffordable>Unaffordable</Unaffordable>
+  <!--GUIText-->
+  <CharacterCreation>Character Creation</CharacterCreation>
+  <GivenName>Given Name</GivenName>
+  <FamilyName>Family Name</FamilyName>
+  <Tactics>Tactics</Tactics>
+  <Diplomacy>Diplomacy</Diplomacy>
+  <Healing>Healing</Healing>
+  <Survival>Survival</Survival>
+  <Scouting>Scouting</Scouting>
+  <Leadership>Leadership</Leadership>
+  <PointsLeft>Points Left</PointsLeft>
+  <Guide>Guide</Guide>
+  <explanatoryText>Welcome to Character Creation. This is where you choose what kind of Conquistador you wish to be. Your choices in this menu and the following will influence your opportunities and challenges throughout the game. But don't be alarmed! The decisions you make here may make the game harder, but they cannot make it impossible.
+
+The current screen lets you set up your own character - gender, name, and skills. Your skills will influence your access to, and consumption of, resources such as medicine and rations, and skills will also open up new options during events and conversations.
+
+You can always move your cursor over icons to see what they mean.
+
+It is recommended that you choose two or three skills to specialise in, without lowering any of your skills completely - but feel free to follow your instincts if they tell you otherwise.
+
+On the next screen, you will have to select the people to bring on your expedition to the New World. The different character types provide substantial bonuses to your skills, and different characters have different strengths, weaknesses, and abilities in a battle.
+
+Each character also has three personality traits which determine what will cause them to lose or gain morale throughout your travels.</explanatoryText>
+  <FollowerSelection>Follower Selection</FollowerSelection>
+  <Doctors>Doctors</Doctors>
+  <Hunters>Hunters</Hunters>
+  <Scholars>Scholars</Scholars>
+  <Scouts>Scouts</Scouts>
+  <Soldiers>Soldiers</Soldiers>
+  <FollowerDetails>Follower Details</FollowerDetails>
+  <Endurance>Endurance</Endurance>
+  <Defence>Defence</Defence>
+  <Melee>Melee</Melee>
+  <Ranged>Ranged</Ranged>
+  <Movement>Movement</Movement>
+  <Criticaldmg>Critical</Criticaldmg>
+  <!--PASSIVE ABILITIES-->
+  <AdrenalineJunkie>Adrenaline Junkie</AdrenalineJunkie>
+  <AimHigh>Aim High</AimHigh>
+  <AimLow>Aim Low</AimLow>
+  <Avenger>Avenger</Avenger>
+  <Block>Block</Block>
+  <BloodThirsty>Blood Thirsty</BloodThirsty>
+  <Constitution>Constitution</Constitution>
+  <Dodge>Dodge</Dodge>
+  <Evade>Evade</Evade>
+  <Fencer>Fencer</Fencer>
+  <FortuneFavoured>Fortune Favoured</FortuneFavoured>
+  <GoodPatient>Good Patient</GoodPatient>
+  <KeenEye>Keen Eye</KeenEye>
+  <LoneWolf>Lone Wolf</LoneWolf>
+  <NightVision>Night Vision</NightVision>
+  <Opportunist>Opportunist</Opportunist>
+  <Relentless>Relentless</Relentless>
+  <Sharpshooter>Sharpshooter</Sharpshooter>
+  <SuckItUp>Suck It Up</SuckItUp>
+  <WeaponBlowgun>Weapon: Blowgun</WeaponBlowgun>
+  <WeaponBow>Weapon: Bow</WeaponBow>
+  <WeaponDagger>Weapon: Dagger</WeaponDagger>
+  <WeaponPolearm>Weapon: Pole-arm</WeaponPolearm>
+  <WeaponMacuahuitl>Weapon: Macuahuitl</WeaponMacuahuitl>
+  <WeaponRifle>Weapon: Arquebus</WeaponRifle>
+  <WeaponSpear>Weapon: Spear</WeaponSpear>
+  <WeaponSword>Weapon: Sword</WeaponSword>
+  <Hardened>Hardened</Hardened>
+  <PointBlank>Point Blank</PointBlank>
+  <Sexist>Sexist</Sexist>
+  <SneakAttack>Sneak Attack</SneakAttack>
+  <Strider>Strider</Strider>
+  <WalkYourShots>Walk Your Shots</WalkYourShots>
+  <Weakened>Weakened</Weakened>
+  <PassiveAbilities>Passive Abilities</PassiveAbilities>
+  <WeaponProficiency>Weapon Proficiency</WeaponProficiency>
+  <AbilityPassiveADRENALINEJUNKIE>Adrenaline Junkie</AbilityPassiveADRENALINEJUNKIE>
+  <AbilityPassiveAIMHIGH>Aim High</AbilityPassiveAIMHIGH>
+  <AbilityPassiveAIMLOW>Aim Low</AbilityPassiveAIMLOW>
+  <AbilityPassiveAVENGER>Avenger</AbilityPassiveAVENGER>
+  <AbilityPassiveBLOCK>Block</AbilityPassiveBLOCK>
+  <AbilityPassiveBLOODTHIRSTY>Blood Thirsty</AbilityPassiveBLOODTHIRSTY>
+  <AbilityPassiveCONSTITUTION>Constitution</AbilityPassiveCONSTITUTION>
+  <AbilityPassiveDODGE>Dodge</AbilityPassiveDODGE>
+  <AbilityPassiveEVADE>Evade</AbilityPassiveEVADE>
+  <AbilityPassiveFENCER>Fencer</AbilityPassiveFENCER>
+  <AbilityPassiveFORTUNEFAVOURED>Fortune Favoured</AbilityPassiveFORTUNEFAVOURED>
+  <AbilityPassiveGOODPATIENT>Good Patient</AbilityPassiveGOODPATIENT>
+  <AbilityPassiveKEENEYE>Keen Eye</AbilityPassiveKEENEYE>
+  <AbilityPassiveLONEWOLF>Lone Wolf</AbilityPassiveLONEWOLF>
+  <AbilityPassiveNIGHTVISION>Night Vision</AbilityPassiveNIGHTVISION>
+  <AbilityPassiveOPPORTUNIST>Opportunist</AbilityPassiveOPPORTUNIST>
+  <AbilityPassiveRELENTLESS>Relentless</AbilityPassiveRELENTLESS>
+  <AbilityPassiveSHARPSHOOTER>Sharpshooter</AbilityPassiveSHARPSHOOTER>
+  <AbilityPassiveSUCKITUP>Suck It Up</AbilityPassiveSUCKITUP>
+  <AbilityPassiveWEAPONBLOWGUN>Weapon: Blowgun</AbilityPassiveWEAPONBLOWGUN>
+  <AbilityPassiveWEAPONBOW>Weapon: Bow</AbilityPassiveWEAPONBOW>
+  <AbilityPassiveWEAPONDAGGER>Weapon: Dagger</AbilityPassiveWEAPONDAGGER>
+  <AbilityPassiveWEAPONHALBERD>Weapon: Pole-arm</AbilityPassiveWEAPONHALBERD>
+  <AbilityPassiveWEAPONMAQUAHUITL>Weapon: Macuahuitl</AbilityPassiveWEAPONMAQUAHUITL>
+  <AbilityPassiveWEAPONRIFLE>Weapon: Arquebus</AbilityPassiveWEAPONRIFLE>
+  <AbilityPassiveWEAPONSPEAR>Weapon: Spear</AbilityPassiveWEAPONSPEAR>
+  <AbilityPassiveWEAPONSWORD>Weapon: Sword</AbilityPassiveWEAPONSWORD>
+  <AbilityPassiveHARDENED>Hardened</AbilityPassiveHARDENED>
+  <AbilityPassivePOINTBLANK>Point Blank</AbilityPassivePOINTBLANK>
+  <AbilityPassiveSEXIST>Sexist</AbilityPassiveSEXIST>
+  <AbilityPassiveSNEAKATTACK>Sneak Attack</AbilityPassiveSNEAKATTACK>
+  <AbilityPassiveSTRIDER>Strider</AbilityPassiveSTRIDER>
+  <AbilityPassiveWALKYOURSHOTS>Walk Your Shots</AbilityPassiveWALKYOURSHOTS>
+  <AbilityPassiveWEAKENED>Weakened</AbilityPassiveWEAKENED>
+  <AbilityPassiveEXPOSEWEAKNESS>Expose Weakness</AbilityPassiveEXPOSEWEAKNESS>
+  <AbilityPassivePOISONEDTIP>Poisoned Tip</AbilityPassivePOISONEDTIP>
+  <DescAbilityPassiveEXPOSEWEAKNESS>Every regular ranged attack by this character reduces the target's Defence by 10%, even if it's a miss.</DescAbilityPassiveEXPOSEWEAKNESS>
+  <DescAbilityPassivePOISONEDTIP>Every regular melee attack made by this character automatically applies a poison effect to the target.</DescAbilityPassivePOISONEDTIP>
+  <DescAbilityPassiveADRENALINEJUNKIE>The follower gains 10 points to Attack when Endurance is less than 20%.</DescAbilityPassiveADRENALINEJUNKIE>
+  <DescAbilityPassiveAIMHIGH>The accuracy penalty on this follower's ranged attacks against targets in partial cover is halved.</DescAbilityPassiveAIMHIGH>
+  <DescAbilityPassiveAIMLOW>Every ranged attack by this follower has a 20% chance to halve the target's movement in the next turn.</DescAbilityPassiveAIMLOW>
+  <DescAbilityPassiveAVENGER>The follower deals 10% more damage against an enemy who has incapacitated any ally during the current battle.</DescAbilityPassiveAVENGER>
+  <DescAbilityPassiveBLOCK>The follower's Defence is increased by 5 versus melee attacks.</DescAbilityPassiveBLOCK>
+  <DescAbilityPassiveBLOODTHIRSTY>Every time this follower incapacitates an enemy, they will deal 15% more damage on the next turn.</DescAbilityPassiveBLOODTHIRSTY>
+  <DescAbilityPassiveCONSTITUTION>The follower has a 50% chance to avoid the damage-over-time effect from every poison attack.</DescAbilityPassiveCONSTITUTION>
+  <DescAbilityPassiveDODGE>Enemies' critical hit chance when attacking this follower is halved.</DescAbilityPassiveDODGE>
+  <DescAbilityPassiveEVADE>The follower's Defence is increased by 5 versus ranged attacks.</DescAbilityPassiveEVADE>
+  <DescAbilityPassiveFENCER>Enemies' damage bonus when flanking this follower is reduced from 15% to 5%.</DescAbilityPassiveFENCER>
+  <DescAbilityPassiveFORTUNEFAVOURED>The follower's critical hit chance is increased by half.</DescAbilityPassiveFORTUNEFAVOURED>
+  <DescAbilityPassiveGOODPATIENT>The follower receives 20% more Endurance from all doctors' abilities, and all injuries received in combat will be less severe.</DescAbilityPassiveGOODPATIENT>
+  <DescAbilityPassiveKEENEYE>The follower's attacks ignore up to 7 points of the target's armour.</DescAbilityPassiveKEENEYE>
+  <DescAbilityPassiveLONEWOLF>The follower deals 10% more damage when they are 8 spaces or more from the nearest ally.</DescAbilityPassiveLONEWOLF>
+  <DescAbilityPassiveNIGHTVISION>The darkness penalty to the follower's ranged attack accuracy is ignored.</DescAbilityPassiveNIGHTVISION>
+  <DescAbilityPassiveOPPORTUNIST>The follower may make one extra attack of opportunity every turn.</DescAbilityPassiveOPPORTUNIST>
+  <DescAbilityPassiveRELENTLESS>When making a normal attack, the follower has a 5% chance of getting one extra action.</DescAbilityPassiveRELENTLESS>
+  <DescAbilityPassiveSHARPSHOOTER>Ranged attack accuracy is calculated as though the target were 1 space closer to the follower.</DescAbilityPassiveSHARPSHOOTER>
+  <DescAbilityPassiveSUCKITUP>The follower is not slowed down by walking over caltrops, and takes half damage from spike traps.</DescAbilityPassiveSUCKITUP>
+  <DescAbilityPassiveWEAPONBLOWGUN>Allows the follower to use a blow gun in battle.
+Low damage, very high critical, short range.</DescAbilityPassiveWEAPONBLOWGUN>
+  <DescAbilityPassiveWEAPONBOW>Allows the follower to use a bow in battle.
+Medium damage, normal critical, long range.</DescAbilityPassiveWEAPONBOW>
+  <DescAbilityPassiveWEAPONDAGGER>Allows the follower to use a dagger in battle.
+Low damage, high critical.</DescAbilityPassiveWEAPONDAGGER>
+  <DescAbilityPassiveWEAPONHALBERD>Allows the follower to use a pole-arm in battle.
+High damage, low critical.</DescAbilityPassiveWEAPONHALBERD>
+  <DescAbilityPassiveWEAPONMAQUAHUITL>Allows the follower to use a macuahuitl with a shield in battle.
+Medium damage, normal critical. 25% chance to block.</DescAbilityPassiveWEAPONMAQUAHUITL>
+  <DescAbilityPassiveWEAPONRIFLE>Allows the follower to use an arquebus in battle.
+High damage, normal critical, short range.</DescAbilityPassiveWEAPONRIFLE>
+  <DescAbilityPassiveWEAPONSPEAR>Allows the follower to use a spear in battle.
+Medium damage, high critical.</DescAbilityPassiveWEAPONSPEAR>
+  <DescAbilityPassiveWEAPONSWORD>Allows the follower to use a sword with a shield in battle.
+Medium damage, normal critical. 25% chance to block.</DescAbilityPassiveWEAPONSWORD>
+  <DescAbilityPassiveHARDENED>The follower has 10 extra points of Endurance.</DescAbilityPassiveHARDENED>
+  <DescAbilityPassivePOINTBLANK>Shooting at melee range guarantees a critical hit (but still provokes Attack of Opportunity).</DescAbilityPassivePOINTBLANK>
+  <DescAbilityPassiveSEXIST>The follower deals 10% more damage versus the opposite gender.</DescAbilityPassiveSEXIST>
+  <DescAbilityPassiveSNEAKATTACK>The follower's damage bonus when flanking an enemy is increased from 15% to 25%.</DescAbilityPassiveSNEAKATTACK>
+  <DescAbilityPassiveSTRIDER>The follower's movement per turn is increased by 1 space.</DescAbilityPassiveSTRIDER>
+  <DescAbilityPassiveWALKYOURSHOTS>Every ranged attack increases the accuracy of the next ranged attack at the same target by 5% (up to a maximum of 25%).</DescAbilityPassiveWALKYOURSHOTS>
+  <DescAbilityPassiveWEAKENED>The follower's health has been weakened, reducing Endurance by 10 points.</DescAbilityPassiveWEAKENED>
+  <ReviewCharacter>Review Character</ReviewCharacter>
+  <Base>Base</Base>
+  <Bonus>Bonus</Bonus>
+  <Final>Final</Final>
+  <SomeBackground>Some Background</SomeBackground>
+  <explanatoryTextBackground>The year is 1518 - a year before Hernán Cortes would be elected captain of the third expedition to the South American mainland, where he would overthrow the Aztec empire. But that will not happen, because you have beaten him to the punch.
+
+You are the eldest child of a Spanish nobleman, and you yourself hold the title of Hidalgo. With your father's backing, you have been the leader of a successful "hermandad" (meaning "brotherhood") back in the Old World - a peacekeeping association of armed individuals which protected the countryside around your father's town.
+
+During this time, you demonstrated an aptitude for leadership and strategy that earned you the respect of the people under your command - but it was time for a greater challenge. With the King's permission and your father's financial support, you purchased a ship and selected your crew from the best of the brothers and sisters in your hermandad.
+
+Together, you are off on the long and arduous journey to explore the New World. In your cargo hold, you bring rations, medicine, equipment, and assorted valuables. You must first make a stop on the Caribbean island of Hispaniola, under Spanish domain since 1496. Here, you will hire servants or buy slaves, rest and restock, and gain what information you can about the New World.
+
+After five weeks on the Atlantic Ocean, your people gather on the deck as the call "Land ahoy!" rings out from the rigging. On a clear afternoon, gulls screeching in the wake of your ship, you sail into the port of Santo Domingo, the seat of Spanish colonial rule in the New World.</explanatoryTextBackground>
+  <ReviewCharacter>Review Character</ReviewCharacter>
+  <Base>Base</Base>
+  <Bonus>Bonus</Bonus>
+  <Final>Final</Final>
+  <SomeBackground>Some Background</SomeBackground>
+  <explanatoryTextBackground>The year is 1518 - a year before Hernán Cortes would be elected captain of the third expedition to the South American mainland, where he would overthrow the Aztec empire. But that will not happen, because you have beaten him to the punch.
+
+You are the eldest child of a Spanish nobleman, and you yourself hold the title of Hidalgo. With your father's backing, you have been the leader of a successful "hermandad" (meaning "brotherhood") back in the Old World - a peacekeeping association of armed individuals which protected the countryside around your father's town.
+
+During this time, you demonstrated an aptitude for leadership and strategy that earned you the respect of the people under your command - but it was time for a greater challenge. With the King's permission and your father's financial support, you purchased a ship and selected your crew from the best of the brothers and sisters in your hermandad.
+
+Together, you are off on the long and arduous journey to explore the New World. In your cargo hold, you bring rations, medicine, equipment, and assorted valuables. You must first make a stop on the Caribbean island of Hispaniola, under Spanish domain since 1496. Here, you will hire servants or buy slaves, rest and restock, and gain what information you can about the New World.
+
+After five weeks on the Atlantic Ocean, your people gather on the deck as the call "Land ahoy!" rings out from the rigging. On a clear afternoon, gulls screeching in the wake of your ship, you sail into the port of Santo Domingo, the seat of Spanish colonial rule in the New World.</explanatoryTextBackground>
+  <fromSoldiers> from Soldiers</fromSoldiers>
+  <fromScholars> from Scholars</fromScholars>
+  <fromDoctors> from Doctors</fromDoctors>
+  <fromHunters> from Hunters</fromHunters>
+  <fromScouts> from Scouts</fromScouts>
+  <fromofficers> from officers</fromofficers>
+  <LoadGame>Load Game</LoadGame>
+  <SaveGame>Save Game</SaveGame>
+  <OptionsandSettings>Options and Settings</OptionsandSettings>
+  <Controls>Controls</Controls>
+  <Function>Function</Function>
+  <Primary>Primary</Primary>
+  <Secondary>Secondary</Secondary>
+  <CameraControls>Camera Controls</CameraControls>
+  <WorldMapHotkeys>World Map Hotkeys</WorldMapHotkeys>
+  <BattleHotkeys>Battle Hotkeys</BattleHotkeys>
+  <PanLeft>Pan Left</PanLeft>
+  <PanRight>Pan Right</PanRight>
+  <PanForward>Pan Forward</PanForward>
+  <PanBack>Pan Back</PanBack>
+  <RotateLeft>Rotate Left</RotateLeft>
+  <RotateRight>Rotate Right</RotateRight>
+  <ZoomIn>Zoom In</ZoomIn>
+  <ZoomOut>Zoom Out</ZoomOut>
+  <Highlight>Highlight</Highlight>
+  <SaveScreenshot>Save Screenshot</SaveScreenshot>
+  <Inventory>Inventory</Inventory>
+  <Objectives>Objectives</Objectives>
+  <!--<Party>Battle Hotkeys</Party>GUIText-->
+  <Party>Party</Party>
+  <Log>Log</Log>
+  <ToggleMap>Toggle Map</ToggleMap>
+  <MakeCamp>Make Camp</MakeCamp>
+  <OpenConsole>Open Console</OpenConsole>
+  <MakeCamp>Make Camp</MakeCamp>
+  <EndTurn>End Turn</EndTurn>
+  <ChangeWeapon>Change Weapon</ChangeWeapon>
+  <CharacterInfo>Character Info</CharacterInfo>
+  <ChangeWeapon>Change Weapon</ChangeWeapon>
+  <SelectFollower1>Select Follower 1</SelectFollower1>
+  <SelectFollower2>Select Follower 2</SelectFollower2>
+  <SelectFollower3>Select Follower 3</SelectFollower3>
+  <SelectFollower4>Select Follower 4</SelectFollower4>
+  <SelectFollower5>Select Follower 5</SelectFollower5>
+  <SelectFollower6>Select Follower 6</SelectFollower6>
+  <FollowerAbility1>Follower Ability 1</FollowerAbility1>
+  <FollowerAbility2>Follower Ability 2</FollowerAbility2>
+  <FollowerAbility3>Follower Ability 3</FollowerAbility3>
+  <FollowerAbility4>Follower Ability 4</FollowerAbility4>
+  <FollowerAbility5>Follower Ability 5</FollowerAbility5>
+  <TacticalAbility1>Tactical Ability 1</TacticalAbility1>
+  <TacticalAbility2>Tactical Ability 2</TacticalAbility2>
+  <TacticalAbility3>Tactical Ability 3</TacticalAbility3>
+  <TacticalAbility4>Tactical Ability 4</TacticalAbility4>
+  <TacticalAbility5>Tactical Ability 5</TacticalAbility5>
+  <EquippedItem1>Equipped Item 1</EquippedItem1>
+  <EquippedItem2>Equipped Item 2</EquippedItem2>
+  <EquippedItem3>Equipped Item 3</EquippedItem3>
+  <!--Options-->
+  <seconds> seconds</seconds>
+  <CombatSpeed>Combat Speed</CombatSpeed>
+  <PlayerMessageSpeed>Player Message Speed</PlayerMessageSpeed>
+  <CombatMessagePopups>Combat Message Pop-ups</CombatMessagePopups>
+  <MousePans>Mouse Panning in Combat</MousePans>
+  <CameraFollowsEnemy>Camera Follows Enemy</CameraFollowsEnemy>
+  <Language>Language</Language>
+  <General>General</General>
+  <Advanced>Advanced</Advanced>
+  <Fullscreen>Fullscreen</Fullscreen>
+  <Quality>Quality</Quality>
+  <Simple>Simple</Simple>
+  <Good>Good</Good>
+  <Beautiful>Beautiful</Beautiful>
+  <Fantastic>Fantastic</Fantastic>
+  <FullRes>Full Res</FullRes>
+  <HalfRes>Half Res</HalfRes>
+  <QuarterRes>Quarter Res</QuarterRes>
+  <EighthRes>Eighth Res</EighthRes>
+  <TextureQuality>Texture Quality</TextureQuality>
+  <Antialising>Antialiasing</Antialising>
+  <ShadowQuality>Shadow Quality</ShadowQuality>
+  <WaterQuality>Water Quality</WaterQuality>
+  <ToggleShadows>Enable Shadows</ToggleShadows>
+  <TerrainResolution>Terrain Resolution</TerrainResolution>
+  <TerrainQuality>Terrain Quality</TerrainQuality>
+  <FancyHighlighting>Fancy Highlighting</FancyHighlighting>
+  <ColorCorrection>Color Correction</ColorCorrection>
+  <ContrastEnhance>Contrast Enhance</ContrastEnhance>
+  <AmbientOcclusion>Ambient Occlusion</AmbientOcclusion>
+  <GlobalFog>Global Fog</GlobalFog>
+  <Disabled>Disabled</Disabled>
+  <VeryHigh>Very High</VeryHigh>
+  <High>High</High>
+  <Medium>Medium</Medium>
+  <Low>Low</Low>
+  <MusicVolume>Music Volume</MusicVolume>
+  <SoundEffects>Sound Effects</SoundEffects>
+  <AmbientVolume>Ambient Volume</AmbientVolume>
+  <EventLog>Event Log</EventLog>
+  <PlayerMessages>Player Messages</PlayerMessages>
+  <ShowPlayerMessages>Show Player Messages</ShowPlayerMessages>
+  <Info>Info</Info>
+  <Skills>Skills</Skills>
+  <Noequipment>No equipment</Noequipment>
+  <Loyal>Loyal</Loyal>
+  <Dismayed>Dismayed</Dismayed>
+  <Mutinous>Mutinous</Mutinous>
+  <Disillusioned>Disillusioned</Disillusioned>
+  <ShowPlayerMessages>Show</ShowPlayerMessages>
+  <Hesitant>Hesitant</Hesitant>
+  <Devoted>Devoted</Devoted>
+  <Unwavering>Unwavering</Unwavering>
+  <Enthusiastic>Enthusiastic</Enthusiastic>
+  <!--Morale feminine (Russian translation)-->
+  <LoyalFem>Loyal</LoyalFem>
+  <DismayedFem>Dismayed</DismayedFem>
+  <MutinousFem>Mutinous</MutinousFem>
+  <DisillusionedFem>Disillusioned</DisillusionedFem>
+  <HesitantFem>Hesitant</HesitantFem>
+  <DevotedFem>Devoted</DevotedFem>
+  <UnwaveringFem>Unwavering</UnwaveringFem>
+  <EnthusiasticFem>Enthusiastic</EnthusiasticFem>
+  <Doctor>Doctor</Doctor>
+  <Hunter>Hunter</Hunter>
+  <Scholar>Scholar</Scholar>
+  <Scout>Scout</Scout>
+  <Amazon>Amazon</Amazon>
+  <Soldier>Soldier</Soldier>
+  <Shaman>Shaman</Shaman>
+  <Trapper>Trapper</Trapper>
+  <Warrior>Warrior</Warrior>
+  <Champion>Champion</Champion>
+  <Civilian>Civilian</Civilian>
+  <None>None</None>
+  <Player>Player</Player>
+  <Recruit>Recruit</Recruit>
+  <ManAtArms>Man-At-Arms</ManAtArms>
+  <Veteran>Veteran</Veteran>
+  <Sergeant>Sergeant</Sergeant>
+  <Lieutenant>Lieutenant</Lieutenant>
+  <BrokenBones>Broken Bones</BrokenBones>
+  <PoisonedTip>Poisoned Tip</PoisonedTip>
+  <Lacerations>Lacerations</Lacerations>
+  <StabWound>Stab Wound</StabWound>
+  <Poisoned>Poisoned</Poisoned>
+  <Diseased>Diseased</Diseased>
+  <Burns>Burns</Burns>
+  <burns>burns</burns>
+  <None>None</None>
+  <Aggressive>Aggressive</Aggressive>
+  <Peaceful>Peaceful</Peaceful>
+  <Racist>Racist</Racist>
+  <Openminded>Open-minded</Openminded>
+  <Greedy>Greedy</Greedy>
+  <Altruistic>Altruistic</Altruistic>
+  <Courageous>Courageous</Courageous>
+  <Cautious>Cautious</Cautious>
+  <Proud>Proud</Proud>
+  <Pious>Pious</Pious>
+  <Narcissistic>Narcissistic</Narcissistic>
+  <Adventurous>Adventurous</Adventurous>
+  <Lovesick>Lovesick</Lovesick>
+  <Rivalrous>Rivalrous</Rivalrous>
+  <Traumatised>Traumatised</Traumatised>
+  <Treacherous>Treacherous</Treacherous>
+  <Married>Married</Married>
+  <Aztec>Aztec</Aztec>
+  <Spanish>Spanish</Spanish>
+  <Tribal>Tribal</Tribal>
+  <None>None</None>
+  <Normal>Normal</Normal>
+  <Absent>Absent</Absent>
+  <AbsentFem>Absent</AbsentFem>
+  <Dead>Dead</Dead>
+  <None>None</None>
+  <Treating>Treating</Treating>
+  <Treated>Treated</Treated>
+  <Invent>Invent</Invent>
+  <Craft>Craft</Craft>
+  <Contextual>Contextual</Contextual>
+  <Tasks>Tasks</Tasks>
+  <AverageMorale>Average Morale: </AverageMorale>
+  <AverageExperience>Average Experience: </AverageExperience>
+  <AvailableSkillpoints>Available Skillpoints: </AvailableSkillpoints>
+  <AvailableExperience>Available Experience: </AvailableExperience>
+  <Rank>Rank: </Rank>
+  <Guarding>Guarding</Guarding>
+  <Patrolling>Patrolling</Patrolling>
+  <Hunting>Hunting</Hunting>
+  <Herbalism>Herbalism</Herbalism>
+  <Tinkering>Tinkering</Tinkering>
+  <Preserving>Preserving</Preserving>
+  <UnassignedEquipment>Unassigned Equipment: </UnassignedEquipment>
+  <Navaja>Navaja</Navaja>
+  <Puñal>Puñal</Puñal>
+  <Estilete>Estilete</Estilete>
+  <Shortbow>Shortbow</Shortbow>
+  <Longbow>Longbow</Longbow>
+  <Composite>Composite</Composite>
+  <Light>Light</Light>
+  <Heavy>Heavy</Heavy>
+  <Sword>Sword</Sword>
+  <Maquahuitl>Macuahuitl</Maquahuitl>
+  <Halberd>Halberd</Halberd>
+  <Spear>Spear</Spear>
+  <Dagger>Dagger</Dagger>
+  <Knife>Knife</Knife>
+  <Rifle>Arquebus</Rifle>
+  <Blowpipe>Blowpipe</Blowpipe>
+  <Shortbow>Shortbow</Shortbow>
+  <HuntingBow>HuntingBow</HuntingBow>
+  <None>None</None>
+  <Melee>Melee</Melee>
+  <Ranged>Ranged</Ranged>
+  <SwordandShield>Sword and Shield</SwordandShield>
+  <Cutlass>Cutlass</Cutlass>
+  <Longsword>Longsword</Longsword>
+  <Broadsword>Broadsword</Broadsword>
+  <Flint>Flint</Flint>
+  <MacuahuitlandShield>Macuahuitl and Shield</MacuahuitlandShield>
+  <Flint>Flint</Flint>
+  <Obsidian>Obsidian</Obsidian>
+  <Jade>Jade</Jade>
+  <Pole-arm>Pole-arm</Pole-arm>
+  <Glaive>Glaive</Glaive>
+  <Halberd>Halberd</Halberd>
+  <Voulge>Voulge</Voulge>
+  <Spear>Spear</Spear>
+  <Oak>Oak</Oak>
+  <Obsidian>Obsidian</Obsidian>
+  <Iron>Iron</Iron>
+  <Toledo>Toledo</Toledo>
+  <Dagger>Dagger</Dagger>
+  <Navaja>Navaja</Navaja>
+  <Puñal>Puñal</Puñal>
+  <Estilete>Estilete</Estilete>
+  <Flint>Flint</Flint>
+  <Obsidian>Obsidian</Obsidian>
+  <Jade>Jade</Jade>
+  <Knife>Knife</Knife>
+  <Rifle>Arquebus</Rifle>
+  <Matchlock>Matchlock</Matchlock>
+  <Wheellock>Wheellock</Wheellock>
+  <Snaphaunce>Snaphaunce</Snaphaunce>
+  <Blowpipe>Blowpipe</Blowpipe>
+  <Bone>Bone</Bone>
+  <Bow>Bow</Bow>
+  <Shortbow>Shortbow</Shortbow>
+  <Longbow>Longbow</Longbow>
+  <Composite>Composite</Composite>
+  <Goals>Goals</Goals>
+  <Inventory>Inventory</Inventory>
+  <Resources>Resources</Resources>
+  <EquippedItems>Equipped Items</EquippedItems>
+  <StoredItems>Stored Items</StoredItems>
+  <Resources>Resources</Resources>
+  <Tradeable>Tradeable</Tradeable>
+  <Valuables> Valuables</Valuables>
+  <Equipment> Equipment</Equipment>
+  <Medicine> Medicine</Medicine>
+  <Craftable> Craftable</Craftable>
+  <Wood> Wood</Wood>
+  <Rope> Rope</Rope>
+  <Metal> Metal</Metal>
+  <Oil> Oil</Oil>
+  <Perishable>Perishable</Perishable>
+  <Meat> Meat </Meat>
+  <Herbs> Herbs </Herbs>
+  <!--Plural-->
+  <RationslostOrGained> Rations</RationslostOrGained>
+  <ValuableslostOrGained> Valuables</ValuableslostOrGained>
+  <EquipmentlostOrGained> Equipment</EquipmentlostOrGained>
+  <MedicinelostOrGained> Medicine</MedicinelostOrGained>
+  <WoodlostOrGained> Wood</WoodlostOrGained>
+  <RopelostOrGained> Rope</RopelostOrGained>
+  <MetallostOrGained> Metal</MetallostOrGained>
+  <OillostOrGained> Oil</OillostOrGained>
+  <MeatlostOrGained> Meat</MeatlostOrGained>
+  <HerbslostOrGained> Herbs</HerbslostOrGained>
+  <!--Singular-->
+  <RationslostOrGainedSingular> Ration</RationslostOrGainedSingular>
+  <ValuableslostOrGainedSingular> Valuable</ValuableslostOrGainedSingular>
+  <EquipmentlostOrGainedSingular> Equipment</EquipmentlostOrGainedSingular>
+  <MedicinelostOrGainedSingular> Medicine</MedicinelostOrGainedSingular>
+  <WoodlostOrGainedSingular> Wood</WoodlostOrGainedSingular>
+  <RopelostOrGainedSingular> Rope</RopelostOrGainedSingular>
+  <MetallostOrGainedSingular> Metal</MetallostOrGainedSingular>
+  <OillostOrGainedSingular> Oil</OillostOrGainedSingular>
+  <MeatlostOrGainedSingular> Meat</MeatlostOrGainedSingular>
+  <HerbslostOrGainedSingular> Herb</HerbslostOrGainedSingular>
+  <MovesLeft>Moves Left</MovesLeft>
+  <DaysPassed>Days Passed</DaysPassed>
+  <Type>Type</Type>
+  <Conditions>Conditions</Conditions>
+  <Condition>Condition</Condition>
+  <Name>Name</Name>
+  <Tasks>Tasks</Tasks>
+  <CoastArea>CoastArea</CoastArea>
+  <Guarddifficulty>Guard difficulty</Guarddifficulty>
+  <Patroldifficulty>Patrol difficulty</Patroldifficulty>
+  <Huntdifficulty>Hunt difficulty</Huntdifficulty>
+  <Contextual>Contextual</Contextual>
+  <Thereisnothingofinterestnearby.>There is nothing of interest nearby.</Thereisnothingofinterestnearby.>
+  <Thereisnothingofinterestnearby>There is nothing of interest nearby.</Thereisnothingofinterestnearby>
+  <Construction>Construction</Construction>
+  <Invention>Invention</Invention>
+  <Tent>Tent</Tent>
+  <Axe>Axe</Axe>
+  <Pickaxe>Pickaxe</Pickaxe>
+  <Cart>Cart</Cart>
+  <Nothing>Nothing</Nothing>
+  <OneRation>1 Ration</OneRation>
+  <TwoRation>2 Rations</TwoRation>
+  <OneMeat>1 Meat</OneMeat>
+  <TwoMeat>2 Meat</TwoMeat>
+  <Moraleincreaseprobability>Morale increase probability: </Moraleincreaseprobability>
+  <Totalrationsconsumption>Total rations consumption: </Totalrationsconsumption>
+  <Totalmeatconsumption>Total meat consumption: </Totalmeatconsumption>
+  <MeatPreserved>Meat Preserved: </MeatPreserved>
+  <UnusedMeat>Unused Meat: </UnusedMeat>
+  <AutoAllocateNewMeat>Auto Allocate New Meat</AutoAllocateNewMeat>
+  <Medicineavailable>Medicine available: </Medicineavailable>
+  <Totalcosttotreat>Total cost to treat: </Totalcosttotreat>
+  <Notassigned>Not assigned</Notassigned>
+  <Treatment>Treatment</Treatment>
+  <riskofdeterioration>risk of deterioration</riskofdeterioration>
+  <Medicinetotreat>medicine to treat</Medicinetotreat>
+  <Nodoctorassigned>No doctor assigned</Nodoctorassigned>
+  <Fortunatelydespiteweaknessesinyourcampsecuritynothinghappenedthistime>Fortunately, despite weaknesses in your camp security, nothing happened this time</Fortunatelydespiteweaknessesinyourcampsecuritynothinghappenedthistime>
+  <Despiteyourbesteffortsyourpatrolsreturnemptyhanded>Despite your best efforts, your patrols return empty-handed</Despiteyourbesteffortsyourpatrolsreturnemptyhanded>
+  <hasgainedmoralefromgettingextrafood> has gained morale from getting extra food</hasgainedmoralefromgettingextrafood>
+  <hasgonehungryandhaslostmorale> has gone hungry and has lost morale</hasgonehungryandhaslostmorale>
+  <followershavegonehungryandhavelostmorale> followers have gone hungry and have lost morale</followershavegonehungryandhavelostmorale>
+  <followershavegonehungryandhavelostmorale> followers have gone hungry and have lost morale</followershavegonehungryandhavelostmorale>
+  <gained> gained </gained>
+  <lost> lost </lost>
+  <morale> morale</morale>
+  <has> has </has>
+  <Resolution>Resolution</Resolution>
+  <InstantShowTutorial>Instant Show Tutorial</InstantShowTutorial>
+  <DisableTutorial>Disable Tutorial</DisableTutorial>
+  <Producer>Producer</Producer>
+  <GameDesigner>Game Designer</GameDesigner>
+  <LeadProgrammer>Lead Programmer</LeadProgrammer>
+  <CombatProgrammer>Combat Programmer</CombatProgrammer>
+  <GraphicDesigner>Graphic Designer</GraphicDesigner>
+  <Animator>Animator</Animator>
+  <CGArtist>CG Artist</CGArtist>
+  <ConceptArtist>Concept Artist</ConceptArtist>
+  <Composer>Composer</Composer>
+  <SoundDesigner>Sound Designer</SoundDesigner>
+  <Youmayselect>You may select </Youmayselect>
+  <unit> unit</unit>
+  <units> units</units>
+  <Injured>Injured</Injured>
+  <Weapon>Weapon</Weapon>
+  <yearsold> years old</yearsold>
+  <damagereduction> damage reduction</damagereduction>
+  <spaces> spaces</spaces>
+  <SelectTroops>Select Troops</SelectTroops>
+  <selectedoutof> selected out of</selectedoutof>
+  <Begin>Begin</Begin>
+  <points> points</points>
+  <damage> damage</damage>
+  <Unsavedprogresswillbelost>Unsaved progress will be lost!</Unsavedprogresswillbelost>
+  <Quittomainmenu>Quit to main menu?</Quittomainmenu>
+  <Quittodesktop>Quit to desktop?</Quittodesktop>
+  <QuittoDesktop>Quit to Desktop?</QuittoDesktop>
+  <Overwrite>Overwrite</Overwrite>
+  <Overwriteexistingsave>Overwrite existing save?</Overwriteexistingsave>
+  <QuestionMarkLeft />
+  <NewSave>New Save</NewSave>
+  <Deletesave>Delete save </Deletesave>
+  <Harmlessly>Harmlessly</Harmlessly>
+  <Harmless>Harmless</Harmless>
+  <HarmlessMasc>Harmless</HarmlessMasc>
+  <Moderately>Moderately</Moderately>
+  <Moderate>Moderate</Moderate>
+  <ModerateMasc>Moderate</ModerateMasc>
+  <Severely>Severely</Severely>
+  <Severe>Severe</Severe>
+  <SevereMasc>Severe</SevereMasc>
+  <Critically>Critically</Critically>
+  <Critical>Critical</Critical>
+  <CriticalMasc>Critical</CriticalMasc>
+  <Fatally>Fatally</Fatally>
+  <Fatal>Fatal</Fatal>
+  <FatalMasc>Fatal</FatalMasc>
+  <Healthy>Healthy</Healthy>
+  <HealthyFem>Healthy</HealthyFem>
+  <fracture>fracture</fracture>
+  <trauma>trauma</trauma>
+  <Bonefracture>Bone fracture</Bonefracture>
+  <Lacerations>Lacerations</Lacerations>
+  <Burns>Burns</Burns>
+  <BallisticTrauma>Ballistic Trauma</BallisticTrauma>
+  <ABSENT> ABSENT</ABSENT>
+  <ABSENTFem> ABSENT</ABSENTFem>
+  <DECEASED> DECEASED</DECEASED>
+  <DECEASEDFem> DECEASED</DECEASEDFem>
+  <Deceased>Deceased </Deceased>
+  <DeceasedFem>Deceased </DeceasedFem>
+  <ExpeditionMembers>Expedition Members</ExpeditionMembers>
+  <Defense>Defense</Defense>
+  <DeveloperConsole>Developer Console</DeveloperConsole>
+  <poisoned>poisoned</poisoned>
+  <diseased>diseased</diseased>
+  <lacerations>lacerations</lacerations>
+  <lacerations>laceraciones</lacerations>
+  <Expired>Expired</Expired>
+  <daysleft> days left</daysleft>
+  <dayleft> day left</dayleft>
+  <Active> Active</Active>
+  <Started> Started</Started>
+  <Updated> Updated</Updated>
+  <Completed> Completed</Completed>
+  <Failed> Failed</Failed>
+  <TotalExperience>Total Experience: </TotalExperience>
+  <LegendaryDiscoveries>Legendary Discoveries</LegendaryDiscoveries>
+  <DiscoveriesMade>Discoveries Made</DiscoveriesMade>
+  <Freeaction>Free action</Freeaction>
+  <Youmayonlyequipthreeitemsatatime>You may only equip 3 items at a time.</Youmayonlyequipthreeitemsatatime>
+  <Ration> Ration</Ration>
+  <Rations> Rations</Rations>
+  <Cost>Cost: </Cost>
+  <Trade>Trade</Trade>
+  <Sell>Sell</Sell>
+  <Purchase>Purchase</Purchase>
+  <MeleeBonus>Melee Bonus: </MeleeBonus>
+  <RangeBonus>Range Bonus: </RangeBonus>
+  <DefenseBonus>Defense Bonus: </DefenseBonus>
+  <Promotion>Promotion</Promotion>
+  <Gained>Gained </Gained>
+  <Prerequisite>Prerequisite: </Prerequisite>
+  <Youalreadyhavethisability>You already have this ability</Youalreadyhavethisability>
+  <Spanish>Spanish</Spanish>
+  <Native>Native</Native>
+  <hasbeenpromotedto> has been promoted to </hasbeenpromotedto>
+  <hasbeenpromotedtoManAtArms> has been promoted to Man-At-Arms</hasbeenpromotedtoManAtArms>
+  <hasbeenpromotedtoVeteran> has been promoted to Veteran</hasbeenpromotedtoVeteran>
+  <hasbeenpromotedtoSergeant> has been promoted to Sergeant</hasbeenpromotedtoSergeant>
+  <hasbeenpromotedtoLieutenant> has been promoted to Lieutenant</hasbeenpromotedtoLieutenant>
+  <Cure>Cure</Cure>
+  <SmokeBomb>Smoke Bomb</SmokeBomb>
+  <Rally>Rally</Rally>
+  <FlawlessDefence>Flawless Defence</FlawlessDefence>
+  <Stun>Stun</Stun>
+  <Guard>Guard</Guard>
+  <Rebuke>Rebuke</Rebuke>
+  <AimedShot>Aimed Shot</AimedShot>
+  <Feint>Feint</Feint>
+  <Sneak>Sneak</Sneak>
+  <ThrowingKnife>Throwing Knife</ThrowingKnife>
+  <Restore>Restore</Restore>
+  <Cure>Cure</Cure>
+  <Revive>Revive</Revive>
+  <Logistics>Logistics</Logistics>
+  <CoordinateAttack>Coordinate Attack</CoordinateAttack>
+  <Distraction>Distraction</Distraction>
+  <Charge>Charge</Charge>
+  <Swipe>Swipe</Swipe>
+  <Sneak>Sneak</Sneak>
+  <Taunt>Taunt</Taunt>
+  <AnticipateOpening>Anticipate Opening</AnticipateOpening>
+  <QuickShot>Quick Shot</QuickShot>
+  <PoisonSting>Poison Sting</PoisonSting>
+  <Hailstorm>Hailstorm</Hailstorm>
+  <Restore>Restore</Restore>
+  <Curse>Curse</Curse>
+  <Terrify>Terrify</Terrify>
+  <AcrobaticStrike>Acrobatic Strike</AcrobaticStrike>
+  <DeftStrike>Deft Strike</DeftStrike>
+  <!--CONTEXTUAL TASKS-->
+  <Yourpeopleprocess>Your people process </Yourpeopleprocess>
+  <HerbsintoMedicine> Herbs into Medicine</HerbsintoMedicine>
+  <Yourhuntingpartyreturnsdisappointedwithameagrecatch>Your hunting party returns disappointed with a meagre catch</Yourhuntingpartyreturnsdisappointedwithameagrecatch>
+  <returnsemptyhandedfromthefishingtrip> returns empty-handed from the fishing trip</returnsemptyhandedfromthefishingtrip>
+  <returnsfromthecavernswithasackofmetalore> returns from the caverns with a sack of metal ore</returnsfromthecavernswithasackofmetalore>
+  <returnsemptyhandedfromexploringthecaverns> returns empty-handed from exploring the caverns</returnsemptyhandedfromexploringthecaverns>
+  <suffersanaccidentwhileexploringthecavernsandreturnswithaharmlessbonefracture> suffers an accident while exploring the caverns and returns with a harmless bone fracture</suffersanaccidentwhileexploringthecavernsandreturnswithaharmlessbonefracture>
+  <recoverssomevaluabletrinketsfromtheburialsite> recovers some valuable trinkets from the burial site</recoverssomevaluabletrinketsfromtheburialsite>
+  <returnsemptyhandedfromtheburialsite> returns empty-handed from the burial site</returnsemptyhandedfromtheburialsite>
+  <returnsemptyhandedfromtheburialsitenoticeablydismayedafterthegrimtask> returns empty-handed from the burial site, noticeably dismayed after the grim task</returnsemptyhandedfromtheburialsitenoticeablydismayedafterthegrimtask>
+  <hasrestoredyourcannontoworkingorder> has restored your cannon to working order</hasrestoredyourcannontoworkingorder>
+  <hassalvagedtwopiecesofEquipment> has salvaged 2 pieces of Equipment</hassalvagedtwopiecesofEquipment>
+  <hasbeenlaidtorest> has been laid to rest</hasbeenlaidtorest>
+  <Repairthecannon>Repair the cannon</Repairthecannon>
+  <Repairbrokenequipment>Repair broken equipment</Repairbrokenequipment>
+  <Arrangememorialservicefor>Arrange memorial service for </Arrangememorialservicefor>
+  <Explorenearbycaverns>Explore nearby caverns</Explorenearbycaverns>
+  <Gofishing>Go fishing</Gofishing>
+  <Harvestmedicalherbs>Harvest medical herbs</Harvestmedicalherbs>
+  <Raidburialgrounds>Raid burial grounds</Raidburialgrounds>
+  <Raidnativesettlement>Raid native settlement</Raidnativesettlement>
+  <AutoCamp>Auto Camp</AutoCamp>
+  <Preserving>Preserving</Preserving>
+  <Tinker>Tinker</Tinker>
+  <Thereisnothingofinterestnearby>There is nothing of interest nearby</Thereisnothingofinterestnearby>
+  <Camp>Camp</Camp>
+  <Treatment>Treatment</Treatment>
+  <!--AREAS-->
+  <Plains>Plains</Plains>
+  <Lake>Lake</Lake>
+  <Area>Area</Area>
+  <Coast>Coast</Coast>
+  <Volcano>Volcano</Volcano>
+  <Jungle>Jungle</Jungle>
+  <Marsh>Marsh</Marsh>
+  <Mountain>Mountain</Mountain>
+  <Mountains>Mountains</Mountains>
+  <Road>Road</Road>
+  <Roads>Roads</Roads>
+  <Item>Item</Item>
+  <bonefracture>bone fracture</bonefracture>
+  <ballistictrauma>ballistic trauma</ballistictrauma>
+  <Beingtreated>Being treated</Beingtreated>
+  <Noteveryonehasfood>Not everyone has food!</Noteveryonehasfood>
+  <Assigntoall>Assign to all</Assigntoall>
+  <FollowerAbility>Follower Ability</FollowerAbility>
+  <Retreatfrombattle>Retreat from battle?</Retreatfrombattle>
+  <Confirm>Confirm</Confirm>
+  <EndTurn>End Turn</EndTurn>
+  <EquippedItem>Equipped Item</EquippedItem>
+  <TacticalAbility>Tactical Ability</TacticalAbility>
+  <PreparationPhase>Preparation Phase</PreparationPhase>
+  <Space>Space</Space>
+  <Class>Class</Class>
+  <Attack>Attack</Attack>
+  <more> more</more>
+  <TOBATTLE>TO BATTLE</TOBATTLE>
+  <NoInjury>No Injury</NoInjury>
+  <FlawlessVictory>Flawless Victory</FlawlessVictory>
+  <Victory>Victory</Victory>
+  <YourTurn>Your Turn</YourTurn>
+  <OpponentsTurn>Opponent's Turn</OpponentsTurn>
+  <OutofRange>Out of Range</OutofRange>
+  <PartialCover>Partial Cover</PartialCover>
+  <Accuracy>Accuracy</Accuracy>
+  <DarknessPenalty>Darkness Penalty</DarknessPenalty>
+  <FullCover>Full Cover</FullCover>
+  <FlankingStrike>Flanking Strike</FlankingStrike>
+  <AttackofOpportunity>Attack of Opportunity</AttackofOpportunity>
+  <Damage>Damage</Damage>
+  <RangedAttack>Ranged Attack</RangedAttack>
+  <PressInputFunction>Press the input that you would like to bind to this function.</PressInputFunction>
+  <PressEscapeClear>Press Escape to clear the input bound to this function.</PressEscapeClear>
+  <Defeat>Defeat</Defeat>
+  <LoadingGame>Loading...</LoadingGame>
+  <Heal>Heal</Heal>
+  <!--Player Messages-->
+  <Outskirts>Outskirts</Outskirts>
+  <Nohealthyexpeditionsmembers>You have no healthy expedition members to participate in this battle!</Nohealthyexpeditionsmembers>
+  <usesFlawlessDefenceincreasingDefenceby> uses Flawless Defence increasing Defence by </usesFlawlessDefenceincreasingDefenceby>
+  <Yourpeoplepreserve>Your people preserve </Yourpeoplepreserve>
+  <Yourremaining>Your remaining </Yourremaining>
+  <YourremainingPlural>Your remaining </YourremainingPlural>
+  <MeatintoRations> Meat into Rations</MeatintoRations>
+  <MeatintoRationsPlural> Meat into Rations</MeatintoRationsPlural>
+  <Meatspoilsduringthenight> Meat spoils during the night</Meatspoilsduringthenight>
+  <MeatspoilsduringthenightPlural> Meat spoils during the night</MeatspoilsduringthenightPlural>
+  <Fortunatelydespiteyourlackofskilledguardsnothinghappenedthistime>Fortunately, despite your lack of skilled guards, nothing happened this time</Fortunatelydespiteyourlackofskilledguardsnothinghappenedthistime>
+  <Yourguardsfailedtopreventthedisappearanceofajarofoilduringthenight>Your guards failed to prevent the disappearance of a jar of oil during the night</Yourguardsfailedtopreventthedisappearanceofajarofoilduringthenight>
+  <Yourguardsfailedtostopthievesfromstealingsomeropeduringthenight>Your guards failed to stop thieves from stealing some rope during the night</Yourguardsfailedtostopthievesfromstealingsomeropeduringthenight>
+  <Yourguardsfailedtonoticethetheftofsomeofyourmetalwhileyousleep>Your guards failed to notice the theft of some of your metal while you sleep</Yourguardsfailedtonoticethetheftofsomeofyourmetalwhileyousleep>
+  <Yourguardsfailedtopreventsomeofyourwoodfromgoingmissinginthenight>Your guards failed to prevent some of your wood from going missing in the night</Yourguardsfailedtopreventsomeofyourwoodfromgoingmissinginthenight>
+  <Yourguardshavefailedtocatchsomethievesthatstoleequipmentfromyourcarts>Your guards have failed to catch some thieves that stole equipment from your carts</Yourguardshavefailedtocatchsomethievesthatstoleequipmentfromyourcarts>
+  <Yourguardsfailedtonoticethatsomeofyourservantstookmedicineoffthecartsinthenight>Your guards failed to notice that some of your servants took medicine off the carts in the night</Yourguardsfailedtonoticethatsomeofyourservantstookmedicineoffthecartsinthenight>
+  <Yourguardshavefailedtostopwildanimalsfrommakingoffwithsomeofyourrations>Your guards have failed to stop wild animals from making off with some of your rations</Yourguardshavefailedtostopwildanimalsfrommakingoffwithsomeofyourrations>
+  <Yourguardsfailedtopreventthetheftofsomeofyourtreasureduringthenight>Your guards failed to prevent the theft of some of your treasure during the night</Yourguardsfailedtopreventthetheftofsomeofyourtreasureduringthenight>
+  <Yourcampdefencesholdup>Your camp defences hold up</Yourcampdefencesholdup>
+  <Yourpatrolhasfoundanddisarmeda>Your patrol has found and disarmed a </Yourpatrolhasfoundanddisarmeda>
+  <YourpatrolhasfoundanddisarmedaSpikeTrap>Your patrol has found and disarmed a Spike Trap!</YourpatrolhasfoundanddisarmedaSpikeTrap>
+  <YourpatrolhasfoundanddisarmedaNetTrap>Your patrol has found and disarmed a Net Trap!</YourpatrolhasfoundanddisarmedaNetTrap>
+  <YourpatrolhasfoundthreeTorches>Your patrol has found 3 Torches!</YourpatrolhasfoundthreeTorches>
+  <YourpatrolhasfoundtwooldBarricades>Your patrol has found 2 old Barricades!</YourpatrolhasfoundtwooldBarricades>
+  <YourpatrolhasfoundahalfemptybarrelofoilinaruinedSpanishcart>Your patrol has found a half-empty barrel of oil in a ruined Spanish cart</YourpatrolhasfoundahalfemptybarrelofoilinaruinedSpanishcart>
+  <Yourpatrolhasfoundalengthofnativemaderopeinanabandonedcamp>Your patrol has found a length of native-made rope in an abandoned camp</Yourpatrolhasfoundalengthofnativemaderopeinanabandonedcamp>
+  <Yourpatrolhasbroughtbacksomesalvageableironfromthesiteofanoldbattle>Your patrol has brought back some salvageable iron from the site of an old battle</Yourpatrolhasbroughtbacksomesalvageableironfromthesiteofanoldbattle>
+  <Yourpatrolhasrecoveredsomewoodfromabrokendownoldcart>Your patrol has recovered some wood from a broken-down old cart</Yourpatrolhasrecoveredsomewoodfromabrokendownoldcart>
+  <Yourpatrolencounteredapairoftribalscoutsandconfiscatedtheirweapons>Your patrol encountered a pair of tribal scouts and confiscated their weapons</Yourpatrolencounteredapairoftribalscoutsandconfiscatedtheirweapons>
+  <Yourpatroldiscoveredapouchofmedicineonadelapidatedcorpse>Your patrol discovered a pouch of medicine on a delapidated corpse</Yourpatroldiscoveredapouchofmedicineonadelapidatedcorpse>
+  <YourpatrolfoundapacketofrationsanAztecsoldiermusthavedropped>Your patrol found a packet of rations an Aztec soldier must have dropped</YourpatrolfoundapacketofrationsanAztecsoldiermusthavedropped>
+  <Yourpatrolhastakensomevaluabletrinketsfromanabandonedhut>Your patrol has taken some valuable trinkets from an abandoned hut</Yourpatrolhastakensomevaluabletrinketsfromanabandonedhut>
+  <Despiteyourbesteffortsyourpatrolsreturnemptyhanded>Despite your best efforts, your patrols return empty-handed</Despiteyourbesteffortsyourpatrolsreturnemptyhanded>
+  <Yourpatrolsreturnemptyhanded>Your patrols return empty-handed</Yourpatrolsreturnemptyhanded>
+  <Yourhuntingpartyreturnsemptyhanded>Your hunting party returns empty-handed</Yourhuntingpartyreturnsemptyhanded>
+  <Yourhuntingpartyreturnsingoodspiritswiththeeveningsgame>Your hunting party returns in good spirits with the evening's game</Yourhuntingpartyreturnsingoodspiritswiththeeveningsgame>
+  <returnswiththeeveningscatch> returns with the evening's catch</returnswiththeeveningscatch>
+  <returnsfromharvestingherbs> returns from harvesting herbs</returnsfromharvestingherbs>
+  <Consolidateyourmapsofthe>Consolidate your maps of the </Consolidateyourmapsofthe>
+  <Chartthe>Chart the </Chartthe>
+  <whenyoumakecamp> when you make camp.</whenyoumakecamp>
+  <usesDefendincreasingDefencebyFive> uses Defend, increasing Defence by 5.</usesDefendincreasingDefencebyFive>
+  <Holdoutfor>Hold out for </Holdoutfor>
+  <moreturns> more turns</moreturns>
+  <hasrecoveredcompletelyfrom> has recovered completely from </hasrecoveredcompletelyfrom>
+  <injuries> injuries</injuries>
+  <his>his</his>
+  <her>her</her>
+  <sconditionhasimproved>'s condition has improved</sconditionhasimproved>
+  <sconditionhasdeterioratedduetolackoftreatment>'s condition has deteriorated due to lack of treatment</sconditionhasdeterioratedduetolackoftreatment>
+  <Debugsettingsenabled>Debug settings enabled</Debugsettingsenabled>
+  <Debugsettingsdisabled>Debug settings disabled</Debugsettingsdisabled>
+  <Camerapancontrolenabled>Camera pan control enabled</Camerapancontrolenabled>
+  <Camerapancontroldisabled>Camera pan control disabled</Camerapancontroldisabled>
+  <Allfollowersrestoredtofullhealth>All followers restored to full health</Allfollowersrestoredtofullhealth>
+  <CouldnotfindTutorialManager>Could not find TutorialManager</CouldnotfindTutorialManager>
+  <CouldnotfindSceneTransitionManager>Could not find SceneTransitionManager</CouldnotfindSceneTransitionManager>
+  <Heal>Heal</Heal>
+  <Ourchiefweaponistoinjureeveryoneofyourfollowers>Our chief weapon is to injure everyone of your followers!</Ourchiefweaponistoinjureeveryoneofyourfollowers>
+  <Unrecognisedsyntaxuse>Unrecognised syntax - use </Unrecognisedsyntaxuse>
+  <addedtoyourparty> added to your party</addedtoyourparty>
+  <Followernotfound>Follower not found</Followernotfound>
+  <invariabledictionarysetto> in variable dictionary set to </invariabledictionarysetto>
+  <addedtovariabledictionarywiththevalue> added to variable dictionary with the value </addedtovariabledictionarywiththevalue>
+  <Event>Event </Event>
+  <enabledonworldmap> enabled on world map</enabledonworldmap>
+  <disabledonworldmap> disabled on world map</disabledonworldmap>
+  <Noeventwiththetag>No event with the tag </Noeventwiththetag>
+  <wasfound> was found</wasfound>
+  <werefound> were found</werefound>
+  <Allobjectswithname>All objects with name </Allobjectswithname>
+  <Noobjectswiththename>No objects with the name </Noobjectswiththename>
+  <Couldntfindevent>Couldn't find event </Couldntfindevent>
+  <hasbeengivenaninjury> has been given an injury</hasbeengivenaninjury>
+  <Nofollowerwiththegivenname>No follower with the given name </Nofollowerwiththegivenname>
+  <couldnotbefound> could not be found</couldnotbefound>
+  <couldbefound> could be found</couldbefound>
+  <isalreadydeadstupid> is already dead, stupid</isalreadydeadstupid>
+  <isalreadyabsentstupid> is already absent, stupid</isalreadyabsentstupid>
+  <isalreadyaliveandpresentstupid> is already alive and present, stupid</isalreadyaliveandpresentstupid>
+  <Follower>Follower</Follower>
+  <wasntfoundremembertousethegivenname> wasn't found (remember to use the given name)</wasntfoundremembertousethegivenname>
+  <Dayspassedsetto>Days passed set to </Dayspassedsetto>
+  <Unrecognisedinput>Unrecognised input</Unrecognisedinput>
+  <Enabledpostprocessingeffects>Enabled post-processing effects</Enabledpostprocessingeffects>
+  <Disabledpostprocessingeffects>Disabled post-processing effects</Disabledpostprocessingeffects>
+  <Unrecogniseditemname>Unrecognised item name - note that item name is case sensitive</Unrecogniseditemname>
+  <EnemyTurn>Enemy Turn</EnemyTurn>
+  <hasbecome> has become </hasbecome>
+  <TheTinkertabintheCampManagementwindowhasbeenunlocked>The Tinker tab in the Camp Management window has been unlocked!</TheTinkertabintheCampManagementwindowhasbeenunlocked>
+  <extramovepoints> extra move points</extramovepoints>
+  <Dailymoveshavebeenfullyreplenishedatthewateringhole>Daily moves have been fully replenished at the watering hole</Dailymoveshavebeenfullyreplenishedatthewateringhole>
+  <hasperished> has perished</hasperished>
+  <Rocksfalleveryonedies>Rocks fall everyone dies</Rocksfalleveryonedies>
+  <isnolongerapartofyourexpedition> is no longer a part of your expedition</isnolongerapartofyourexpedition>
+  <hasrejoinedyourexpedition> has rejoined your expedition</hasrejoinedyourexpedition>
+  <Yourfollowers>Your </Yourfollowers>
+  <Yourfollower>Your </Yourfollower>
+  <Yoursingular>Your </Yoursingular>
+  <Yourplural>Your </Yourplural>
+  <followershave> followers have </followershave>
+  <followerhas> follower has </followerhas>
+  <Allexpeditionmembershave>All expedition members have</Allexpeditionmembershave>
+  <havelost> have lost</havelost>
+  <haslost> has lost</haslost>
+  <hasgained> has gained</hasgained>
+  <havegained>have gained</havegained>
+  <UnsuccessfulSave>Unsuccessful Save</UnsuccessfulSave>
+  <GameSaved>Game Saved</GameSaved>
+  <Started>Started</Started>
+  <Updated>Updated</Updated>
+  <Completed>Completed</Completed>
+  <Failed>Failed</Failed>
+  <GoalAdded>Goal Added</GoalAdded>
+  <daysremaining> days remaining</daysremaining>
+  <hasexpired> has expired</hasexpired>
+  <TheAmuletshinesbutnothinghappens>The Amulet shines, but nothing happens.</TheAmuletshinesbutnothinghappens>
+  <TheAmuletshinesextraordinarilymuch>The Amulet shines extraordinarily much. Your units' morale is increased.</TheAmuletshinesextraordinarilymuch>
+  <TheBarricadeburnsandtakes>The Barricade burns and takes </TheBarricadeburnsandtakes>
+  <TheBarricadeisdestroyed>The Barricade is destroyed</TheBarricadeisdestroyed>
+  <TheCannonburnsandtakes>The Cannon burns and takes </TheCannonburnsandtakes>
+  <endurance> endurance</endurance>
+  <TheCannonhits>The Cannon hits </TheCannonhits>
+  <TheCannonfires>The Cannon fires!</TheCannonfires>
+  <for> for </for>
+  <!-- y le causa-->
+  <TheCannonisbroken>The Cannon is broken!</TheCannonisbroken>
+  <TheLanternisthrown>The Lantern is thrown.</TheLanternisthrown>
+  <damageto> damage to </damageto>
+  <TheLanternburnsanddeals>The Lantern burns and deals </TheLanternburnsanddeals>
+  <wasCrippedbecauseofAimLow> was Cripped because of Aim Low, halving the movement next turn.</wasCrippedbecauseofAimLow>
+  <wasnotPoisonedbecauseofConstitution> was not Poisoned because of Constitution.</wasnotPoisonedbecauseofConstitution>
+  <hasbeenPoisoned> has been Poisoned.</hasbeenPoisoned>
+  <triggered> triggered </triggered>
+  <andregainsitsAction> and regains its Action.</andregainsitsAction>
+  <inflictsExposeWeaknesson> inflicts Expose Weakness on </inflictsExposeWeaknesson>
+  <reducingDefencebyten>, reducing Defence by 10.</reducingDefencebyten>
+  <whogains>, who gains </whogains>
+  <usesReviveon> uses Revive on </usesReviveon>
+  <TheSpikeTraphits>The Spike Trap hits </TheSpikeTraphits>
+  <whocantMoveorActthisturn>who can't Move or Act this turn</whocantMoveorActthisturn>
+  <stepsonthecaltropsbutavoidslosingMovesbecauseof> steps on the caltrops, but avoids losing Moves because of </stepsonthecaltropsbutavoidslosingMovesbecauseof>
+  <stepsonthecaltropsandlosestwoMoves> steps on the caltrops and loses 2 Moves.</stepsonthecaltropsandlosestwoMoves>
+  <usesCureon> uses Cure on </usesCureon>
+  <usesGuard> uses Guard. </usesGuard>
+  <usesTaunton> uses Taunt on </usesTaunton>
+  <usesTerrifyon> uses Terrify on  </usesTerrifyon>
+  <usesLogisticson> uses Logistics on </usesLogisticson>
+  <increasingtheMovedistanceby> increasing the Move distance by </increasingtheMovedistanceby>
+  <usesDistraction> uses Distraction.</usesDistraction>
+  <usesSneak> uses Sneak.</usesSneak>
+  <usesFlawlessDefence> uses Flawless Defence, increasing Defence by </usesFlawlessDefence>
+  <usesCoordinateAttack> uses Coordinate Attack.</usesCoordinateAttack>
+  <usesRally> uses Rally.</usesRally>
+  <usesInterrupt> uses Interrupt. </usesInterrupt>
+  <usesSpotTraps> uses Spot Traps.</usesSpotTraps>
+  <damagefromBurning> damage from Burning.</damagefromBurning>
+  <damagefromPoison> damage from Poison.</damagefromPoison>
+  <takes> takes </takes>
+  <isaffectedbyFountainofYouthWaterandgains> is affected by Fountain of Youth Water and gains </isaffectedbyFountainofYouthWaterandgains>
+  <Thefireonthegroundburns>The fire on the ground burns </Thefireonthegroundburns>
+  <usesTacticalMove> uses Tactical Move.</usesTacticalMove>
+  <usesAnticipateOpening> uses Anticipate Opening.</usesAnticipateOpening>
+  <usesCurseon> uses Curse on </usesCurseon>
+  <usesSmokeBomb> uses Smoke Bomb.</usesSmokeBomb>
+  <usesHailstorm> uses Hailstorm.</usesHailstorm>
+  <isincapacitated> is incapacitated</isincapacitated>
+  <whichdeals> which deals </whichdeals>
+  <acriticalattackfor>a critical hit for </acriticalattackfor>
+  <damageto> damage to </damageto>
+  <whichmisses> which misses </whichmisses>
+  <reappliesWalkYourShotson> reapplies Walk Your Shots on </reappliesWalkYourShotson>
+  <appliesWalkYourShotson> applies Walk Your Shots on </appliesWalkYourShotson>
+  <Spiketraphasbeendiscovered> Spike trap has been discovered!</Spiketraphasbeendiscovered>
+  <Nettraphasbeendiscovered> Net trap has been discovered!</Nettraphasbeendiscovered>
+  <Caltropshavebeendiscovered> Caltrops have been discovered!</Caltropshavebeendiscovered>
+  <Goal>Goal</Goal>
+</Root>
