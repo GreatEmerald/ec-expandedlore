@@ -6240,32 +6240,31 @@
               <Condition tag="Condition: HasFollower Julio">
                 <ConditionTag />
                 <ConditionText>HasFollower Julio</ConditionText>
-                <Dialog tag="Dialog: (JulioBarreto) &quot;Land, at last! I have read a lot of books about this place, Hispaniola, and it's exhillarating to see it with my own eyes.&quot;">
+                <Text tag="Text: Julio Barreto, a Scholar on your expedition, comes up to you.">
                   <Tag />
-                  <Speaker>JulioBarreto</Speaker>
-                  <Text>"Land, at last! I have read a lot of books about this place, Hispaniola, and it's exhillarating to see it with my own eyes."</Text>
-                  <Choice tag="Choice: &quot;You have? What can you tell me about this place, then?&quot;">
-                    <ChoiceText>"You have? What can you tell me about this place, then?"</ChoiceText>
-                    <ChoiceCondition>
-                    </ChoiceCondition>
-                    <ChoiceIcon>
-                    </ChoiceIcon>
-                    <IsDialog>False</IsDialog>
-                    <Dialog tag="Dialog: (JulioBarreto) &quot;This was the first piece of land that Christopher Columbus set foot on. The northern part of the island, to be precise.&quot;">
-                      <Tag />
-                      <Speaker>JulioBarreto</Speaker>
-                      <Text>"This was the first piece of land that Christopher Columbus set foot on. The northern part of the island, to be precise."</Text>
-                      <Dialog tag="Dialog: (JulioBarreto) &quot;It is also the island where the first Spanish settlement in the New World was established.&quot;">
+                  <Text>Julio Barreto, a Scholar on your expedition, comes up to you.</Text>
+                  <Dialog tag="Dialog: (JulioBarreto) &quot;Land, at last! I have read a lot of books about this place, Hispaniola, and it's exhillarating to see it with my own eyes.&quot;">
+                    <Tag />
+                    <Speaker>JulioBarreto</Speaker>
+                    <Text>"Land, at last! I have read a lot of books about this place, Hispaniola, and it's exhillarating to see it with my own eyes."</Text>
+                    <Choice tag="Choice: &quot;You have? What can you tell me about this place, then?&quot;">
+                      <ChoiceText>"You have? What can you tell me about this place, then?"</ChoiceText>
+                      <ChoiceCondition>
+                      </ChoiceCondition>
+                      <ChoiceIcon>
+                      </ChoiceIcon>
+                      <IsDialog>True</IsDialog>
+                      <Dialog tag="Dialog: (JulioBarreto) &quot;This is one of the first islands that Christopher Columbus sailed to on his first expeditions. It is also the island where the first Spanish settlement in the New World was established.&quot;">
                         <Tag />
                         <Speaker>JulioBarreto</Speaker>
-                        <Text>"It is also the island where the first Spanish settlement in the New World was established."</Text>
+                        <Text>"This is one of the first islands that Christopher Columbus sailed to on his first expeditions. It is also the island where the first Spanish settlement in the New World was established."</Text>
                         <Choice tag="Choice: &quot;The first settlement? You mean this city, Santo Domingo?&quot;">
                           <ChoiceText>"The first settlement? You mean this city, Santo Domingo?"</ChoiceText>
                           <ChoiceCondition>
                           </ChoiceCondition>
                           <ChoiceIcon>
                           </ChoiceIcon>
-                          <IsDialog>False</IsDialog>
+                          <IsDialog>True</IsDialog>
                           <Dialog tag="Dialog: (JulioBarreto) &quot;Oh no, far from it. The first settlement was called La Navidad.&quot;">
                             <Tag />
                             <Speaker>JulioBarreto</Speaker>
@@ -6276,13 +6275,13 @@
                               </ChoiceCondition>
                               <ChoiceIcon>
                               </ChoiceIcon>
-                              <IsDialog>False</IsDialog>
+                              <IsDialog>True</IsDialog>
                               <Destination tag="Destination: Confiscation_Navidad">
                                 <NodeTag>Confiscation_Navidad</NodeTag>
-                                <Dialog tag="Dialog: (JulioBarreto) &quot;La Navidad was a settlement built from the famous ship itself, the Santa Maria.&quot;">
+                                <Dialog tag="Dialog: (JulioBarreto) &quot;La Navidad was a settlement built from the famous ship itself, the Santa Maria.">
                                   <Tag />
                                   <Speaker>JulioBarreto</Speaker>
-                                  <Text>"La Navidad was a settlement built from the famous ship itself, the Santa Maria."</Text>
+                                  <Text>"La Navidad was a settlement built from the famous ship itself, the Santa Maria.</Text>
                                   <Dialog tag="Dialog: (JulioBarreto) &quot;After reaching the shores of the island, on the day of Christmas, his crew celebrated into the night. Columbus ordered his crew to sail forward, but they were too... intoxicated to notice the rocks, and they all got shipwrecked.&quot;">
                                     <Tag />
                                     <Speaker>JulioBarreto</Speaker>
@@ -6293,172 +6292,184 @@
                                       </ChoiceCondition>
                                       <ChoiceIcon>
                                       </ChoiceIcon>
-                                      <IsDialog>False</IsDialog>
-                                      <Dialog tag="Dialog: (JulioBarreto) &quot;So this is how the settlement got its name, it means /Christmas/.&quot;">
+                                      <IsDialog>True</IsDialog>
+                                      <Dialog tag="Dialog: (JulioBarreto) &quot;Yes, very much so. In any case...">
                                         <Tag />
                                         <Speaker>JulioBarreto</Speaker>
-                                        <Text>"So this is how the settlement got its name, it means /Christmas/."</Text>
-                                        <Dialog tag="Dialog: (JulioBarreto) &quot;That settlement was also Columbus' last stop when he decided to sail back to Spain.&quot;">
-                                          <Tag />
-                                          <Speaker>JulioBarreto</Speaker>
-                                          <Text>"That settlement was also Columbus' last stop when he decided to sail back to Spain."</Text>
-                                          <Choice tag="Choice: &quot;And it is now a bustling city, I presume?&quot;">
-                                            <ChoiceText>"And it is now a bustling city, I presume?"</ChoiceText>
-                                            <ChoiceCondition>
-                                            </ChoiceCondition>
-                                            <ChoiceIcon>
-                                            </ChoiceIcon>
-                                            <IsDialog>False</IsDialog>
-                                            <Text tag="Text: Barreto pauses for a moment, with a thoughtful expression on his face.">
+                                        <Text>"Yes, very much so. In any case...</Text>
+                                        <Destination tag="Destination: Confiscation_Christmas">
+                                          <NodeTag>Confiscation_Christmas</NodeTag>
+                                          <Dialog tag="Dialog: (JulioBarreto) &quot;This is how the settlement got its name, it means /Christmas/.">
+                                            <Tag />
+                                            <Speaker>JulioBarreto</Speaker>
+                                            <Text>"This is how the settlement got its name, it means /Christmas/.</Text>
+                                            <Dialog tag="Dialog: (JulioBarreto) &quot;That settlement was also Columbus' last stop when he decided to sail back to Spain on his first expedition.&quot;">
                                               <Tag />
-                                              <Text>Barreto pauses for a moment, with a thoughtful expression on his face.</Text>
-                                              <Dialog tag="Dialog: (JulioBarreto) &quot;No. It was destroyed shortly after Columbus' expedition left.&quot;">
-                                                <Tag />
-                                                <Speaker>JulioBarreto</Speaker>
-                                                <Text>"No. It was destroyed shortly after Columbus' expedition left."</Text>
-                                                <Choice tag="Choice: &quot;Dear God! What happened?!&quot;">
-                                                  <ChoiceText>"Dear God! What happened?!"</ChoiceText>
-                                                  <ChoiceCondition>
-                                                  </ChoiceCondition>
-                                                  <ChoiceIcon>
-                                                  </ChoiceIcon>
-                                                  <IsDialog>False</IsDialog>
-                                                  <Dialog tag="Dialog: (JulioBarreto) &quot;It was the natives. They claimed the settlers mistreated them, and so they killed them all.&quot;">
+                                              <Speaker>JulioBarreto</Speaker>
+                                              <Text>"That settlement was also Columbus' last stop when he decided to sail back to Spain on his first expedition."</Text>
+                                              <Choice tag="Choice: &quot;And it is now a bustling city, I presume?&quot;">
+                                                <ChoiceText>"And it is now a bustling city, I presume?"</ChoiceText>
+                                                <ChoiceCondition>
+                                                </ChoiceCondition>
+                                                <ChoiceIcon>
+                                                </ChoiceIcon>
+                                                <IsDialog>True</IsDialog>
+                                                <Text tag="Text: Barreto pauses for a moment, with a thoughtful expression on his face.">
+                                                  <Tag />
+                                                  <Text>Barreto pauses for a moment, with a thoughtful expression on his face.</Text>
+                                                  <Dialog tag="Dialog: (JulioBarreto) &quot;No. It was destroyed shortly after Columbus' expedition left.&quot;">
                                                     <Tag />
                                                     <Speaker>JulioBarreto</Speaker>
-                                                    <Text>"It was the natives. They claimed the settlers mistreated them, and so they killed them all."</Text>
-                                                    <Choice tag="Choice: &quot;How unfortunate!&quot;">
-                                                      <ChoiceText>"How unfortunate!"</ChoiceText>
+                                                    <Text>"No. It was destroyed shortly after Columbus' expedition left."</Text>
+                                                    <Choice tag="Choice: &quot;Dear God! What happened?!&quot;">
+                                                      <ChoiceText>"Dear God! What happened?!"</ChoiceText>
                                                       <ChoiceCondition>
                                                       </ChoiceCondition>
                                                       <ChoiceIcon>
                                                       </ChoiceIcon>
-                                                      <IsDialog>False</IsDialog>
-                                                      <Dialog tag="Dialog: (JulioBarreto) &quot;Yes... Well, other sources say it was insubordination between the settlers that led to it. Or maybe it was both.&quot;">
+                                                      <IsDialog>True</IsDialog>
+                                                      <Dialog tag="Dialog: (JulioBarreto) &quot;It was the natives. They claimed the settlers mistreated them, and so they killed them all.&quot;">
                                                         <Tag />
                                                         <Speaker>JulioBarreto</Speaker>
-                                                        <Text>"Yes... Well, other sources say it was insubordination between the settlers that led to it. Or maybe it was both."</Text>
+                                                        <Text>"It was the natives. They claimed the settlers mistreated them, and so they killed them all."</Text>
+                                                        <Choice tag="Choice: &quot;How unfortunate!&quot;">
+                                                          <ChoiceText>"How unfortunate!"</ChoiceText>
+                                                          <ChoiceCondition>
+                                                          </ChoiceCondition>
+                                                          <ChoiceIcon>
+                                                          </ChoiceIcon>
+                                                          <IsDialog>False</IsDialog>
+                                                          <Dialog tag="Dialog: (JulioBarreto) &quot;Yes... Well, other sources say it was insubordination between the settlers that led to it. Or maybe it was both.&quot;">
+                                                            <Tag />
+                                                            <Speaker>JulioBarreto</Speaker>
+                                                            <Text>"Yes... Well, other sources say it was insubordination between the settlers that led to it. Or maybe it was both."</Text>
+                                                          </Dialog>
+                                                        </Choice>
+                                                        <Choice tag="Choice: &quot;Poor souls! May they rest in peace.&quot;">
+                                                          <ChoiceText>"Poor souls! May they rest in peace."</ChoiceText>
+                                                          <ChoiceCondition>
+                                                          </ChoiceCondition>
+                                                          <ChoiceIcon>
+                                                          </ChoiceIcon>
+                                                          <IsDialog>False</IsDialog>
+                                                        </Choice>
+                                                        <Choice tag="Choice: &quot;Those monsters! How could those savages do such a thing?!&quot;">
+                                                          <ChoiceText>"Those monsters! How could those savages do such a thing?!"</ChoiceText>
+                                                          <ChoiceCondition>
+                                                          </ChoiceCondition>
+                                                          <ChoiceIcon>
+                                                          </ChoiceIcon>
+                                                          <IsDialog>False</IsDialog>
+                                                          <Text tag="Text: Barreto frowns slightly.">
+                                                            <Tag />
+                                                            <Text>Barreto frowns slightly.</Text>
+                                                            <Dialog tag="Dialog: (JulioBarreto) &quot;They did have a point, however. The way the Columbus' expedition treated the natives was despicable.&quot;">
+                                                              <Tag />
+                                                              <Speaker>JulioBarreto</Speaker>
+                                                              <Text>"They did have a point, however. The way the Columbus' expedition treated the natives was despicable."</Text>
+                                                              <Choice tag="Choice: &quot;I will have none of that! The savages deserved everything they got.&quot;">
+                                                                <ChoiceText>"I will have none of that! The savages deserved everything they got."</ChoiceText>
+                                                                <ChoiceCondition>
+                                                                </ChoiceCondition>
+                                                                <ChoiceIcon>
+                                                                </ChoiceIcon>
+                                                                <IsDialog>False</IsDialog>
+                                                              </Choice>
+                                                              <Choice tag="Choice: &quot;What do you mean? How did they tream the natives?&quot;">
+                                                                <ChoiceText>"What do you mean? How did they tream the natives?"</ChoiceText>
+                                                                <ChoiceCondition>
+                                                                </ChoiceCondition>
+                                                                <ChoiceIcon>
+                                                                </ChoiceIcon>
+                                                                <IsDialog>False</IsDialog>
+                                                                <Text tag="Text: Barreto's face becomes a grimace of disgust.">
+                                                                  <Tag />
+                                                                  <Text>Barreto's face becomes a grimace of disgust.</Text>
+                                                                  <Dialog tag="Dialog: (JulioBarreto) &quot;All kinds of nasty things. Taking sex slaves, killing the natives for even slight misdeeds, robbing them of their resources, crippling and torturing them...&quot;">
+                                                                    <Tag />
+                                                                    <Speaker>JulioBarreto</Speaker>
+                                                                    <Text>"All kinds of nasty things. Taking sex slaves, killing the natives for even slight misdeeds, robbing them of their resources, crippling and torturing them..."</Text>
+                                                                    <Choice tag="Choice: &quot;Ugh, you're right. That is no way for a human being to behave.&quot;">
+                                                                      <ChoiceText>"Ugh, you're right. That is no way for a human being to behave."</ChoiceText>
+                                                                      <ChoiceCondition>
+                                                                      </ChoiceCondition>
+                                                                      <ChoiceIcon>
+                                                                      </ChoiceIcon>
+                                                                      <IsDialog>False</IsDialog>
+                                                                    </Choice>
+                                                                    <Choice tag="Choice: &quot;So what? It may be harsh, but that's the only language the savages understand.&quot;">
+                                                                      <ChoiceText>"So what? It may be harsh, but that's the only language the savages understand."</ChoiceText>
+                                                                      <ChoiceCondition>
+                                                                      </ChoiceCondition>
+                                                                      <ChoiceIcon>
+                                                                      </ChoiceIcon>
+                                                                      <IsDialog>False</IsDialog>
+                                                                    </Choice>
+                                                                    <Choice tag="Choice: &quot;Oh really? Thanks for the ideas, do you have any more?&quot;">
+                                                                      <ChoiceText>"Oh really? Thanks for the ideas, do you have any more?"</ChoiceText>
+                                                                      <ChoiceCondition>
+                                                                      </ChoiceCondition>
+                                                                      <ChoiceIcon>
+                                                                      </ChoiceIcon>
+                                                                      <IsDialog>False</IsDialog>
+                                                                    </Choice>
+                                                                    <Choice tag="Choice: &quot;I will have none of that talk! Columbus is a famed explorer, he is to be renowned, not criticised!&quot;">
+                                                                      <ChoiceText>"I will have none of that talk! Columbus is a famed explorer, he is to be renowned, not criticised!"</ChoiceText>
+                                                                      <ChoiceCondition>
+                                                                      </ChoiceCondition>
+                                                                      <ChoiceIcon>
+                                                                      </ChoiceIcon>
+                                                                      <IsDialog>False</IsDialog>
+                                                                    </Choice>
+                                                                  </Dialog>
+                                                                </Text>
+                                                              </Choice>
+                                                            </Dialog>
+                                                          </Text>
+                                                        </Choice>
+                                                        <Choice tag="Choice: Hah! Serves them right!">
+                                                          <ChoiceText>Hah! Serves them right!</ChoiceText>
+                                                          <ChoiceCondition>
+                                                          </ChoiceCondition>
+                                                          <ChoiceIcon>
+                                                          </ChoiceIcon>
+                                                          <IsDialog>False</IsDialog>
+                                                        </Choice>
                                                       </Dialog>
                                                     </Choice>
-                                                    <Choice tag="Choice: &quot;Poor souls! May they rest in peace.&quot;">
-                                                      <ChoiceText>"Poor souls! May they rest in peace."</ChoiceText>
+                                                    <Choice tag="Choice: &quot;Who was responsible for that?!&quot;">
+                                                      <ChoiceText>"Who was responsible for that?!"</ChoiceText>
                                                       <ChoiceCondition>
                                                       </ChoiceCondition>
                                                       <ChoiceIcon>
                                                       </ChoiceIcon>
-                                                      <IsDialog>False</IsDialog>
+                                                      <IsDialog>True</IsDialog>
                                                     </Choice>
-                                                    <Choice tag="Choice: &quot;Those monsters! How could those savages do such a thing?!&quot;">
-                                                      <ChoiceText>"Those monsters! How could those savages do such a thing?!"</ChoiceText>
+                                                    <Choice tag="Choice: &quot;Oh. It figures.&quot;">
+                                                      <ChoiceText>"Oh. It figures."</ChoiceText>
                                                       <ChoiceCondition>
                                                       </ChoiceCondition>
                                                       <ChoiceIcon>
                                                       </ChoiceIcon>
-                                                      <IsDialog>False</IsDialog>
-                                                      <Text tag="Text: Barreto frowns slightly.">
-                                                        <Tag />
-                                                        <Text>Barreto frowns slightly.</Text>
-                                                        <Dialog tag="Dialog: (JulioBarreto) &quot;They did have a point, however. The way the Columbus' expedition treated the natives was despicable.&quot;">
-                                                          <Tag />
-                                                          <Speaker>JulioBarreto</Speaker>
-                                                          <Text>"They did have a point, however. The way the Columbus' expedition treated the natives was despicable."</Text>
-                                                          <Choice tag="Choice: &quot;I will have none of that! The savages deserved everything they got.&quot;">
-                                                            <ChoiceText>"I will have none of that! The savages deserved everything they got."</ChoiceText>
-                                                            <ChoiceCondition>
-                                                            </ChoiceCondition>
-                                                            <ChoiceIcon>
-                                                            </ChoiceIcon>
-                                                            <IsDialog>False</IsDialog>
-                                                          </Choice>
-                                                          <Choice tag="Choice: &quot;What do you mean? How did they tream the natives?&quot;">
-                                                            <ChoiceText>"What do you mean? How did they tream the natives?"</ChoiceText>
-                                                            <ChoiceCondition>
-                                                            </ChoiceCondition>
-                                                            <ChoiceIcon>
-                                                            </ChoiceIcon>
-                                                            <IsDialog>False</IsDialog>
-                                                            <Text tag="Text: Barreto's face becomes a grimace of disgust.">
-                                                              <Tag />
-                                                              <Text>Barreto's face becomes a grimace of disgust.</Text>
-                                                              <Dialog tag="Dialog: (JulioBarreto) &quot;All kinds of nasty things. Taking sex slaves, killing the natives for even slight misdeeds, robbing them of their resources, crippling and torturing them...&quot;">
-                                                                <Tag />
-                                                                <Speaker>JulioBarreto</Speaker>
-                                                                <Text>"All kinds of nasty things. Taking sex slaves, killing the natives for even slight misdeeds, robbing them of their resources, crippling and torturing them..."</Text>
-                                                                <Choice tag="Choice: &quot;Ugh, you're right. That is no way for a human being to behave.&quot;">
-                                                                  <ChoiceText>"Ugh, you're right. That is no way for a human being to behave."</ChoiceText>
-                                                                  <ChoiceCondition>
-                                                                  </ChoiceCondition>
-                                                                  <ChoiceIcon>
-                                                                  </ChoiceIcon>
-                                                                  <IsDialog>False</IsDialog>
-                                                                </Choice>
-                                                                <Choice tag="Choice: &quot;So what? It may be harsh, but that's the only language the savages understand.&quot;">
-                                                                  <ChoiceText>"So what? It may be harsh, but that's the only language the savages understand."</ChoiceText>
-                                                                  <ChoiceCondition>
-                                                                  </ChoiceCondition>
-                                                                  <ChoiceIcon>
-                                                                  </ChoiceIcon>
-                                                                  <IsDialog>False</IsDialog>
-                                                                </Choice>
-                                                                <Choice tag="Choice: &quot;Oh really? Thanks for the ideas, do you have any more?&quot;">
-                                                                  <ChoiceText>"Oh really? Thanks for the ideas, do you have any more?"</ChoiceText>
-                                                                  <ChoiceCondition>
-                                                                  </ChoiceCondition>
-                                                                  <ChoiceIcon>
-                                                                  </ChoiceIcon>
-                                                                  <IsDialog>False</IsDialog>
-                                                                </Choice>
-                                                                <Choice tag="Choice: &quot;I will have none of that talk! Columbus is a famed explorer, he is to be renowned, not criticised!&quot;">
-                                                                  <ChoiceText>"I will have none of that talk! Columbus is a famed explorer, he is to be renowned, not criticised!"</ChoiceText>
-                                                                  <ChoiceCondition>
-                                                                  </ChoiceCondition>
-                                                                  <ChoiceIcon>
-                                                                  </ChoiceIcon>
-                                                                  <IsDialog>False</IsDialog>
-                                                                </Choice>
-                                                              </Dialog>
-                                                            </Text>
-                                                          </Choice>
-                                                        </Dialog>
-                                                      </Text>
-                                                    </Choice>
-                                                    <Choice tag="Choice: Hah! Serves them right!">
-                                                      <ChoiceText>Hah! Serves them right!</ChoiceText>
-                                                      <ChoiceCondition>
-                                                      </ChoiceCondition>
-                                                      <ChoiceIcon>
-                                                      </ChoiceIcon>
-                                                      <IsDialog>False</IsDialog>
+                                                      <IsDialog>True</IsDialog>
                                                     </Choice>
                                                   </Dialog>
-                                                </Choice>
-                                                <Choice tag="Choice: &quot;Who was responsible for that?!&quot;">
-                                                  <ChoiceText>"Who was responsible for that?!"</ChoiceText>
-                                                  <ChoiceCondition>
-                                                  </ChoiceCondition>
-                                                  <ChoiceIcon>
-                                                  </ChoiceIcon>
-                                                  <IsDialog>False</IsDialog>
-                                                </Choice>
-                                                <Choice tag="Choice: &quot;Oh. It figures.&quot;">
-                                                  <ChoiceText>"Oh. It figures."</ChoiceText>
-                                                  <ChoiceCondition>
-                                                  </ChoiceCondition>
-                                                  <ChoiceIcon>
-                                                  </ChoiceIcon>
-                                                  <IsDialog>False</IsDialog>
-                                                </Choice>
-                                              </Dialog>
-                                            </Text>
-                                          </Choice>
-                                          <Choice tag="Choice: &quot;Interesting. Now if you'll excuse me...&quot;">
-                                            <ChoiceText>"Interesting. Now if you'll excuse me..."</ChoiceText>
-                                            <ChoiceCondition>
-                                            </ChoiceCondition>
-                                            <ChoiceIcon>Quit</ChoiceIcon>
-                                            <IsDialog>False</IsDialog>
-                                          </Choice>
-                                        </Dialog>
+                                                </Text>
+                                              </Choice>
+                                              <Choice tag="Choice: &quot;Interesting. Now if you'll excuse me...&quot;">
+                                                <ChoiceText>"Interesting. Now if you'll excuse me..."</ChoiceText>
+                                                <ChoiceCondition>
+                                                </ChoiceCondition>
+                                                <ChoiceIcon>
+                                                </ChoiceIcon>
+                                                <IsDialog>True</IsDialog>
+                                                <Jump tag="Jump: Confiscation_NoriegaStart">
+                                                  <NodeTag>Confiscation_NoriegaStart</NodeTag>
+                                                </Jump>
+                                              </Choice>
+                                            </Dialog>
+                                          </Dialog>
+                                        </Destination>
                                       </Dialog>
                                     </Choice>
                                     <Choice tag="Choice: &quot;That was foolish. Columbus should have known better than to sail so early.&quot;">
@@ -6467,7 +6478,19 @@
                                       </ChoiceCondition>
                                       <ChoiceIcon>
                                       </ChoiceIcon>
-                                      <IsDialog>False</IsDialog>
+                                      <IsDialog>True</IsDialog>
+                                      <Text tag="Text: Barreto inclines his head slightly.">
+                                        <Tag />
+                                        <Text>Barreto inclines his head slightly.</Text>
+                                        <Dialog tag="Dialog: (JulioBarreto) &quot;I suppose you /could/ put it that way. In any case...">
+                                          <Tag />
+                                          <Speaker>JulioBarreto</Speaker>
+                                          <Text>"I suppose you /could/ put it that way. In any case...</Text>
+                                          <Jump tag="Jump: Confiscation_Christmas">
+                                            <NodeTag>Confiscation_Christmas</NodeTag>
+                                          </Jump>
+                                        </Dialog>
+                                      </Text>
                                     </Choice>
                                     <Choice tag="Choice: &quot;Intoxicated? Preposterous! I would not have allowed any of that, especially not on a mission of that importance!&quot;">
                                       <ChoiceText>"Intoxicated? Preposterous! I would not have allowed any of that, especially not on a mission of that importance!"</ChoiceText>
@@ -6475,7 +6498,34 @@
                                       </ChoiceCondition>
                                       <ChoiceIcon>
                                       </ChoiceIcon>
-                                      <IsDialog>False</IsDialog>
+                                      <IsDialog>True</IsDialog>
+                                      <Text tag="Text: Barreto nods vigorously.">
+                                        <Tag />
+                                        <Text>Barreto nods vigorously.</Text>
+                                        <Dialog tag="Dialog: (JulioBarreto) &quot;I agree completely. In any case...">
+                                          <Tag />
+                                          <Speaker>JulioBarreto</Speaker>
+                                          <Text>"I agree completely. In any case...</Text>
+                                          <Morale tag="Morale: Increase Small  JulioBarreto">
+                                            <Name>JulioBarreto</Name>
+                                            <Everyone>False</Everyone>
+                                            <Trait>
+                                            </Trait>
+                                            <Gender>
+                                            </Gender>
+                                            <Ethnicity>
+                                            </Ethnicity>
+                                            <Rank>
+                                            </Rank>
+                                            <SavedSlot>
+                                            </SavedSlot>
+                                            <Delta>Increase Small</Delta>
+                                            <Jump tag="Jump: Confiscation_Christmas">
+                                              <NodeTag>Confiscation_Christmas</NodeTag>
+                                            </Jump>
+                                          </Morale>
+                                        </Dialog>
+                                      </Text>
                                     </Choice>
                                   </Dialog>
                                 </Dialog>
@@ -6487,11 +6537,11 @@
                               </ChoiceCondition>
                               <ChoiceIcon>
                               </ChoiceIcon>
-                              <IsDialog>False</IsDialog>
-                              <Dialog tag="Dialog: (JulioBarreto) &quot;Well, let me refresh your memory, then.&quot;">
+                              <IsDialog>True</IsDialog>
+                              <Dialog tag="Dialog: (JulioBarreto) &quot;Well, let me refresh your memory, then.">
                                 <Tag />
                                 <Speaker>JulioBarreto</Speaker>
-                                <Text>"Well, let me refresh your memory, then."</Text>
+                                <Text>"Well, let me refresh your memory, then.</Text>
                                 <Jump tag="Jump: Confiscation_Navidad">
                                   <NodeTag>Confiscation_Navidad</NodeTag>
                                 </Jump>
@@ -6503,243 +6553,305 @@
                           <ChoiceText>"Yes, fascinating, isn't it."</ChoiceText>
                           <ChoiceCondition>
                           </ChoiceCondition>
-                          <ChoiceIcon>Quit</ChoiceIcon>
-                          <IsDialog>False</IsDialog>
+                          <ChoiceIcon>
+                          </ChoiceIcon>
+                          <IsDialog>True</IsDialog>
+                          <Text tag="Text: Barreto nods exitedly.">
+                            <Tag />
+                            <Text>Barreto nods exitedly.</Text>
+                            <Choice tag="Choice: Continue.">
+                              <ChoiceText>Continue.</ChoiceText>
+                              <ChoiceCondition>
+                              </ChoiceCondition>
+                              <ChoiceIcon>
+                              </ChoiceIcon>
+                              <IsDialog>False</IsDialog>
+                              <Jump tag="Jump: Confiscation_NoriegaStart">
+                                <NodeTag>Confiscation_NoriegaStart</NodeTag>
+                              </Jump>
+                            </Choice>
+                          </Text>
                         </Choice>
                       </Dialog>
-                    </Dialog>
-                  </Choice>
-                  <Choice tag="Choice: &quot;I am just as overjoyed to be here as you are!&quot;">
-                    <ChoiceText>"I am just as overjoyed to be here as you are!"</ChoiceText>
-                    <ChoiceCondition>
-                    </ChoiceCondition>
-                    <ChoiceIcon>
-                    </ChoiceIcon>
-                    <IsDialog>False</IsDialog>
-                  </Choice>
-                  <Choice tag="Choice: &quot;Cut the chatter! Can't you see there are guardsmen approaching?&quot;">
-                    <ChoiceText>"Cut the chatter! Can't you see there are guardsmen approaching?"</ChoiceText>
-                    <ChoiceCondition>
-                    </ChoiceCondition>
-                    <ChoiceIcon>Quit</ChoiceIcon>
-                    <IsDialog>False</IsDialog>
-                  </Choice>
-                </Dialog>
-              </Condition>
-              <Text tag="Text: As soon as you disembark, you're accosted by a group of soldiers led by a tall, heavyset man with greying hair, dressed in an Captain's army uniform.">
-                <Tag />
-                <Text>As soon as you disembark, you're accosted by a group of soldiers led by a tall, heavyset man with greying hair, dressed in an Captain's army uniform.</Text>
-                <Dialog tag="Dialog: (JuanNoriega) &quot;Halt. By order of Governor Bernardo de Manzanedo, I am confiscating your vessel and all her crew and cargo.&quot;">
-                  <Tag />
-                  <Speaker>JuanNoriega</Speaker>
-                  <Text>"Halt. By order of Governor Bernardo de Manzanedo, I am confiscating your vessel and all her crew and cargo."</Text>
-                  <Choice tag="Choice: &quot;Presposterous! You have no right to confiscate private property!&quot;">
-                    <ChoiceText>"Presposterous! You have no right to confiscate private property!"</ChoiceText>
-                    <ChoiceCondition>
-                    </ChoiceCondition>
-                    <ChoiceIcon>
-                    </ChoiceIcon>
-                    <IsDialog>True</IsDialog>
-                    <PlayerChange tag="PlayerChange:  Equipment -All, Rations -All, Medicine -All, Valuables -All">
-                      <Tag />
-                      <Herbs>
-                      </Herbs>
-                      <Meat>
-                      </Meat>
-                      <Oil>
-                      </Oil>
-                      <Rope>
-                      </Rope>
-                      <Metal>
-                      </Metal>
-                      <Wood>
-                      </Wood>
-                      <Tactics>
-                      </Tactics>
-                      <Healing>
-                      </Healing>
-                      <Language>
-                      </Language>
-                      <Leadership>
-                      </Leadership>
-                      <Hunting>
-                      </Hunting>
-                      <Rations>-All</Rations>
-                      <Medicine>-All</Medicine>
-                      <Valuables>-All</Valuables>
-                      <Equipment>-All</Equipment>
-                      <Trigger tag="Trigger: DeleteEquipment">
+                    </Choice>
+                    <Choice tag="Choice: &quot;I am just as overjoyed to be here as you are!&quot;">
+                      <ChoiceText>"I am just as overjoyed to be here as you are!"</ChoiceText>
+                      <ChoiceCondition>
+                      </ChoiceCondition>
+                      <ChoiceIcon>
+                      </ChoiceIcon>
+                      <IsDialog>True</IsDialog>
+                      <Text tag="Text: Barreto nods exitedly.">
                         <Tag />
-                        <Function>DeleteEquipment</Function>
-                        <Text tag="Text: The Captain signals to his troops, and they begin to apprehend your people.">
-                          <Tag />
-                          <Text>The Captain signals to his troops, and they begin to apprehend your people.</Text>
-                          <Jump tag="Jump: CapitanNoriega_PrivateProperty">
-                            <NodeTag>CapitanNoriega_PrivateProperty</NodeTag>
+                        <Text>Barreto nods exitedly.</Text>
+                        <Choice tag="Choice: Continue.">
+                          <ChoiceText>Continue.</ChoiceText>
+                          <ChoiceCondition>
+                          </ChoiceCondition>
+                          <ChoiceIcon>
+                          </ChoiceIcon>
+                          <IsDialog>False</IsDialog>
+                          <Jump tag="Jump: Confiscation_NoriegaStart">
+                            <NodeTag>Confiscation_NoriegaStart</NodeTag>
                           </Jump>
-                        </Text>
-                      </Trigger>
-                    </PlayerChange>
-                  </Choice>
-                  <Choice tag="Choice: &quot;I wouldn't do that if I were you. Does the name PNameLast ring a bell?&quot;">
-                    <ChoiceText>"I wouldn't do that if I were you. Does the name PNameLast ring a bell?"</ChoiceText>
-                    <ChoiceCondition>
-                    </ChoiceCondition>
-                    <ChoiceIcon>
-                    </ChoiceIcon>
-                    <IsDialog>True</IsDialog>
-                    <SetInt tag="SetInt: CapitanNoriega_NameDropped = 1">
-                      <Variable>CapitanNoriega_NameDropped</Variable>
-                      <Value>1</Value>
-                      <Text tag="Text: The Captain rolls his eyes conspicuously.">
+                        </Choice>
+                      </Text>
+                    </Choice>
+                    <Choice tag="Choice: &quot;Cut the chatter! Can't you see there are guardsmen approaching?&quot;">
+                      <ChoiceText>"Cut the chatter! Can't you see there are guardsmen approaching?"</ChoiceText>
+                      <ChoiceCondition>
+                      </ChoiceCondition>
+                      <ChoiceIcon>
+                      </ChoiceIcon>
+                      <IsDialog>True</IsDialog>
+                      <Text tag="Text: Barreto frowns, but turns his attention towards the city.">
                         <Tag />
-                        <Text>The Captain rolls his eyes conspicuously.</Text>
-                        <Dialog tag="Dialog: &quot;An intimidating name in Spain, but you are on Hispaniola now, and I'm taking your ship.&quot;">
+                        <Text>Barreto frowns, but turns his attention towards the city.</Text>
+                        <Choice tag="Choice: Continue.">
+                          <ChoiceText>Continue.</ChoiceText>
+                          <ChoiceCondition>
+                          </ChoiceCondition>
+                          <ChoiceIcon>
+                          </ChoiceIcon>
+                          <IsDialog>False</IsDialog>
+                          <Jump tag="Jump: Confiscation_NoriegaStart">
+                            <NodeTag>Confiscation_NoriegaStart</NodeTag>
+                          </Jump>
+                        </Choice>
+                      </Text>
+                    </Choice>
+                  </Dialog>
+                </Text>
+              </Condition>
+              <Destination tag="Destination: Confiscation_NoriegaStart">
+                <NodeTag>Confiscation_NoriegaStart</NodeTag>
+                <Text tag="Text: As soon as you disembark, you're accosted by a group of soldiers led by a tall, heavyset man with greying hair, dressed in an Captain's army uniform.">
+                  <Tag />
+                  <Text>As soon as you disembark, you're accosted by a group of soldiers led by a tall, heavyset man with greying hair, dressed in an Captain's army uniform.</Text>
+                  <Dialog tag="Dialog: (JuanNoriega) &quot;Halt. By order of Governor Bernardo de Manzanedo, I am confiscating your vessel and all her crew and cargo.&quot;">
+                    <Tag />
+                    <Speaker>JuanNoriega</Speaker>
+                    <Text>"Halt. By order of Governor Bernardo de Manzanedo, I am confiscating your vessel and all her crew and cargo."</Text>
+                    <Choice tag="Choice: &quot;Presposterous! You have no right to confiscate private property!&quot;">
+                      <ChoiceText>"Presposterous! You have no right to confiscate private property!"</ChoiceText>
+                      <ChoiceCondition>
+                      </ChoiceCondition>
+                      <ChoiceIcon>
+                      </ChoiceIcon>
+                      <IsDialog>True</IsDialog>
+                      <PlayerChange tag="PlayerChange:  Equipment -All, Rations -All, Medicine -All, Valuables -All">
+                        <Tag />
+                        <Herbs>
+                        </Herbs>
+                        <Meat>
+                        </Meat>
+                        <Oil>
+                        </Oil>
+                        <Rope>
+                        </Rope>
+                        <Metal>
+                        </Metal>
+                        <Wood>
+                        </Wood>
+                        <Tactics>
+                        </Tactics>
+                        <Healing>
+                        </Healing>
+                        <Language>
+                        </Language>
+                        <Leadership>
+                        </Leadership>
+                        <Hunting>
+                        </Hunting>
+                        <Rations>-All</Rations>
+                        <Medicine>-All</Medicine>
+                        <Valuables>-All</Valuables>
+                        <Equipment>-All</Equipment>
+                        <Trigger tag="Trigger: DeleteEquipment">
                           <Tag />
-                          <Speaker />
-                          <Text>"An intimidating name in Spain, but you are on Hispaniola now, and I'm taking your ship."</Text>
-                          <Choice tag="Choice: Continue.">
-                            <ChoiceText>Continue.</ChoiceText>
-                            <ChoiceCondition />
-                            <ChoiceIcon />
-                            <IsDialog>False</IsDialog>
-                            <PlayerChange tag="PlayerChange:  Equipment -All, Rations -All, Medicine -All, Valuables -All">
-                              <Tag />
-                              <Herbs />
-                              <Meat />
-                              <Oil />
-                              <Rope />
-                              <Metal />
-                              <Wood />
-                              <Tactics />
-                              <Healing />
-                              <Language />
-                              <Leadership />
-                              <Hunting />
-                              <Rations>-All</Rations>
-                              <Medicine>-All</Medicine>
-                              <Valuables>-All</Valuables>
-                              <Equipment>-All</Equipment>
-                              <Trigger tag="Trigger: DeleteEquipment">
+                          <Function>DeleteEquipment</Function>
+                          <Text tag="Text: The Captain signals to his troops, and they begin to apprehend your people.">
+                            <Tag />
+                            <Text>The Captain signals to his troops, and they begin to apprehend your people.</Text>
+                            <Jump tag="Jump: CapitanNoriega_PrivateProperty">
+                              <NodeTag>CapitanNoriega_PrivateProperty</NodeTag>
+                            </Jump>
+                          </Text>
+                        </Trigger>
+                      </PlayerChange>
+                    </Choice>
+                    <Choice tag="Choice: &quot;I wouldn't do that if I were you. Does the name PNameLast ring a bell?&quot;">
+                      <ChoiceText>"I wouldn't do that if I were you. Does the name PNameLast ring a bell?"</ChoiceText>
+                      <ChoiceCondition>
+                      </ChoiceCondition>
+                      <ChoiceIcon>
+                      </ChoiceIcon>
+                      <IsDialog>True</IsDialog>
+                      <SetInt tag="SetInt: CapitanNoriega_NameDropped = 1">
+                        <Variable>CapitanNoriega_NameDropped</Variable>
+                        <Value>1</Value>
+                        <Text tag="Text: The Captain rolls his eyes conspicuously.">
+                          <Tag />
+                          <Text>The Captain rolls his eyes conspicuously.</Text>
+                          <Dialog tag="Dialog: &quot;An intimidating name in Spain, but you are on Hispaniola now, and I'm taking your ship.&quot;">
+                            <Tag />
+                            <Speaker />
+                            <Text>"An intimidating name in Spain, but you are on Hispaniola now, and I'm taking your ship."</Text>
+                            <Choice tag="Choice: Continue.">
+                              <ChoiceText>Continue.</ChoiceText>
+                              <ChoiceCondition />
+                              <ChoiceIcon />
+                              <IsDialog>False</IsDialog>
+                              <PlayerChange tag="PlayerChange:  Equipment -All, Rations -All, Medicine -All, Valuables -All">
                                 <Tag />
-                                <Function>DeleteEquipment</Function>
-                                <Text tag="Text: The Captain signals to his troops, and they begin to apprehend your people.">
+                                <Herbs />
+                                <Meat />
+                                <Oil />
+                                <Rope />
+                                <Metal />
+                                <Wood />
+                                <Tactics />
+                                <Healing />
+                                <Language />
+                                <Leadership />
+                                <Hunting />
+                                <Rations>-All</Rations>
+                                <Medicine>-All</Medicine>
+                                <Valuables>-All</Valuables>
+                                <Equipment>-All</Equipment>
+                                <Trigger tag="Trigger: DeleteEquipment">
                                   <Tag />
-                                  <Text>The Captain signals to his troops, and they begin to apprehend your people.</Text>
-                                  <Choice tag="Choice: &quot;You have no right to confiscate private property!&quot;">
-                                    <ChoiceText>"You have no right to confiscate private property!"</ChoiceText>
-                                    <ChoiceCondition>
-                                    </ChoiceCondition>
-                                    <ChoiceIcon>
-                                    </ChoiceIcon>
-                                    <IsDialog>True</IsDialog>
-                                    <Destination tag="Destination: CapitanNoriega_PrivateProperty">
-                                      <NodeTag>CapitanNoriega_PrivateProperty</NodeTag>
-                                      <Dialog tag="Dialog: &quot;Take it up with the Governor, mi PSenorSenora. He has instructed me to order you to go to the palace and speak to his grace forthwith. I would not delay any further if I were in your boots.&quot;">
-                                        <Tag />
-                                        <Speaker />
-                                        <Text>"Take it up with the Governor, mi PSenorSenora. He has instructed me to order you to go to the palace and speak to his grace forthwith. I would not delay any further if I were in your boots."</Text>
-                                        <Jump tag="Jump: CapitanNoriega_InstructionsGiven">
-                                          <NodeTag>CapitanNoriega_InstructionsGiven</NodeTag>
-                                        </Jump>
-                                      </Dialog>
-                                    </Destination>
-                                  </Choice>
-                                  <Choice tag="Choice: &quot;With what justification, if you please?&quot;">
-                                    <ChoiceText>"With what justification, if you please?"</ChoiceText>
+                                  <Function>DeleteEquipment</Function>
+                                  <Text tag="Text: The Captain signals to his troops, and they begin to apprehend your people.">
+                                    <Tag />
+                                    <Text>The Captain signals to his troops, and they begin to apprehend your people.</Text>
+                                    <Choice tag="Choice: &quot;You have no right to confiscate private property!&quot;">
+                                      <ChoiceText>"You have no right to confiscate private property!"</ChoiceText>
+                                      <ChoiceCondition>
+                                      </ChoiceCondition>
+                                      <ChoiceIcon>
+                                      </ChoiceIcon>
+                                      <IsDialog>True</IsDialog>
+                                      <Destination tag="Destination: CapitanNoriega_PrivateProperty">
+                                        <NodeTag>CapitanNoriega_PrivateProperty</NodeTag>
+                                        <Dialog tag="Dialog: &quot;Take it up with the Governor, mi PSenorSenora. He has instructed me to order you to go to the palace and speak to his grace forthwith. I would not delay any further if I were in your boots.&quot;">
+                                          <Tag />
+                                          <Speaker />
+                                          <Text>"Take it up with the Governor, mi PSenorSenora. He has instructed me to order you to go to the palace and speak to his grace forthwith. I would not delay any further if I were in your boots."</Text>
+                                          <Jump tag="Jump: CapitanNoriega_InstructionsGiven">
+                                            <NodeTag>CapitanNoriega_InstructionsGiven</NodeTag>
+                                          </Jump>
+                                        </Dialog>
+                                      </Destination>
+                                    </Choice>
+                                    <Choice tag="Choice: &quot;With what justification, if you please?&quot;">
+                                      <ChoiceText>"With what justification, if you please?"</ChoiceText>
+                                      <ChoiceCondition />
+                                      <ChoiceIcon />
+                                      <IsDialog>True</IsDialog>
+                                      <Jump tag="Jump: CapitanNoriega_Justification">
+                                        <NodeTag>CapitanNoriega_Justification</NodeTag>
+                                      </Jump>
+                                    </Choice>
+                                  </Text>
+                                </Trigger>
+                              </PlayerChange>
+                            </Choice>
+                          </Dialog>
+                        </Text>
+                      </SetInt>
+                    </Choice>
+                    <Choice tag="Choice: &quot;With what justification, if you please?&quot;">
+                      <ChoiceText>"With what justification, if you please?"</ChoiceText>
+                      <ChoiceCondition />
+                      <ChoiceIcon />
+                      <IsDialog>True</IsDialog>
+                      <PlayerChange tag="PlayerChange:  Equipment -All, Rations -All, Medicine -All, Valuables -All">
+                        <Tag />
+                        <Herbs />
+                        <Meat />
+                        <Oil />
+                        <Rope />
+                        <Metal />
+                        <Wood />
+                        <Tactics />
+                        <Healing />
+                        <Language />
+                        <Leadership />
+                        <Hunting />
+                        <Rations>-All</Rations>
+                        <Medicine>-All</Medicine>
+                        <Valuables>-All</Valuables>
+                        <Equipment>-All</Equipment>
+                        <Trigger tag="Trigger: DeleteEquipment">
+                          <Tag />
+                          <Function>DeleteEquipment</Function>
+                          <Destination tag="Destination: CapitanNoriega_Justification">
+                            <NodeTag>CapitanNoriega_Justification</NodeTag>
+                            <Dialog tag="Dialog: &quot;It typically does not please the Governor to give justification for his decisions, but he has instructed me to instruct /you/ to go to the palace and speak to his grace forthwith. Perhaps you can pry an explanation out of him.&quot;">
+                              <Tag />
+                              <Speaker />
+                              <Text>"It typically does not please the Governor to give justification for his decisions, but he has instructed me to instruct /you/ to go to the palace and speak to his grace forthwith. Perhaps you can pry an explanation out of him."</Text>
+                              <Destination tag="Destination: CapitanNoriega_InstructionsGiven">
+                                <NodeTag>CapitanNoriega_InstructionsGiven</NodeTag>
+                                <Goal tag="Goal: First Audience = Started" id="25" guid="23ceacda-549a-4890-9e6d-ef291a79f71e">
+                                  <Title>First Audience</Title>
+                                  <DeadLine />
+                                  <Description>Go to the palace at the north end of Santo Domingo and speak to the Governor.</Description>
+                                  <State>Started</State>
+                                  <Location>AlcazarDeColon</Location>
+                                  <Choice tag="Choice: &quot;Is this how you treat all visitors to your colony?&quot;">
+                                    <ChoiceText>"Is this how you treat all visitors to your colony?"</ChoiceText>
                                     <ChoiceCondition />
                                     <ChoiceIcon />
                                     <IsDialog>True</IsDialog>
-                                    <Jump tag="Jump: CapitanNoriega_Justification">
-                                      <NodeTag>CapitanNoriega_Justification</NodeTag>
-                                    </Jump>
-                                  </Choice>
-                                </Text>
-                              </Trigger>
-                            </PlayerChange>
-                          </Choice>
-                        </Dialog>
-                      </Text>
-                    </SetInt>
-                  </Choice>
-                  <Choice tag="Choice: &quot;With what justification, if you please?&quot;">
-                    <ChoiceText>"With what justification, if you please?"</ChoiceText>
-                    <ChoiceCondition />
-                    <ChoiceIcon />
-                    <IsDialog>True</IsDialog>
-                    <PlayerChange tag="PlayerChange:  Equipment -All, Rations -All, Medicine -All, Valuables -All">
-                      <Tag />
-                      <Herbs />
-                      <Meat />
-                      <Oil />
-                      <Rope />
-                      <Metal />
-                      <Wood />
-                      <Tactics />
-                      <Healing />
-                      <Language />
-                      <Leadership />
-                      <Hunting />
-                      <Rations>-All</Rations>
-                      <Medicine>-All</Medicine>
-                      <Valuables>-All</Valuables>
-                      <Equipment>-All</Equipment>
-                      <Trigger tag="Trigger: DeleteEquipment">
-                        <Tag />
-                        <Function>DeleteEquipment</Function>
-                        <Destination tag="Destination: CapitanNoriega_Justification">
-                          <NodeTag>CapitanNoriega_Justification</NodeTag>
-                          <Dialog tag="Dialog: &quot;It typically does not please the Governor to give justification for his decisions, but he has instructed me to instruct /you/ to go to the palace and speak to his grace forthwith. Perhaps you can pry an explanation out of him.&quot;">
-                            <Tag />
-                            <Speaker />
-                            <Text>"It typically does not please the Governor to give justification for his decisions, but he has instructed me to instruct /you/ to go to the palace and speak to his grace forthwith. Perhaps you can pry an explanation out of him."</Text>
-                            <Destination tag="Destination: CapitanNoriega_InstructionsGiven">
-                              <NodeTag>CapitanNoriega_InstructionsGiven</NodeTag>
-                              <Goal tag="Goal: First Audience = Started" id="25" guid="23ceacda-549a-4890-9e6d-ef291a79f71e">
-                                <Title>First Audience</Title>
-                                <DeadLine />
-                                <Description>Go to the palace at the north end of Santo Domingo and speak to the Governor.</Description>
-                                <State>Started</State>
-                                <Location>AlcazarDeColon</Location>
-                                <Choice tag="Choice: &quot;Is this how you treat all visitors to your colony?&quot;">
-                                  <ChoiceText>"Is this how you treat all visitors to your colony?"</ChoiceText>
-                                  <ChoiceCondition />
-                                  <ChoiceIcon />
-                                  <IsDialog>True</IsDialog>
-                                  <Text tag="Text: The hint of a wry smile twitches at the edge of the Captain's lips.">
-                                    <Tag />
-                                    <Text>The hint of a wry smile twitches at the edge of the Captain's lips.</Text>
-                                    <Dialog tag="Dialog: &quot;Only those who bring a full company of troops and a cargo hold full of treasure, mi PSenorSenora.&quot;">
+                                    <Text tag="Text: The hint of a wry smile twitches at the edge of the Captain's lips.">
                                       <Tag />
-                                      <Speaker />
-                                      <Text>"Only those who bring a full company of troops and a cargo hold full of treasure, mi PSenorSenora."</Text>
-                                      <Choice tag="Choice: Leave.">
-                                        <ChoiceText>Leave.</ChoiceText>
-                                        <ChoiceCondition />
-                                        <ChoiceIcon />
-                                        <IsDialog>False</IsDialog>
-                                        <Destination tag="Destination: CapitanNoriega_Leave">
-                                          <NodeTag>CapitanNoriega_Leave</NodeTag>
-                                          <Text tag="Text: You're about to squeeze past the Captain when he extends his hand.">
-                                            <Tag />
-                                            <Text>You're about to squeeze past the Captain when he extends his hand.</Text>
-                                            <Dialog tag="Dialog: (JuanNoriega) &quot;My name is Juan Noriega, by the way. Pleased to meet you.&quot;">
+                                      <Text>The hint of a wry smile twitches at the edge of the Captain's lips.</Text>
+                                      <Dialog tag="Dialog: &quot;Only those who bring a full company of troops and a cargo hold full of treasure, mi PSenorSenora.&quot;">
+                                        <Tag />
+                                        <Speaker />
+                                        <Text>"Only those who bring a full company of troops and a cargo hold full of treasure, mi PSenorSenora."</Text>
+                                        <Choice tag="Choice: Leave.">
+                                          <ChoiceText>Leave.</ChoiceText>
+                                          <ChoiceCondition />
+                                          <ChoiceIcon />
+                                          <IsDialog>False</IsDialog>
+                                          <Destination tag="Destination: CapitanNoriega_Leave">
+                                            <NodeTag>CapitanNoriega_Leave</NodeTag>
+                                            <Text tag="Text: You're about to squeeze past the Captain when he extends his hand.">
                                               <Tag />
-                                              <Speaker>JuanNoriega</Speaker>
-                                              <Text>"My name is Juan Noriega, by the way. Pleased to meet you."</Text>
-                                              <Choice tag="Choice: &quot;PName.&quot;">
-                                                <ChoiceText>"PName."</ChoiceText>
-                                                <ChoiceCondition />
-                                                <ChoiceIcon />
-                                                <IsDialog>True</IsDialog>
-                                                <Condition tag="Condition: int CapitanNoriega_NameDropped == True">
-                                                  <ConditionTag />
-                                                  <ConditionText>int CapitanNoriega_NameDropped == True</ConditionText>
-                                                  <Dialog tag="Dialog: &quot;So I gather.&quot;">
+                                              <Text>You're about to squeeze past the Captain when he extends his hand.</Text>
+                                              <Dialog tag="Dialog: (JuanNoriega) &quot;My name is Juan Noriega, by the way. Pleased to meet you.&quot;">
+                                                <Tag />
+                                                <Speaker>JuanNoriega</Speaker>
+                                                <Text>"My name is Juan Noriega, by the way. Pleased to meet you."</Text>
+                                                <Choice tag="Choice: &quot;PName.&quot;">
+                                                  <ChoiceText>"PName."</ChoiceText>
+                                                  <ChoiceCondition />
+                                                  <ChoiceIcon />
+                                                  <IsDialog>True</IsDialog>
+                                                  <Condition tag="Condition: int CapitanNoriega_NameDropped == True">
+                                                    <ConditionTag />
+                                                    <ConditionText>int CapitanNoriega_NameDropped == True</ConditionText>
+                                                    <Dialog tag="Dialog: &quot;So I gather.&quot;">
+                                                      <Tag />
+                                                      <Speaker>
+                                                      </Speaker>
+                                                      <Text>"So I gather."</Text>
+                                                      <Trigger tag="Trigger: CodexUnlock SantoDomingo">
+                                                        <Tag />
+                                                        <Function>CodexUnlock SantoDomingo</Function>
+                                                        <Trigger tag="Trigger: ObjectsDestroy NoriegaDocks">
+                                                          <Tag />
+                                                          <Function>ObjectsDestroy NoriegaDocks</Function>
+                                                        </Trigger>
+                                                      </Trigger>
+                                                    </Dialog>
+                                                  </Condition>
+                                                  <Text tag="Text: He nods and lets you slip past him, then he gets back to the business of impounding everything you own.">
                                                     <Tag />
-                                                    <Speaker>
-                                                    </Speaker>
-                                                    <Text>"So I gather."</Text>
+                                                    <Text>He nods and lets you slip past him, then he gets back to the business of impounding everything you own.</Text>
                                                     <Trigger tag="Trigger: CodexUnlock SantoDomingo">
                                                       <Tag />
                                                       <Function>CodexUnlock SantoDomingo</Function>
@@ -6748,122 +6860,110 @@
                                                         <Function>ObjectsDestroy NoriegaDocks</Function>
                                                       </Trigger>
                                                     </Trigger>
-                                                  </Dialog>
-                                                </Condition>
-                                                <Text tag="Text: He nods and lets you slip past him, then he gets back to the business of impounding everything you own.">
-                                                  <Tag />
-                                                  <Text>He nods and lets you slip past him, then he gets back to the business of impounding everything you own.</Text>
-                                                  <Trigger tag="Trigger: CodexUnlock SantoDomingo">
+                                                  </Text>
+                                                </Choice>
+                                                <Choice tag="Choice: &quot;I wish I could say the same.&quot;">
+                                                  <ChoiceText>"I wish I could say the same."</ChoiceText>
+                                                  <ChoiceCondition />
+                                                  <ChoiceIcon />
+                                                  <IsDialog>True</IsDialog>
+                                                  <Text tag="Text: He shrugs and lets you slip past him, then he gets back to the business of impounding everything you own.">
                                                     <Tag />
-                                                    <Function>CodexUnlock SantoDomingo</Function>
-                                                    <Trigger tag="Trigger: ObjectsDestroy NoriegaDocks">
+                                                    <Text>He shrugs and lets you slip past him, then he gets back to the business of impounding everything you own.</Text>
+                                                    <Trigger tag="Trigger: CodexUnlock SantoDomingo">
                                                       <Tag />
-                                                      <Function>ObjectsDestroy NoriegaDocks</Function>
+                                                      <Function>CodexUnlock SantoDomingo</Function>
+                                                      <Trigger tag="Trigger: ObjectsDestroy NoriegaDocks">
+                                                        <Tag />
+                                                        <Function>ObjectsDestroy NoriegaDocks</Function>
+                                                      </Trigger>
                                                     </Trigger>
-                                                  </Trigger>
-                                                </Text>
-                                              </Choice>
-                                              <Choice tag="Choice: &quot;I wish I could say the same.&quot;">
-                                                <ChoiceText>"I wish I could say the same."</ChoiceText>
-                                                <ChoiceCondition />
-                                                <ChoiceIcon />
-                                                <IsDialog>True</IsDialog>
-                                                <Text tag="Text: He shrugs and lets you slip past him, then he gets back to the business of impounding everything you own.">
-                                                  <Tag />
-                                                  <Text>He shrugs and lets you slip past him, then he gets back to the business of impounding everything you own.</Text>
-                                                  <Trigger tag="Trigger: CodexUnlock SantoDomingo">
-                                                    <Tag />
-                                                    <Function>CodexUnlock SantoDomingo</Function>
-                                                    <Trigger tag="Trigger: ObjectsDestroy NoriegaDocks">
-                                                      <Tag />
-                                                      <Function>ObjectsDestroy NoriegaDocks</Function>
-                                                    </Trigger>
-                                                  </Trigger>
-                                                </Text>
-                                              </Choice>
-                                            </Dialog>
-                                          </Text>
-                                        </Destination>
-                                      </Choice>
-                                    </Dialog>
-                                  </Text>
-                                </Choice>
-                                <Choice tag="Choice: &quot;I'm going to station one of my people here to make sure nothing /disappears/.&quot;">
-                                  <ChoiceText>"I'm going to station one of my people here to make sure nothing /disappears/."</ChoiceText>
-                                  <ChoiceCondition />
-                                  <ChoiceIcon>Follower choice</ChoiceIcon>
-                                  <IsDialog>True</IsDialog>
-                                  <ChoiceFollower tag="ChoiceFollowers: &quot;">
-                                    <Tag>Who do you wish to post here?</Tag>
-                                    <NumberRequired />
-                                    <FilterTypes />
-                                    <IncludeInjured>false</IncludeInjured>
-                                    <FilterTraits />
-                                    <Trigger tag="Trigger: StoreFollower CargoGuard">
-                                      <Tag />
-                                      <Function>StoreFollower CargoGuard</Function>
-                                      <Trigger tag="Trigger: RemoveFollower">
+                                                  </Text>
+                                                </Choice>
+                                              </Dialog>
+                                            </Text>
+                                          </Destination>
+                                        </Choice>
+                                      </Dialog>
+                                    </Text>
+                                  </Choice>
+                                  <Choice tag="Choice: &quot;I'm going to station one of my people here to make sure nothing /disappears/.&quot;">
+                                    <ChoiceText>"I'm going to station one of my people here to make sure nothing /disappears/."</ChoiceText>
+                                    <ChoiceCondition />
+                                    <ChoiceIcon>Follower choice</ChoiceIcon>
+                                    <IsDialog>True</IsDialog>
+                                    <ChoiceFollower tag="ChoiceFollowers: &quot;">
+                                      <Tag>Who do you wish to post here?</Tag>
+                                      <NumberRequired />
+                                      <FilterTypes />
+                                      <IncludeInjured>false</IncludeInjured>
+                                      <FilterTraits />
+                                      <Trigger tag="Trigger: StoreFollower CargoGuard">
                                         <Tag />
-                                        <Function>RemoveFollower</Function>
-                                        <SetInt tag="SetInt: PostedCargoGuard = 1">
-                                          <Variable>PostedCargoGuard</Variable>
-                                          <Value>1</Value>
-                                          <Text tag="Text: You signal for FName1 to head back into the cargo hold, and FHeShe1 nods and takes off. A single twitch by the left eye is all that betrays Noriega's annoyance at your insult.">
-                                            <Tag />
-                                            <Text>You signal for FName1 to head back into the cargo hold, and FHeShe1 nods and takes off. A single twitch by the left eye is all that betrays Noriega's annoyance at your insult.</Text>
-                                            <Dialog tag="Dialog: (FName1) &quot;As your grace wishes.&quot;">
+                                        <Function>StoreFollower CargoGuard</Function>
+                                        <Trigger tag="Trigger: RemoveFollower">
+                                          <Tag />
+                                          <Function>RemoveFollower</Function>
+                                          <SetInt tag="SetInt: PostedCargoGuard = 1">
+                                            <Variable>PostedCargoGuard</Variable>
+                                            <Value>1</Value>
+                                            <Text tag="Text: You signal for FName1 to head back into the cargo hold, and FHeShe1 nods and takes off. A single twitch by the left eye is all that betrays Noriega's annoyance at your insult.">
                                               <Tag />
-                                              <Speaker>FName1</Speaker>
-                                              <Text>"As your grace wishes."</Text>
-                                              <Choice tag="Choice: Leave.">
-                                                <ChoiceText>Leave.</ChoiceText>
-                                                <ChoiceCondition />
-                                                <ChoiceIcon />
-                                                <IsDialog>False</IsDialog>
-                                                <Jump tag="Jump: CapitanNoriega_Leave">
-                                                  <NodeTag>CapitanNoriega_Leave</NodeTag>
-                                                </Jump>
-                                              </Choice>
-                                            </Dialog>
-                                          </Text>
-                                        </SetInt>
+                                              <Text>You signal for FName1 to head back into the cargo hold, and FHeShe1 nods and takes off. A single twitch by the left eye is all that betrays Noriega's annoyance at your insult.</Text>
+                                              <Dialog tag="Dialog: (FName1) &quot;As your grace wishes.&quot;">
+                                                <Tag />
+                                                <Speaker>FName1</Speaker>
+                                                <Text>"As your grace wishes."</Text>
+                                                <Choice tag="Choice: Leave.">
+                                                  <ChoiceText>Leave.</ChoiceText>
+                                                  <ChoiceCondition />
+                                                  <ChoiceIcon />
+                                                  <IsDialog>False</IsDialog>
+                                                  <Jump tag="Jump: CapitanNoriega_Leave">
+                                                    <NodeTag>CapitanNoriega_Leave</NodeTag>
+                                                  </Jump>
+                                                </Choice>
+                                              </Dialog>
+                                            </Text>
+                                          </SetInt>
+                                        </Trigger>
                                       </Trigger>
-                                    </Trigger>
-                                  </ChoiceFollower>
-                                </Choice>
-                                <Choice tag="Choice: &quot;Very well, I can see that you're just following orders.&quot;">
-                                  <ChoiceText>"Very well, I can see that you're just following orders."</ChoiceText>
-                                  <ChoiceCondition />
-                                  <ChoiceIcon />
-                                  <IsDialog>True</IsDialog>
-                                  <Text tag="Text: The Captain nods and shrugs at the same time.">
-                                    <Tag />
-                                    <Text>The Captain nods and shrugs at the same time.</Text>
-                                    <Dialog tag="Dialog: &quot;That is very reasonable of you, mi PSenorSenora.&quot;">
+                                    </ChoiceFollower>
+                                  </Choice>
+                                  <Choice tag="Choice: &quot;Very well, I can see that you're just following orders.&quot;">
+                                    <ChoiceText>"Very well, I can see that you're just following orders."</ChoiceText>
+                                    <ChoiceCondition />
+                                    <ChoiceIcon />
+                                    <IsDialog>True</IsDialog>
+                                    <Text tag="Text: The Captain nods and shrugs at the same time.">
                                       <Tag />
-                                      <Speaker />
-                                      <Text>"That is very reasonable of you, mi PSenorSenora."</Text>
-                                      <Choice tag="Choice: Leave.">
-                                        <ChoiceText>Leave.</ChoiceText>
-                                        <ChoiceCondition />
-                                        <ChoiceIcon />
-                                        <IsDialog>False</IsDialog>
-                                        <Jump tag="Jump: CapitanNoriega_Leave">
-                                          <NodeTag>CapitanNoriega_Leave</NodeTag>
-                                        </Jump>
-                                      </Choice>
-                                    </Dialog>
-                                  </Text>
-                                </Choice>
-                              </Goal>
-                            </Destination>
-                          </Dialog>
-                        </Destination>
-                      </Trigger>
-                    </PlayerChange>
-                  </Choice>
-                </Dialog>
-              </Text>
+                                      <Text>The Captain nods and shrugs at the same time.</Text>
+                                      <Dialog tag="Dialog: &quot;That is very reasonable of you, mi PSenorSenora.&quot;">
+                                        <Tag />
+                                        <Speaker />
+                                        <Text>"That is very reasonable of you, mi PSenorSenora."</Text>
+                                        <Choice tag="Choice: Leave.">
+                                          <ChoiceText>Leave.</ChoiceText>
+                                          <ChoiceCondition />
+                                          <ChoiceIcon />
+                                          <IsDialog>False</IsDialog>
+                                          <Jump tag="Jump: CapitanNoriega_Leave">
+                                            <NodeTag>CapitanNoriega_Leave</NodeTag>
+                                          </Jump>
+                                        </Choice>
+                                      </Dialog>
+                                    </Text>
+                                  </Choice>
+                                </Goal>
+                              </Destination>
+                            </Dialog>
+                          </Destination>
+                        </Trigger>
+                      </PlayerChange>
+                    </Choice>
+                  </Dialog>
+                </Text>
+              </Destination>
             </Choice>
           </Text>
         </Image>
