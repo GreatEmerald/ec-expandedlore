@@ -6328,114 +6328,126 @@
                                                       <ChoiceIcon>
                                                       </ChoiceIcon>
                                                       <IsDialog>True</IsDialog>
-                                                      <Dialog tag="Dialog: (JulioBarreto) &quot;It was the natives. They claimed the settlers mistreated them, and so they killed them all.&quot;">
-                                                        <Tag />
-                                                        <Speaker>JulioBarreto</Speaker>
-                                                        <Text>"It was the natives. They claimed the settlers mistreated them, and so they killed them all."</Text>
-                                                        <Choice tag="Choice: &quot;How unfortunate!&quot;">
-                                                          <ChoiceText>"How unfortunate!"</ChoiceText>
-                                                          <ChoiceCondition>
-                                                          </ChoiceCondition>
-                                                          <ChoiceIcon>
-                                                          </ChoiceIcon>
-                                                          <IsDialog>False</IsDialog>
-                                                          <Dialog tag="Dialog: (JulioBarreto) &quot;Yes... Well, other sources say it was insubordination between the settlers that led to it. Or maybe it was both.&quot;">
-                                                            <Tag />
-                                                            <Speaker>JulioBarreto</Speaker>
-                                                            <Text>"Yes... Well, other sources say it was insubordination between the settlers that led to it. Or maybe it was both."</Text>
-                                                          </Dialog>
-                                                        </Choice>
-                                                        <Choice tag="Choice: &quot;Poor souls! May they rest in peace.&quot;">
-                                                          <ChoiceText>"Poor souls! May they rest in peace."</ChoiceText>
-                                                          <ChoiceCondition>
-                                                          </ChoiceCondition>
-                                                          <ChoiceIcon>
-                                                          </ChoiceIcon>
-                                                          <IsDialog>False</IsDialog>
-                                                        </Choice>
-                                                        <Choice tag="Choice: &quot;Those monsters! How could those savages do such a thing?!&quot;">
-                                                          <ChoiceText>"Those monsters! How could those savages do such a thing?!"</ChoiceText>
-                                                          <ChoiceCondition>
-                                                          </ChoiceCondition>
-                                                          <ChoiceIcon>
-                                                          </ChoiceIcon>
-                                                          <IsDialog>False</IsDialog>
-                                                          <Text tag="Text: Barreto frowns slightly.">
-                                                            <Tag />
-                                                            <Text>Barreto frowns slightly.</Text>
-                                                            <Dialog tag="Dialog: (JulioBarreto) &quot;They did have a point, however. The way the Columbus' expedition treated the natives was despicable.&quot;">
-                                                              <Tag />
-                                                              <Speaker>JulioBarreto</Speaker>
-                                                              <Text>"They did have a point, however. The way the Columbus' expedition treated the natives was despicable."</Text>
-                                                              <Choice tag="Choice: &quot;I will have none of that! The savages deserved everything they got.&quot;">
-                                                                <ChoiceText>"I will have none of that! The savages deserved everything they got."</ChoiceText>
-                                                                <ChoiceCondition>
-                                                                </ChoiceCondition>
-                                                                <ChoiceIcon>
-                                                                </ChoiceIcon>
-                                                                <IsDialog>False</IsDialog>
-                                                              </Choice>
-                                                              <Choice tag="Choice: &quot;What do you mean? How did they tream the natives?&quot;">
-                                                                <ChoiceText>"What do you mean? How did they tream the natives?"</ChoiceText>
-                                                                <ChoiceCondition>
-                                                                </ChoiceCondition>
-                                                                <ChoiceIcon>
-                                                                </ChoiceIcon>
-                                                                <IsDialog>False</IsDialog>
-                                                                <Text tag="Text: Barreto's face becomes a grimace of disgust.">
+                                                      <Destination tag="Destination: Confiscation_NavidadFate">
+                                                        <NodeTag>Confiscation_NavidadFate</NodeTag>
+                                                        <Dialog tag="Dialog: (JulioBarreto) &quot;It was the natives. They claimed the settlers mistreated them, and so they killed them all.&quot;">
+                                                          <Tag />
+                                                          <Speaker>JulioBarreto</Speaker>
+                                                          <Text>"It was the natives. They claimed the settlers mistreated them, and so they killed them all."</Text>
+                                                          <Destination tag="Destination: Confiscation_NavidadFate_Post">
+                                                            <NodeTag>Confiscation_NavidadFate_Post</NodeTag>
+                                                            <Choice tag="Choice: &quot;How unfortunate!&quot;">
+                                                              <ChoiceText>"How unfortunate!"</ChoiceText>
+                                                              <ChoiceCondition>
+                                                              </ChoiceCondition>
+                                                              <ChoiceIcon>
+                                                              </ChoiceIcon>
+                                                              <IsDialog>False</IsDialog>
+                                                              <Dialog tag="Dialog: (JulioBarreto) &quot;Yes... Well, other sources say it was insubordination between the settlers that led to it. Or maybe it was both.&quot;">
+                                                                <Tag />
+                                                                <Speaker>JulioBarreto</Speaker>
+                                                                <Text>"Yes... Well, other sources say it was insubordination between the settlers that led to it. Or maybe it was both."</Text>
+                                                                <Jump tag="Jump: Confiscation_Motive">
+                                                                  <NodeTag>Confiscation_Motive</NodeTag>
+                                                                </Jump>
+                                                              </Dialog>
+                                                            </Choice>
+                                                            <Choice tag="Choice: &quot;Poor souls! May they rest in peace.&quot;">
+                                                              <ChoiceText>"Poor souls! May they rest in peace."</ChoiceText>
+                                                              <ChoiceCondition>
+                                                              </ChoiceCondition>
+                                                              <ChoiceIcon>
+                                                              </ChoiceIcon>
+                                                              <IsDialog>False</IsDialog>
+                                                            </Choice>
+                                                            <Choice tag="Choice: &quot;Those monsters! How could those savages do such a thing?!&quot;">
+                                                              <ChoiceText>"Those monsters! How could those savages do such a thing?!"</ChoiceText>
+                                                              <ChoiceCondition>
+                                                              </ChoiceCondition>
+                                                              <ChoiceIcon>
+                                                              </ChoiceIcon>
+                                                              <IsDialog>False</IsDialog>
+                                                              <Text tag="Text: Barreto frowns slightly.">
+                                                                <Tag />
+                                                                <Text>Barreto frowns slightly.</Text>
+                                                                <Dialog tag="Dialog: (JulioBarreto) &quot;They did have a point, however. The way the Columbus' expedition treated the natives was despicable.&quot;">
                                                                   <Tag />
-                                                                  <Text>Barreto's face becomes a grimace of disgust.</Text>
-                                                                  <Dialog tag="Dialog: (JulioBarreto) &quot;All kinds of nasty things. Taking sex slaves, killing the natives for even slight misdeeds, robbing them of their resources, crippling and torturing them...&quot;">
-                                                                    <Tag />
-                                                                    <Speaker>JulioBarreto</Speaker>
-                                                                    <Text>"All kinds of nasty things. Taking sex slaves, killing the natives for even slight misdeeds, robbing them of their resources, crippling and torturing them..."</Text>
-                                                                    <Choice tag="Choice: &quot;Ugh, you're right. That is no way for a human being to behave.&quot;">
-                                                                      <ChoiceText>"Ugh, you're right. That is no way for a human being to behave."</ChoiceText>
+                                                                  <Speaker>JulioBarreto</Speaker>
+                                                                  <Text>"They did have a point, however. The way the Columbus' expedition treated the natives was despicable."</Text>
+                                                                  <Destination tag="Destination: Confiscation_Columbus">
+                                                                    <NodeTag>Confiscation_Columbus</NodeTag>
+                                                                    <Choice tag="Choice: &quot;I will have none of that! The savages deserved everything they got.&quot;">
+                                                                      <ChoiceText>"I will have none of that! The savages deserved everything they got."</ChoiceText>
                                                                       <ChoiceCondition>
                                                                       </ChoiceCondition>
                                                                       <ChoiceIcon>
                                                                       </ChoiceIcon>
                                                                       <IsDialog>False</IsDialog>
                                                                     </Choice>
-                                                                    <Choice tag="Choice: &quot;So what? It may be harsh, but that's the only language the savages understand.&quot;">
-                                                                      <ChoiceText>"So what? It may be harsh, but that's the only language the savages understand."</ChoiceText>
+                                                                    <Choice tag="Choice: &quot;What do you mean? How did they treat the natives?&quot;">
+                                                                      <ChoiceText>"What do you mean? How did they treat the natives?"</ChoiceText>
                                                                       <ChoiceCondition>
                                                                       </ChoiceCondition>
                                                                       <ChoiceIcon>
                                                                       </ChoiceIcon>
                                                                       <IsDialog>False</IsDialog>
+                                                                      <Text tag="Text: Barreto's face becomes a grimace of disgust.">
+                                                                        <Tag />
+                                                                        <Text>Barreto's face becomes a grimace of disgust.</Text>
+                                                                        <Dialog tag="Dialog: (JulioBarreto) &quot;All kinds of nasty things. Taking sex slaves, killing the natives for even slight misdeeds, robbing them of their resources, crippling and torturing them...&quot;">
+                                                                          <Tag />
+                                                                          <Speaker>JulioBarreto</Speaker>
+                                                                          <Text>"All kinds of nasty things. Taking sex slaves, killing the natives for even slight misdeeds, robbing them of their resources, crippling and torturing them..."</Text>
+                                                                          <Choice tag="Choice: &quot;Ugh, you're right. That is no way for a human being to behave.&quot;">
+                                                                            <ChoiceText>"Ugh, you're right. That is no way for a human being to behave."</ChoiceText>
+                                                                            <ChoiceCondition>
+                                                                            </ChoiceCondition>
+                                                                            <ChoiceIcon>
+                                                                            </ChoiceIcon>
+                                                                            <IsDialog>False</IsDialog>
+                                                                          </Choice>
+                                                                          <Choice tag="Choice: &quot;So what? It may be harsh, but that's the only language the savages understand.&quot;">
+                                                                            <ChoiceText>"So what? It may be harsh, but that's the only language the savages understand."</ChoiceText>
+                                                                            <ChoiceCondition>
+                                                                            </ChoiceCondition>
+                                                                            <ChoiceIcon>
+                                                                            </ChoiceIcon>
+                                                                            <IsDialog>False</IsDialog>
+                                                                          </Choice>
+                                                                          <Choice tag="Choice: &quot;Oh really? Thanks for the ideas, do you have any more?&quot;">
+                                                                            <ChoiceText>"Oh really? Thanks for the ideas, do you have any more?"</ChoiceText>
+                                                                            <ChoiceCondition>
+                                                                            </ChoiceCondition>
+                                                                            <ChoiceIcon>
+                                                                            </ChoiceIcon>
+                                                                            <IsDialog>False</IsDialog>
+                                                                          </Choice>
+                                                                          <Choice tag="Choice: &quot;I will have none of that talk! Columbus is a famed explorer, he is to be renowned, not criticised!&quot;">
+                                                                            <ChoiceText>"I will have none of that talk! Columbus is a famed explorer, he is to be renowned, not criticised!"</ChoiceText>
+                                                                            <ChoiceCondition>
+                                                                            </ChoiceCondition>
+                                                                            <ChoiceIcon>
+                                                                            </ChoiceIcon>
+                                                                            <IsDialog>False</IsDialog>
+                                                                          </Choice>
+                                                                        </Dialog>
+                                                                      </Text>
                                                                     </Choice>
-                                                                    <Choice tag="Choice: &quot;Oh really? Thanks for the ideas, do you have any more?&quot;">
-                                                                      <ChoiceText>"Oh really? Thanks for the ideas, do you have any more?"</ChoiceText>
-                                                                      <ChoiceCondition>
-                                                                      </ChoiceCondition>
-                                                                      <ChoiceIcon>
-                                                                      </ChoiceIcon>
-                                                                      <IsDialog>False</IsDialog>
-                                                                    </Choice>
-                                                                    <Choice tag="Choice: &quot;I will have none of that talk! Columbus is a famed explorer, he is to be renowned, not criticised!&quot;">
-                                                                      <ChoiceText>"I will have none of that talk! Columbus is a famed explorer, he is to be renowned, not criticised!"</ChoiceText>
-                                                                      <ChoiceCondition>
-                                                                      </ChoiceCondition>
-                                                                      <ChoiceIcon>
-                                                                      </ChoiceIcon>
-                                                                      <IsDialog>False</IsDialog>
-                                                                    </Choice>
-                                                                  </Dialog>
-                                                                </Text>
-                                                              </Choice>
-                                                            </Dialog>
-                                                          </Text>
-                                                        </Choice>
-                                                        <Choice tag="Choice: Hah! Serves them right!">
-                                                          <ChoiceText>Hah! Serves them right!</ChoiceText>
-                                                          <ChoiceCondition>
-                                                          </ChoiceCondition>
-                                                          <ChoiceIcon>
-                                                          </ChoiceIcon>
-                                                          <IsDialog>False</IsDialog>
-                                                        </Choice>
-                                                      </Dialog>
+                                                                  </Destination>
+                                                                </Dialog>
+                                                              </Text>
+                                                            </Choice>
+                                                            <Choice tag="Choice: &quot;Hah! Serves them right!&quot;">
+                                                              <ChoiceText>"Hah! Serves them right!"</ChoiceText>
+                                                              <ChoiceCondition>
+                                                              </ChoiceCondition>
+                                                              <ChoiceIcon>
+                                                              </ChoiceIcon>
+                                                              <IsDialog>False</IsDialog>
+                                                            </Choice>
+                                                          </Destination>
+                                                        </Dialog>
+                                                      </Destination>
                                                     </Choice>
                                                     <Choice tag="Choice: &quot;Who was responsible for that?!&quot;">
                                                       <ChoiceText>"Who was responsible for that?!"</ChoiceText>
@@ -6444,6 +6456,9 @@
                                                       <ChoiceIcon>
                                                       </ChoiceIcon>
                                                       <IsDialog>True</IsDialog>
+                                                      <Jump tag="Jump: Confiscation_NavidadFate">
+                                                        <NodeTag>Confiscation_NavidadFate</NodeTag>
+                                                      </Jump>
                                                     </Choice>
                                                     <Choice tag="Choice: &quot;Oh. It figures.&quot;">
                                                       <ChoiceText>"Oh. It figures."</ChoiceText>
@@ -6452,6 +6467,228 @@
                                                       <ChoiceIcon>
                                                       </ChoiceIcon>
                                                       <IsDialog>True</IsDialog>
+                                                      <Text tag="Text: The Scholar looks puzzled.">
+                                                        <Tag />
+                                                        <Text>The Scholar looks puzzled.</Text>
+                                                        <Dialog tag="Dialog: (JulioBarreto) &quot;You're not surprised? Why?&quot;">
+                                                          <Tag />
+                                                          <Speaker>JulioBarreto</Speaker>
+                                                          <Text>"You're not surprised? Why?"</Text>
+                                                          <Choice tag="Choice: &quot;This is a dangerous place to be, especially stranded.&quot;">
+                                                            <ChoiceText>"This is a dangerous place to be, especially stranded."</ChoiceText>
+                                                            <ChoiceCondition>
+                                                            </ChoiceCondition>
+                                                            <ChoiceIcon>
+                                                            </ChoiceIcon>
+                                                            <IsDialog>True</IsDialog>
+                                                            <Dialog tag="Dialog: (JulioBarreto) &quot;You're right. They say it was the natives that destroyed the settlement.&quot;">
+                                                              <Tag />
+                                                              <Speaker>JulioBarreto</Speaker>
+                                                              <Text>"You're right. They say it was the natives that destroyed the settlement."</Text>
+                                                              <Jump tag="Jump: Confiscation_NavidadFate_Post">
+                                                                <NodeTag>Confiscation_NavidadFate_Post</NodeTag>
+                                                              </Jump>
+                                                            </Dialog>
+                                                          </Choice>
+                                                          <Choice tag="Choice: &quot;Setters' morale couldn't have been high, stranded here.&quot;">
+                                                            <ChoiceText>"Setters' morale couldn't have been high, stranded here."</ChoiceText>
+                                                            <ChoiceCondition>
+                                                            </ChoiceCondition>
+                                                            <ChoiceIcon>
+                                                            </ChoiceIcon>
+                                                            <IsDialog>True</IsDialog>
+                                                            <Text tag="Text: Barreto looks at you consideringly.">
+                                                              <Tag />
+                                                              <Text>Barreto looks at you consideringly.</Text>
+                                                              <Dialog tag="Dialog: (JulioBarreto) &quot;Now that you mention it, some say it was insubordination between the settlers that resulted in the settlement being destroyed, yes. However, most sources say it was the natives that killed the settlers.&quot;">
+                                                                <Tag />
+                                                                <Speaker>JulioBarreto</Speaker>
+                                                                <Text>"Now that you mention it, some say it was insubordination between the settlers that resulted in the settlement being destroyed, yes. However, most sources say it was the natives that killed the settlers."</Text>
+                                                                <Destination tag="Destination: Confiscation_Motive">
+                                                                  <NodeTag>Confiscation_Motive</NodeTag>
+                                                                  <Choice tag="Choice: &quot;The natives must have done it, after all.&quot;">
+                                                                    <ChoiceText>"The natives must have done it, after all."</ChoiceText>
+                                                                    <ChoiceCondition>
+                                                                    </ChoiceCondition>
+                                                                    <ChoiceIcon>
+                                                                    </ChoiceIcon>
+                                                                    <IsDialog>True</IsDialog>
+                                                                    <Dialog tag="Dialog: (JulioBarreto) &quot;They certainly had a motive. The people under Columbus' command were very brutal towards the natives. Columbus himself was, too.&quot;">
+                                                                      <Tag />
+                                                                      <Speaker>JulioBarreto</Speaker>
+                                                                      <Text>"They certainly had a motive. The people under Columbus' command were very brutal towards the natives. Columbus himself was, too."</Text>
+                                                                      <Jump tag="Jump: Confiscation_Columbus">
+                                                                        <NodeTag>Confiscation_Columbus</NodeTag>
+                                                                      </Jump>
+                                                                    </Dialog>
+                                                                  </Choice>
+                                                                  <Choice tag="Choice: &quot;It must have been insubordination.&quot;">
+                                                                    <ChoiceText>"It must have been insubordination."</ChoiceText>
+                                                                    <ChoiceCondition>
+                                                                    </ChoiceCondition>
+                                                                    <ChoiceIcon>
+                                                                    </ChoiceIcon>
+                                                                    <IsDialog>True</IsDialog>
+                                                                    <Dialog tag="Dialog: (JulioBarreto) &quot;That is a distinct possibility, surely. It wouldn't have been the last time Columbus' men got mutinous.&quot;">
+                                                                      <Tag />
+                                                                      <Speaker>JulioBarreto</Speaker>
+                                                                      <Text>"That is a distinct possibility, surely. It wouldn't have been the last time Columbus' men got mutinous."</Text>
+                                                                      <Choice tag="Choice: &quot;Oh? There were later incidents?&quot;">
+                                                                        <ChoiceText>"Oh? There were later incidents?"</ChoiceText>
+                                                                        <ChoiceCondition>
+                                                                        </ChoiceCondition>
+                                                                        <ChoiceIcon>
+                                                                        </ChoiceIcon>
+                                                                        <IsDialog>True</IsDialog>
+                                                                        <Dialog tag="Dialog: (JulioBarreto) &quot;Yes, but maybe we should talk about that some other time. I'm taking too much of your time as it is.&quot;">
+                                                                          <Tag />
+                                                                          <Speaker>JulioBarreto</Speaker>
+                                                                          <Text>"Yes, but maybe we should talk about that some other time. I'm taking too much of your time as it is."</Text>
+                                                                          <Choice tag="Choice: &quot;It's good talking to you.&quot;">
+                                                                            <ChoiceText>"It's good talking to you."</ChoiceText>
+                                                                            <ChoiceCondition>
+                                                                            </ChoiceCondition>
+                                                                            <ChoiceIcon>
+                                                                            </ChoiceIcon>
+                                                                            <IsDialog>True</IsDialog>
+                                                                            <Text tag="Text: Barreto smiles broadly.">
+                                                                              <Tag />
+                                                                              <Text>Barreto smiles broadly.</Text>
+                                                                              <Dialog tag="Dialog: (JulioBarreto) It's good talking to you too, /Cápitan/.">
+                                                                                <Tag />
+                                                                                <Speaker>JulioBarreto</Speaker>
+                                                                                <Text>It's good talking to you too, /Cápitan/.</Text>
+                                                                                <Morale tag="Morale: Increase Small  JulioBarreto">
+                                                                                  <Name>JulioBarreto</Name>
+                                                                                  <Everyone>False</Everyone>
+                                                                                  <Trait>
+                                                                                  </Trait>
+                                                                                  <Gender>
+                                                                                  </Gender>
+                                                                                  <Ethnicity>
+                                                                                  </Ethnicity>
+                                                                                  <Rank>
+                                                                                  </Rank>
+                                                                                  <SavedSlot>
+                                                                                  </SavedSlot>
+                                                                                  <Delta>Increase Small</Delta>
+                                                                                  <Choice tag="Choice: Continue.">
+                                                                                    <ChoiceText>Continue.</ChoiceText>
+                                                                                    <ChoiceCondition>
+                                                                                    </ChoiceCondition>
+                                                                                    <ChoiceIcon>
+                                                                                    </ChoiceIcon>
+                                                                                    <IsDialog>False</IsDialog>
+                                                                                    <Jump tag="Jump: Confiscation_NoriegaStart">
+                                                                                      <NodeTag>Confiscation_NoriegaStart</NodeTag>
+                                                                                    </Jump>
+                                                                                  </Choice>
+                                                                                </Morale>
+                                                                              </Dialog>
+                                                                            </Text>
+                                                                          </Choice>
+                                                                          <Choice tag="Choice: &quot;You certainly are!&quot;">
+                                                                            <ChoiceText>"You certainly are!"</ChoiceText>
+                                                                            <ChoiceCondition>
+                                                                            </ChoiceCondition>
+                                                                            <ChoiceIcon>
+                                                                            </ChoiceIcon>
+                                                                            <IsDialog>True</IsDialog>
+                                                                            <Text tag="Text: Barreto looks even more puzzled, and hurriedly leaves to pack his things.">
+                                                                              <Tag />
+                                                                              <Text>Barreto looks even more puzzled, and hurriedly leaves to pack his things.</Text>
+                                                                              <Choice tag="Choice: Continue.">
+                                                                                <ChoiceText>Continue.</ChoiceText>
+                                                                                <ChoiceCondition>
+                                                                                </ChoiceCondition>
+                                                                                <ChoiceIcon>
+                                                                                </ChoiceIcon>
+                                                                                <IsDialog>False</IsDialog>
+                                                                                <Jump tag="Jump: Confiscation_NoriegaStart">
+                                                                                  <NodeTag>Confiscation_NoriegaStart</NodeTag>
+                                                                                </Jump>
+                                                                              </Choice>
+                                                                            </Text>
+                                                                          </Choice>
+                                                                        </Dialog>
+                                                                      </Choice>
+                                                                      <Choice tag="Choice: &quot;That's hard to believe. Being isolated causes morale to drop, but otherwise Spaniards are paragons of morale!&quot;">
+                                                                        <ChoiceText>"That's hard to believe. Being isolated causes morale to drop, but otherwise Spaniards are paragons of morale!"</ChoiceText>
+                                                                        <ChoiceCondition>
+                                                                        </ChoiceCondition>
+                                                                        <ChoiceIcon>
+                                                                        </ChoiceIcon>
+                                                                        <IsDialog>True</IsDialog>
+                                                                        <Text tag="Text: Barreto glances sideways.">
+                                                                          <Tag />
+                                                                          <Text>Barreto glances sideways.</Text>
+                                                                          <Dialog tag="Dialog: (JulioBarreto) &quot;I'm... not sure that evidence supports your claim. Whatever the case may be, I should really tend to my tasks now.&quot;">
+                                                                            <Tag />
+                                                                            <Speaker>JulioBarreto</Speaker>
+                                                                            <Text>"I'm... not sure that evidence supports your claim. Whatever the case may be, I should really tend to my tasks now."</Text>
+                                                                            <Text tag="Text: The Scholar hurriedly leaves to pack his belongings.">
+                                                                              <Tag />
+                                                                              <Text>The Scholar hurriedly leaves to pack his belongings.</Text>
+                                                                              <Choice tag="Choice: Continue.">
+                                                                                <ChoiceText>Continue.</ChoiceText>
+                                                                                <ChoiceCondition>
+                                                                                </ChoiceCondition>
+                                                                                <ChoiceIcon>
+                                                                                </ChoiceIcon>
+                                                                                <IsDialog>False</IsDialog>
+                                                                                <Jump tag="Jump: Confiscation_NoriegaStart">
+                                                                                  <NodeTag>Confiscation_NoriegaStart</NodeTag>
+                                                                                </Jump>
+                                                                              </Choice>
+                                                                            </Text>
+                                                                          </Dialog>
+                                                                        </Text>
+                                                                      </Choice>
+                                                                    </Dialog>
+                                                                  </Choice>
+                                                                  <Choice tag="Choice: &quot;Both scenarios sound plausible.&quot;">
+                                                                    <ChoiceText>"Both scenarios sound plausible."</ChoiceText>
+                                                                    <ChoiceCondition>
+                                                                    </ChoiceCondition>
+                                                                    <ChoiceIcon>
+                                                                    </ChoiceIcon>
+                                                                    <IsDialog>True</IsDialog>
+                                                                    <Dialog tag="Dialog: (JulioBarreto) &quot;Certainly. Although personally I'm more partial to the natives explanation. After all, they had a motive – the way the Columbus' expedition treated the natives was despicable.&quot;">
+                                                                      <Tag />
+                                                                      <Speaker>JulioBarreto</Speaker>
+                                                                      <Text>"Certainly. Although personally I'm more partial to the natives explanation. After all, they had a motive – the way the Columbus' expedition treated the natives was despicable."</Text>
+                                                                      <Jump tag="Jump: Confiscation_Columbus">
+                                                                        <NodeTag>Confiscation_Columbus</NodeTag>
+                                                                      </Jump>
+                                                                    </Dialog>
+                                                                  </Choice>
+                                                                </Destination>
+                                                              </Dialog>
+                                                            </Text>
+                                                          </Choice>
+                                                          <Choice tag="Choice: &quot;The savages would kill anyone, given a chance!&quot;">
+                                                            <ChoiceText>"The savages would kill anyone, given a chance!"</ChoiceText>
+                                                            <ChoiceCondition>
+                                                            </ChoiceCondition>
+                                                            <ChoiceIcon>
+                                                            </ChoiceIcon>
+                                                            <IsDialog>True</IsDialog>
+                                                            <Text tag="Text: Barreto frowns at first, then shakes his head.">
+                                                              <Tag />
+                                                              <Text>Barreto frowns at first, then shakes his head.</Text>
+                                                              <Dialog tag="Dialog: &quot;I generally wouldn't agree, but in this case, you may be right. Most sources say the natives killed the settlers, because they mistreated the natives.&quot;">
+                                                                <Tag />
+                                                                <Speaker>
+                                                                </Speaker>
+                                                                <Text>"I generally wouldn't agree, but in this case, you may be right. Most sources say the natives killed the settlers, because they mistreated the natives."</Text>
+                                                                <Jump tag="Jump: Confiscation_Columbus">
+                                                                  <NodeTag>Confiscation_Columbus</NodeTag>
+                                                                </Jump>
+                                                              </Dialog>
+                                                            </Text>
+                                                          </Choice>
+                                                        </Dialog>
+                                                      </Text>
                                                     </Choice>
                                                   </Dialog>
                                                 </Text>
